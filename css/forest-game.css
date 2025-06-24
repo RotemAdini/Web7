@@ -1,0 +1,486 @@
+/* Forest Game Specific Styles */
+/* ייבוא העיצוב הבסיסי */
+@import url('main.css');
+
+/* רקע סגול מדורג לדף */
+.forest-page {
+  background: linear-gradient(-45deg, #8e44ad, #9b59b6, #af7ac5, #c39bd3, #d7bde2, #e8daef);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+  position: relative;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Canvas for stars */
+canvas#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Header Styles */
+.forest-page #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.forest-page #header h1 {
+  color: white !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.forest-page .hamburger {
+  position: relative;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.forest-page .hamburger span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: white !important;
+  border-radius: 3px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.forest-page .hamburger span:nth-child(1) {
+  top: 0px;
+}
+
+.forest-page .hamburger span:nth-child(2) {
+  top: 10px;
+}
+
+.forest-page .hamburger span:nth-child(3) {
+  top: 20px;
+}
+
+/* Sidebar override */
+.forest-page .sidebar {
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 1002;
+}
+
+/* Main content */
+.forest-page main {
+  padding-top: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero Section */
+.forest-page .hero-section {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+  background: none;
+  margin-bottom: -20px;
+}
+
+.hero-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: rgba(255,255,255,0.95);
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.hero-secondary-text {
+  display: block;
+  font-size: 1rem;
+  color: #eee;
+  margin-top: 0.5rem;
+}
+
+/* תיקון הרווח אחרי הכפתור */
+.hero-section + section {
+  margin-top: 20px !important;
+}
+
+/* Button Styles */
+.forest-page .btn-primary {
+  display: inline-block;
+  background: linear-gradient(135deg, #8e44ad, #9b59b6);
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(142, 68, 173, 0.3);
+}
+
+.forest-page .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(142, 68, 173, 0.4);
+}
+
+.cta-button {
+  font-size: 1.1rem;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.purchase-button {
+  font-size: 1.2rem;
+  animation: pulse 2s infinite ease-in-out;
+  margin-bottom: 2rem;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 10px 25px rgba(142, 68, 173, 0.3); }
+  50% { transform: scale(1.05); box-shadow: 0 15px 35px rgba(142, 68, 173, 0.5); }
+  100% { transform: scale(1); box-shadow: 0 10px 25px rgba(142, 68, 173, 0.3); }
+}
+
+/* Sections */
+.forest-page section {
+  background: #fff;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.forest-page h2 {
+  font-size: 1.8rem;
+  color: #8e44ad;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-highlight {
+  font-weight: bold;
+  color: #8e44ad;
+}
+
+.section-subtitle {
+  margin-top: 1rem;
+}
+
+/* Feature Grid */
+.forest-page .feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.forest-page .feature-card {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.forest-page .feature-card:hover {
+  transform: scale(1.03);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.forest-page .feature-card img {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  transition: transform 0.3s ease;
+}
+
+.forest-page .feature-card img:hover {
+  transform: scale(1.1) rotate(1deg);
+}
+
+/* Lists */
+.forest-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.forest-page ul li {
+  margin: 1rem 0;
+  position: relative;
+  padding-right: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.forest-page ul li::before {
+  content: "✔️";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Forms */
+.forest-page input[type="text"], 
+.forest-page input[type="email"] {
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  display: block;
+  font-size: 1rem;
+}
+
+.forest-page button[type="submit"] {
+  background: linear-gradient(135deg, #8e44ad, #9b59b6);
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(142, 68, 173, 0.3);
+  transition: 0.3s ease;
+  margin-top: 1rem;
+}
+
+.forest-page button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(142, 68, 173, 0.4);
+}
+
+/* Purchase Section */
+#purchase {
+  background: #f7f1fa;
+  padding: 3rem;
+  border-radius: 30px;
+}
+
+#purchase h2 {
+  font-size: 2rem;
+}
+
+#purchase p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#purchase form {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+#purchase label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+}
+
+#purchase label input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+.purchase-info-text {
+  margin-top: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.purchase-final-message {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+/* About Game Section */
+.about-game-section {
+  background: #fdfafb;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+}
+
+.about-game-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-game-section p {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+/* FAQ Section */
+.faq-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-question {
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #8e44ad;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f2f2f2;
+}
+
+.faq-question .arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  color: #9b59b6;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details[open] .faq-question .arrow {
+  transform: rotate(-180deg);
+}
+
+.faq-answer {
+  background-color: #fff;
+  padding: 15px 20px;
+  text-align: right;
+}
+
+/* Button Container */
+.purchase-button-container {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+/* Footer */
+.forest-page footer {
+  background: rgba(142, 68, 173, 0.9);
+  margin-top: 3rem;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.forest-page footer a {
+  color: white;
+}
+
+/* Overlay */
+.forest-page .overlay {
+  z-index: 999;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle, 
+  .forest-page h2, 
+  .forest-page p, 
+  .forest-page label, 
+  .forest-page input, 
+  .forest-page button {
+    font-size: 1rem !important;
+  }
+  
+  .forest-page input[type="text"], 
+  .forest-page input[type="email"], 
+  .forest-page button[type="submit"] {
+    width: 90%;
+  }
+  
+  .forest-page section {
+    padding: 2rem 1rem;
+  }
+  
+  .forest-page .feature-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .faq-question {
+    font-size: 1rem;
+    padding: 12px 15px;
+  }
+  
+  .faq-answer {
+    padding: 12px 15px;
+  }
+  
+  .purchase-button-container {
+    margin: 1.5rem auto;
+  }
+}

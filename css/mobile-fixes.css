@@ -1,0 +1,213 @@
+/* mobile-fixes.css - תיקונים להתאמה מלאה למובייל */
+
+/* תיקונים כלליים */
+@media (max-width: 768px) {
+  /* מניעת גלילה אופקית */
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* תיקון ה-Header */
+  #header {
+    padding: 15px 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #header h1 {
+    font-size: 1.5rem;
+    margin-right: 45px;
+    text-align: center;
+    width: calc(100% - 50px);
+  }
+
+  /* תיקון תפריט המבורגר */
+  .hamburger {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* תיקון ה-Sidebar */
+  .sidebar {
+    width: 250px;
+    max-width: 80vw;
+  }
+
+  .sidebar a {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  /* תיקון ה-Main Content */
+  main {
+    padding: 80px 10px 20px;
+    width: 100%;
+    min-height: calc(100vh - 200px);
+  }
+
+  /* תיקון כרטיסים */
+  .card, .content-card, .recipe-card, .game-card {
+    width: 100% !important;
+    margin: 15px 0 !important;
+    padding: 20px 15px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* תיקון תמונות */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* תיקון כפתורים */
+  button, .button, .btn-primary {
+    padding: 12px 20px;
+    font-size: 14px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  /* תיקון Footer */
+  footer {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .social {
+    gap: 15px;
+  }
+
+  .social a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  /* תיקון טפסים */
+  input, textarea, select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 16px; /* מונע זום אוטומטי באייפון */
+  }
+
+  /* תיקון לעמוד המתכונים */
+  .recipe-filters {
+    padding: 15px 5px;
+    gap: 5px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .recipe-filters button {
+    padding: 8px 12px;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+
+  /* תיקון לעמוד המשחקים - חדש! */
+  .games-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .game-card {
+    margin: 0;
+  }
+  
+  .game-card img {
+    height: 200px;
+  }
+
+  /* תיקון לרשימות */
+  ul, ol {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  /* תיקון כותרות */
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  /* תיקון ריווחים */
+  .container, .content-container, .games-container {
+    padding: 0 10px;
+  }
+
+  /* תיקון טבלאות */
+  table {
+    font-size: 14px;
+  }
+
+  /* מניעת זום בעת לחיצה כפולה */
+  * {
+    touch-action: manipulation;
+  }
+  
+  /* תיקון לכרטיסים ישנים בעמוד המשחקים */
+  .cards {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  
+  .cards .card {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* תיקונים למסכים קטנים מאוד */
+@media (max-width: 380px) {
+  #header h1 {
+    font-size: 1.3rem;
+  }
+
+  .recipe-filters button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  .social a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+/* תיקון לאייפון X ומעלה */
+@supports (padding: max(0px)) {
+  #header {
+    padding-top: max(15px, env(safe-area-inset-top));
+  }
+
+  main {
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+
+  footer {
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>זוגיות - רותם עדיני</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile-fixes.css">
+  <style>
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 60px 20px;
+      align-items: center;
+    }
+    
+    .card {
+      background: rgba(255,255,255,0.4);
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      backdrop-filter: blur(4px);
+      transition: 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 25px rgba(106, 27, 154, 0.15);
+    }
+    
+    .card h3 {
+      color: var(--primary-color);
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+    
+    .card p {
+      color: var(--text-light);
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  </style>
+  
+  <!-- Preload -->
+  <link rel="preload" href="js/shared-components.js" as="script">
+  <link rel="preload" href="css/main.css" as="style">
+</head>
+<body>
+  <!-- הרכיבים המשותפים ייטענו אוטומטית -->
+
+  <!-- Main Content -->
+  <main>
+    <div class="hero">
+      <h2>תוכן זוגי שיעשה לכם חם בלב 💜</h2>
+      <p>משחקים דיגיטליים, רעיונות לדייטים קלילים או מושקעים, וסרטונים אישיים שלי ושל מאיר – כל זה מחכה לכם כאן.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>🎲 משחקים לזוגות</h3>
+        <p>משחקים רומנטיים, תחרותיים וחושניים לערב זוגי מיוחד.</p>
+        <a class="button" href="games.html">קרא עוד</a>
+      </div>
+      
+      <div class="card">
+        <h3>💡 רעיונות לדייטים</h3>
+        <p>דייטים ביתיים, טיולים רומנטיים ופעילויות מקוריות לזוגות.</p>
+        <a class="button" href="#">בקרוב</a>
+      </div>
+      
+      <div class="card">
+        <h3>🎥 סרטונים זוגיים</h3>
+        <p>הצצה אותנטית לחיים הזוגיים שלי ושל מאיר – באהבה.</p>
+        <a class="button" href="#">בקרוב</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/shared-components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // עדכון כותרת הדף
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.sharedComponents) {
+        window.sharedComponents.updatePageTitle('זוגיות');
+      }
+    });
+  </script>
+</body>
+</html>

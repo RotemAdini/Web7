@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>משחקים - רותם עדיני</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Assistant:wght@300;400;600;700&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/games.css">
+  <link rel="stylesheet" href="css/mobile-fixes.css">
+  
+  <!-- Preload -->
+  <link rel="preload" href="js/shared-components.js" as="script">
+  <link rel="preload" href="css/main.css" as="style">
+  <link rel="preload" href="css/games.css" as="style">
+  
+  <!-- Prefetch -->
+  <link rel="prefetch" href="forest-game.html">
+  <link rel="prefetch" href="race-game.html">
+</head>
+<body>
+  <!-- הרכיבים המשותפים ייטענו אוטומטית -->
+
+  <!-- Main Content -->
+  <main>
+    <div class="games-container">
+      <h1 style="text-align: center; font-size: 3rem; color: #8e44ad; margin: 2rem 0 3rem; font-family: 'Rubik', sans-serif;">
+        המשחקים שלי 🎮
+      </h1>
+      
+      <div class="games-grid">
+        <!-- משחק היער הקסום -->
+        <div class="game-card">
+          <div class="game-card-content">
+            <h3>🌲 היער הקסום</h3>
+            <p>משחק זוגי דיגיטלי שמשלב שיחות עומק, משימות מקרבות ורגעי קסם. מסע מסתורי דרך היער שיעמיק את הקשר שלכם.</p>
+            <a href="forest-game.html" class="btn-primary">קרא עוד</a>
+          </div>
+        </div>
+        
+        <!-- משחק מירוץ האהבה -->
+        <div class="game-card">
+          <div class="game-card-content">
+            <h3>💕 מירוץ האהבה</h3>
+            <p>תחרות זוגית מצחיקה עם 11 תחנות של משימות, אתגרים וצחוקים. גלו מי המנצח האמיתי בזוגיות שלכם!</p>
+            <a href="race-game.html" class="btn-primary">קרא עוד</a>
+          </div>
+        </div>
+        
+        <!-- משחק הזיכרון הגדול -->
+        <div class="game-card">
+          <div class="game-card-content">
+            <h3>🧠 משחק הזיכרון הגדול</h3>
+            <p>משחק חדש בדרך אליכם! רוצים להיות הראשונים לדעת כשהוא יעלה? הרשמו לעדכונים!</p>
+            <a href="#" class="btn-primary" onclick="alert('המשחק בפיתוח! 🚀'); return false;" style="background: #95a5a6;">בקרוב...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/shared-components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // עדכון כותרת הדף
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.sharedComponents) {
+        window.sharedComponents.updatePageTitle('משחקים');
+      }
+    });
+  </script>
+</body>
+</html>

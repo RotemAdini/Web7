@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>עליי - רותם עדיני</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+<link rel="preload" href="css/main.css" as="style">
+</head>
+<body>
+  <!-- הרכיבים המשותפים ייטענו אוטומטית -->
+  
+  <!-- Main Content -->
+  <main>
+    <div class="content-card">
+      <h2>נעים להכיר, אני רותם 💜</h2>
+      <p>
+        אני יוצרת תוכן שמתמחה במתכונים פשוטים, יצירתיים וזוגיים,<br>
+        וגם מפתחת משחקים דיגיטליים לזוגות.<br><br>
+        כל מה שתמצאו כאן – נולד מאהבה ליצירה, לחיבור בין אנשים<br>
+        ולרגעים קטנים שמרגשים את הלב.
+      </p>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/shared-components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // עדכון כותרת הדף
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.sharedComponents) {
+        window.sharedComponents.updatePageTitle('עליי');
+      }
+    });
+  </script>
+</body>
+</html>

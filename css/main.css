@@ -1,0 +1,513 @@
+/* הוסיפי את זה לתחילת main.css */
+
+/* ביטול אנימציית fade איטית */
+body {
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+/* אופטימיזציה לטעינה מהירה */
+* {
+  /* הקטנת זמני transition */
+  transition-duration: 0.2s !important;
+}
+
+/* Preload אופטימיזציה */
+img {
+  loading: lazy;
+}
+
+/* ביטול אנימציות מיותרות בטעינה */
+.card, .content-card, .recipe-card {
+  animation: none;
+  opacity: 1;
+  transform: none;
+}
+/* Reset and Variables */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #6a1b9a;
+  --primary-light: #9c4dcc;
+  --primary-dark: #4a148c;
+  --accent-color: #ff6b9d;
+  --background-color: #faf8fc;
+  --card-background: #ffffff;
+  --text-color: #2c2c2c;
+  --text-light: #555;
+  --shadow-light: 0 4px 20px rgba(106, 27, 154, 0.1);
+  --shadow-medium: 0 8px 30px rgba(106, 27, 154, 0.15);
+  --shadow-heavy: 0 12px 40px rgba(106, 27, 154, 0.2);
+  --gradient-primary: linear-gradient(135deg, #6a1b9a 0%, #9c4dcc 50%, #ff6b9d 100%);
+  --gradient-secondary: linear-gradient(45deg, #f3e9f8 0%, #e8d5f2 100%);
+}
+
+/* Base Styles */
+html, body {
+  font-family: 'Assistant', 'Alef', sans-serif;
+  direction: rtl;
+  background: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+body {
+  background: linear-gradient(135deg, #faf8fc 0%, #f3e9f8 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+main {
+  flex: 1;
+  padding-top: 80px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Header Styles - חשוב! */
+#header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px 24px;
+  box-shadow: var(--shadow-light);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+#header.scrolled {
+  padding: 15px 24px;
+  box-shadow: var(--shadow-medium);
+}
+
+#header h1 {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 700;
+  flex: 1;
+  text-align: center;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  position: absolute;
+  right: 24px;
+  cursor: pointer;
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  z-index: 1001;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+  transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
+  padding: 80px 30px 30px;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: var(--gradient-primary);
+  opacity: 0.1;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 25px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.sidebar a:hover {
+  color: white;
+  transform: translateX(-5px);
+}
+
+.sidebar a:hover::before {
+  opacity: 1;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 500;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Footer */
+footer {
+  background: var(--gradient-primary);
+  color: white;
+  text-align: center;
+  padding: 40px 20px 30px;
+  margin-top: auto;
+}
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social a:hover {
+  transform: scale(1.15);
+}
+
+/* Social Media Colors */
+.social .instagram {
+  background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf, #4f5bd5);
+}
+
+.social .facebook {
+  background-color: #1877f2;
+}
+
+.social .tiktok {
+  background: linear-gradient(135deg, #010101, #ee1d52, #69c9d0);
+}
+
+.social .youtube {
+  background-color: #ff0000;
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px 60px;
+  text-align: center;
+  background: var(--gradient-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(106, 27, 154, 0.1) 0%, transparent 70%);
+  animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(30px, -30px) rotate(120deg); }
+  66% { transform: translate(-20px, 20px) rotate(240deg); }
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-light);
+  position: relative;
+  z-index: 2;
+}
+
+/* Section Buttons */
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.sections a {
+  text-decoration: none;
+  background: var(--gradient-primary);
+  color: white;
+  padding: 18px 35px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: var(--shadow-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.sections a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left 0.6s ease;
+}
+
+.sections a:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: var(--shadow-heavy);
+}
+
+.sections a:hover::before {
+  left: 100%;
+}
+
+/* Content Cards */
+.content-card {
+  max-width: 800px;
+  margin: 80px auto;
+  background: var(--card-background);
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-medium);
+  line-height: 1.8;
+  font-size: 18px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-heavy);
+}
+
+.content-card h2 {
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Utility Classes */
+.button, .btn-primary {
+  display: inline-block;
+  background: var(--gradient-primary);
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 5px;
+  transition: 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover, .btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+img.loaded {
+  opacity: 1;
+}
+
+/* Cards General */
+.card, .content-card, .recipe-card {
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding-top: 70px;
+  }
+  
+  #header {
+    padding: 15px 20px;
+  }
+  
+  #header h1 {
+    font-size: 20px;
+  }
+  
+  .hero {
+    padding: 60px 20px 40px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .sections {
+    gap: 15px;
+  }
+
+  .sections a {
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+
+  .content-card {
+    margin: 40px auto;
+    padding: 30px 25px;
+    font-size: 16px;
+  }
+
+  .content-card h2 {
+    font-size: 24px;
+  }
+}
+
+/* Optimizations */
+* {
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}

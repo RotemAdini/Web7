@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>היער הקסום - רותם עדיני</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Assistant:wght@300;400;600;700&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/forest-game.css">
+  <link rel="stylesheet" href="css/mobile-fixes.css">
+  
+  <!-- Preload -->
+  <link rel="preload" href="js/shared-components.js" as="script">
+  <link rel="preload" href="css/main.css" as="style">
+  <link rel="preload" href="css/forest-game.css" as="style">
+  
+  <!-- Prefetch -->
+  <link rel="prefetch" href="index.html">
+  <link rel="prefetch" href="games.html">
+  <link rel="prefetch" href="race-game.html">
+</head>
+<body class="forest-page">
+  <!-- הרכיבים המשותפים ייטענו אוטומטית -->
+  
+  <!-- Canvas for stars will be added by JS -->
+
+  <!-- Main Content -->
+  <main>
+    <div class="hero-section">
+      <div>
+        <h1 class="hero-title">🌟 היער הקסום</h1>
+        <p class="hero-subtitle">
+          ערב אחד. מסך אחד. ואתם – נכנסים ליער מסתורי שיעיר את הקשר שלכם<br>
+          <span class="hero-secondary-text">💫 משחק זוגי דיגיטלי שמשלב צחוק, שיח ומגע – בלי לצאת מהבית</span>
+        </p>
+        <a class="btn-primary cta-button" id="dynamicButton" href="#purchase">💜 התחילו עכשיו</a>
+      </div>
+    </div>
+
+    <section>
+      <h2>🌲 הכול התחיל בערב אחד שקט...</h2>
+      <p>בלי לצאת מהבית, בלי להכין כלום, ובלי רגע של מבוכה – תחוו יחד עומק, אינטימיות והתעוררות זוגית.</p>
+      <p><strong>זה לא עוד דייט. זה ערב שלא תשכחו.</strong></p>
+    </section>
+
+    <section>
+      <h2>🌕 איך הכול התחיל...</h2>
+      <p>
+        ערב אחד רציתם פשוט לברוח מהשגרה. לא לתוך רעש – אלא ליער קטן, שקט, בלי מסכים, בלי הפרעות.<br>
+        לקחתם סלסלה, הכנתם משהו טעים, ויצאתם... רק שניכם.
+      </p>
+      <p class="section-subtitle">
+        ובדרך חזרה – הבחנתם בשביל מואר בצל הירח, עם משהו מסתורי שמושך אתכם לעצור ולחקור...
+      </p>
+      <p class="section-subtitle section-highlight">
+        ומרגע שנכנסתם פנימה – שום דבר לא הרגיש כמו קודם 💜
+      </p>
+    </section>
+
+    <section>
+      <h2>✨ מה תמצאו ביער?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>שיחות עומק</h3>
+          <p>שאלות שפותחות לבבות ומגלות צדדים חדשים אחד בשנייה</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎭</div>
+          <h3>משימות מקרבות</h3>
+          <p>פעילויות מצחיקות ומעוררות שיחזירו את החיוך והתשוקה</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔥</div>
+          <h3>רגעי קסם</h3>
+          <p>חוויות של מגע, גילוי וצחוק – בדיוק בקצב שלכם</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💖</div>
+          <h3>משימות מיניות</h3>
+          <p>משימות אינטימיות עדינות ומקרבות</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧭 איך זה עובד?</h2>
+      <ul>
+        <li>פותחים את המשחק יחד – בטלפון או במחשב</li>
+        <li>עוברים שלב אחר שלב – עם משימות זוגיות מהנות</li>
+        <li>מגלים אחד את השנייה מחדש – בצחוק, מגע ושיחה</li>
+        <li>מסיימים את הערב קרובים יותר מאי פעם</li>
+      </ul>
+    </section>
+
+    <div class="purchase-button-container">
+      <a href="#purchase" class="btn-primary purchase-button">
+        💜 לרכישת המשחק
+      </a>
+    </div>
+
+    <section>
+      <h2>🌟 מי מחכה לכם ביער הקסום?</h2>
+      <p>במהלך המסע תיפגשו עם דמויות מסתוריות – כל אחת תזמין אתכם לעצור, להרגיש, לגלות משהו חדש בעצמכם ובזוגיות שלכם:</p>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <img src="images/gamad.png" alt="גמד החידות">
+          <h3>🧙‍♂️ גמד החידות</h3>
+          <p>לא יניח לכם להמשיך במסע בלי להפעיל קצת את המוח...</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/tzipor.png" alt="ציפור המוזיקה">
+          <h3>🎶 ציפור המוזיקה</h3>
+          <p>עפה קרוב ללב ומביאה איתה תדרים שמעלים זיכרונות</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feya.png" alt="פיית האהבה">
+          <h3>💖 פיית האהבה</h3>
+          <p>תבקש מכם לראות אחד את השנייה בעיניים אחרות</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/shedim.png" alt="השדים">
+          <h3>😈 השדים</h3>
+          <p>מזמינים אתכם להתבונן באומץ במה שעדיין יושב בפנים</p>
+        </div>
+      </div>
+      <p class="section-subtitle section-highlight">
+        ואלו רק חלק מהדמויות שיחכו לכם בדרך... 💫
+      </p>
+    </section>
+
+    <section>
+      <h2>🎯 למי זה מתאים?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💑</div>
+          <h3>זוגות חדשים</h3>
+          <p>רוצים להעמיק בלי לחץ ובקצב שלכם</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👫</div>
+          <h3>זוגות וותיקים</h3>
+          <p>מחפשים להדליק מחדש את הקשר</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👨‍👩‍👧‍👦</div>
+          <h3>הורים עסוקים</h3>
+          <p>רוצים שעה של "רק אנחנו" בלי לצאת מהבית</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌙</div>
+          <h3>מחפשי חוויה</h3>
+          <p>זוגות שאוהבים משחקים ורוצים ערב קצת אחר</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="purchase">
+      <h2>🌟 מוכנים להיכנס ליער?</h2>
+      <p>בחרו ערב, הדליקו נר, הכינו משהו טעים – והיער מחכה לכם.</p>
+      <p class="section-subtitle section-highlight">
+        רוצים שהערב הזה יהיה שונה? זה מתחיל בלחיצה אחת 💜
+      </p>
+      <form action="https://panel.sendmsg.co.il/AddUserFromSite.aspx" method="post">
+        <input type="hidden" name="form" value="340156__eb0ff2e2-8357-45b2-8820-56e595b38d54" />
+        <input type="text" name="1" placeholder="שם מלא *" required />
+        <input type="email" name="eMail" placeholder="אימייל *" required />
+        <label>
+          <input type="checkbox" name="confirm" value="1" required />
+          אני מאשר/ת לקבל דיוורים מרותם עדיני
+        </label>
+        <button type="submit">🎲 להתחיל את המשחק עכשיו</button>
+      </form>
+      <p class="purchase-info-text">
+        💳 תשלום מאובטח | 📩 גישה מיידית למייל | 📱 מתאים לכל מכשיר
+      </p>
+      <p class="purchase-final-message">
+        לא סתם הגעתם לכאן – כנראה שמשהו בפנים ביקש ערב קצת אחר. תנו לעצמכם את זה 💜
+      </p>
+    </section>
+
+    <section class="about-game-section">
+      <h2>🌿 איך נולד המשחק הזה</h2>
+      <p>
+        זה התחיל בערב שקט בבית. אני ובן הזוג שלי ישבנו יחד ופתאום שמתי לב –
+        שוב נטפליקס? שוב אוכל מבחוץ? שוב כל אחד בטלפון שלו?
+      </p>
+      <p>
+        לא שזה רע… אבל משהו הרגיש לי חסר.
+        רציתי רגע אמיתי. משהו שיחזיר אותנו אחד לשנייה.
+      </p>
+      <p>
+        רציתי שנדבר, נצחק, נרגיש, נסתכל אחד על השנייה באמת.
+        ואז הבנתי – זה לא רק אנחנו. הרבה זוגות מרגישים את זה.
+      </p>
+      <p>
+        וככה נולד <strong>"היער הקסום"</strong> – מתוך הרצון לברוח בלי לברוח.
+        להיזכר במה שחיבר אותנו מלכתחילה.
+      </p>
+      <p class="section-highlight">
+        זה לא רק משחק. זו תזכורת למה שבאמת חשוב. כי זוגיות טובה לא נשמרת לבד 💜
+      </p>
+    </section>
+
+    <section>
+      <h2>❓ שאלות נפוצות</h2>
+      <div class="faq-container">
+        <details class="faq-item">
+          <summary class="faq-question">
+            📦 איך מקבלים את המשחק?
+            <span class="arrow">▼</span>
+          </summary>
+          <div class="faq-answer">
+            <p>אחרי הרשמה, תקבלו מייל עם לינק לגישה מיידית למשחק הדיגיטלי – אין צורך להדפיס כלום.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            ♾️ לכמה זמן יש גישה למשחק?
+            <span class="arrow">▼</span>
+          </summary>
+          <div class="faq-answer">
+            <p>הגישה למשחק היא <strong>לכל החיים!</strong> תוכלו לחזור אליו בכל פעם שתרצו להדליק מחדש את הניצוץ.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            👀 יש תוכן מיני?
+            <span class="arrow">▼</span>
+          </summary>
+          <div class="faq-answer">
+            <p>כן – אבל בעדינות. המשחק כולל רמזים חושניים ומשימות אינטימיות נעימות, לא מביכות, שמתאימות לכל זוג.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            ⏰ כמה זמן המשחק לוקח?
+            <span class="arrow">▼</span>
+          </summary>
+          <div class="faq-answer">
+            <p>המשחק מתוכנן לערב זוגי של <strong>שעה וחצי עד שעתיים</strong> של כיף, צחוק וחיבור.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            📱 צריך להכין משהו מראש?
+            <span class="arrow">▼</span>
+          </summary>
+          <div class="faq-answer">
+            <p>לא. פותחים בטלפון או מחשב ומתחילים. כל מה שצריך זה חיבור קליל ביניכם וזמן פנוי ביחד.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            👫 האם זה מתאים לכל זוג?
+            <span class="arrow">▼</span>
+          </summary>
+          <div class="faq-answer">
+            <p>בהחלט. המשחק נועד לקרב, לצחוק ולהפעיל – בלי דרמה, רק חיבור זוגי.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <div style="text-align: center; margin: 2rem auto;">
+      <a href="#purchase" class="btn-primary purchase-button">
+        💜 להתחיל את הערב הזוגי שלנו עכשיו
+      </a>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/shared-components.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/forest-game.js"></script>
+  <script>
+    // עדכון כותרת הדף
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.sharedComponents) {
+        window.sharedComponents.updatePageTitle('היער הקסום');
+      }
+    });
+  </script>
+</body>
+</html>

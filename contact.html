@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>צור קשר - רותם עדיני</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile-fixes.css">
+  
+  <!-- Preload -->
+  <link rel="preload" href="js/shared-components.js" as="script">
+  <link rel="preload" href="css/main.css" as="style">
+</head>
+<body>
+  <!-- הרכיבים המשותפים ייטענו אוטומטית -->
+
+  <!-- Main Content -->
+  <main>
+    <div class="content-card">
+      <h2>צריכים עזרה? יש לכם שאלה או רעיון?</h2>
+      <p>אפשר לפנות אליי בכל עניין שקשור למתכונים, משחקים או האתר.</p>
+      <a href="mailto:rotemadini@gmail.com" style="display:inline-block;margin-top:20px;font-size:18px;font-weight:bold;color:white;text-decoration:none;background:linear-gradient(135deg,#6a1b9a,#9c4dcc);padding:15px 30px;border-radius:25px;transition:all 0.3s ease;">📧 rotemadini@gmail.com</a>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/shared-components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // עדכון כותרת הדף
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.sharedComponents) {
+        window.sharedComponents.updatePageTitle('צור קשר');
+      }
+    });
+  </script>
+</body>
+</html>
