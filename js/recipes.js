@@ -1,7 +1,9 @@
-// recipes.js - טעינת וניהול מתכונים מתוקן
+// recipes.js - מערכת מתכונים עם תצוגת רשימה ומתכון מלא
 
 // משתנה גלובלי לשמירת המתכונים
 let allRecipes = [];
+let currentView = 'list'; // 'list' או 'full'
+let selectedRecipe = null;
 
 // טעינת המתכונים
 async function loadRecipes() {
@@ -12,7 +14,7 @@ async function loadRecipes() {
             const data = await response.json();
             allRecipes = data;
             console.log('מתכונים נטענו מ-JSON:', allRecipes.length);
-            displayRecipes(allRecipes);
+            displayRecipesList(allRecipes);
             return;
         }
     } catch (error) {
@@ -23,7 +25,7 @@ async function loadRecipes() {
     if (typeof recipesData !== 'undefined') {
         console.log('טוען מתכונים מ-recipesData');
         allRecipes = recipesData;
-        displayRecipes(allRecipes);
+        displayRecipesList(allRecipes);
         return;
     }
 
@@ -38,8 +40,9 @@ async function loadRecipes() {
     `;
 }
 
-// הצגת המתכונים
-function displayRecipes(recipes) {
+// הצגת רשימת המתכונים (תצוגה קצרה)
+function displayRecipesList(recipes) {
+    currentView = 'list';
     const container = document.getElementById('recipe-list');
     
     if (!recipes || recipes.length === 0) {
@@ -53,73 +56,162 @@ function displayRecipes(recipes) {
     }
     
     container.innerHTML = recipes.map(recipe => `
-        <div class="recipe-card" data-category="${recipe.category || ''}" data-id="${recipe.id || ''}">
-            ${recipe.image ? `
-                <img src="${recipe.image}" alt="${recipe.title}" 
-                     onerror="this.style.display='none'"
+        <div class="recipe-card-preview" data-category="${recipe.category || ''}" data-id="${recipe.id || ''}">
+            <div class="recipe-image-container">
+                <img src="imagesrecipes/recipe-${recipe.id}.jpg" 
+                     alt="${recipe.title}" 
+                     onerror="this.src='imagesrecipes/default-recipe.jpg'; this.onerror=null;"
                      loading="lazy">
-            ` : ''}
-            
-            <h2>${recipe.title}</h2>
-            
-            ${recipe.description ? `
-                <p style="color:#666; margin-bottom:15px; font-style:italic;">
-                    ${recipe.description}
-                </p>
-            ` : ''}
-            
-            <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
-                ${recipe.time ? `<span style="background:#e8f5e8; padding:5px 10px; border-radius:15px; font-size:14px;">⏱️ ${recipe.time} דקות</span>` : ''}
-                ${recipe.servings ? `<span style="background:#e8f5e8; padding:5px 10px; border-radius:15px; font-size:14px;">👥 ${recipe.servings} מנות</span>` : ''}
-                ${recipe.category ? `<span style="background:#f0e8ff; padding:5px 10px; border-radius:15px; font-size:14px;">${recipe.category}</span>` : ''}
+                <div class="recipe-category-badge">${recipe.category || 'מתכון'}</div>
             </div>
             
-            ${recipe.ingredients ? renderIngredients(recipe.ingredients) : ''}
-            ${recipe.instructions ? renderInstructions(recipe.instructions) : ''}
-            
-            ${recipe.nutrition ? `
-                <div style="background:#f8f9fa; padding:15px; border-radius:10px; margin:20px 0;">
-                    <strong>📊 ערכים תזונתיים:</strong><br>
-                    ${recipe.nutrition}
+            <div class="recipe-preview-content">
+                <h2>${recipe.title}</h2>
+                
+                ${recipe.description ? `
+                    <p class="recipe-description">
+                        ${recipe.description}
+                    </p>
+                ` : ''}
+                
+                <div class="recipe-meta">
+                    ${recipe.time ? `<span class="meta-item">⏱️ ${recipe.time} דקות</span>` : ''}
+                    ${recipe.servings ? `<span class="meta-item">👥 ${recipe.servings} מנות</span>` : ''}
                 </div>
-            ` : ''}
-            
-            ${recipe.tips ? `
-                <div style="background:#fff3cd; padding:15px; border-radius:10px; margin:20px 0; border-left:4px solid #ffc107;">
-                    <strong>💡 טיפ:</strong> ${recipe.tips}
-                </div>
-            ` : ''}
-            
-            ${recipe.link ? `
-                <a href="${recipe.link}" target="_blank" class="button" 
-                   style="margin-top:20px; display:inline-block; background:#E1306C; color:white; padding:12px 25px; text-decoration:none; border-radius:25px; font-weight:600;">
-                    📱 צפו באינסטגרם
-                </a>
-            ` : ''}
+                
+                <button class="read-more-btn" onclick="showFullRecipe(${recipe.id})">
+                    קרא עוד
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+            </div>
         </div>
     `).join('');
+    
+    // הוסף אנימציות
+    setTimeout(addRecipeAnimations, 100);
+}
+
+// הצגת מתכון מלא
+function showFullRecipe(recipeId) {
+    const recipe = allRecipes.find(r => r.id === recipeId);
+    if (!recipe) return;
+    
+    selectedRecipe = recipe;
+    currentView = 'full';
+    const container = document.getElementById('recipe-list');
+    
+    container.innerHTML = `
+        <div class="full-recipe-container">
+            <button class="back-to-list-btn" onclick="backToList()">
+                <i class="fas fa-arrow-right"></i>
+                חזור לרשימת המתכונים
+            </button>
+            
+            <div class="full-recipe-card">
+                <div class="recipe-header">
+                    <div class="recipe-image-full">
+                        <img src="imagesrecipes/recipe-${recipe.id}.jpg" 
+                             alt="${recipe.title}" 
+                             onerror="this.src='imagesrecipes/default-recipe.jpg'; this.onerror=null;">
+                        <div class="recipe-category-badge-full">${recipe.category || 'מתכון'}</div>
+                    </div>
+                    
+                    <div class="recipe-title-section">
+                        <h1>${recipe.title}</h1>
+                        ${recipe.description ? `<p class="recipe-subtitle">${recipe.description}</p>` : ''}
+                        
+                        <div class="recipe-stats">
+                            ${recipe.time ? `<div class="stat-item"><i class="fas fa-clock"></i><span>זמן הכנה</span><strong>${recipe.time} דקות</strong></div>` : ''}
+                            ${recipe.servings ? `<div class="stat-item"><i class="fas fa-users"></i><span>כמות מנות</span><strong>${recipe.servings} מנות</strong></div>` : ''}
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recipe-content">
+                    ${recipe.ingredients ? renderIngredients(recipe.ingredients) : ''}
+                    ${recipe.instructions ? renderInstructions(recipe.instructions) : ''}
+                    
+                    ${recipe.nutrition ? `
+                        <div class="nutrition-info">
+                            <h3><i class="fas fa-chart-pie"></i> ערכים תזונתיים</h3>
+                            <p>${recipe.nutrition}</p>
+                        </div>
+                    ` : ''}
+                    
+                    ${recipe.tips ? `
+                        <div class="recipe-tips">
+                            <h3><i class="fas fa-lightbulb"></i> טיפ מיוחד</h3>
+                            <p>${recipe.tips}</p>
+                        </div>
+                    ` : ''}
+                    
+                    ${recipe.link ? `
+                        <div class="recipe-actions">
+                            <a href="${recipe.link}" target="_blank" class="instagram-btn">
+                                <i class="fab fa-instagram"></i>
+                                צפו במתכון באינסטגרם
+                            </a>
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+        </div>
+    `;
+    
+    // גלילה לראש הדף
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// חזרה לרשימת המתכונים
+function backToList() {
+    if (document.querySelector('#search-results-count')?.textContent) {
+        // אם יש חיפוש פעיל, הצג את תוצאות החיפוש
+        const searchInput = document.querySelector('.recipe-search');
+        if (searchInput && searchInput.value.trim()) {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const filtered = allRecipes.filter(recipe => {
+                return recipe.title.toLowerCase().includes(searchTerm) ||
+                       (recipe.description && recipe.description.toLowerCase().includes(searchTerm)) ||
+                       (recipe.category && recipe.category.toLowerCase().includes(searchTerm)) ||
+                       (recipe.ingredients && JSON.stringify(recipe.ingredients).toLowerCase().includes(searchTerm));
+            });
+            displayRecipesList(filtered);
+            return;
+        }
+    }
+    
+    // אם יש פילטר פעיל
+    const activeFilter = document.querySelector('.recipe-filters button.active');
+    if (activeFilter && !activeFilter.getAttribute('onclick')?.includes("'all'")) {
+        const category = activeFilter.getAttribute('onclick').match(/'([^']+)'/)[1];
+        const filtered = allRecipes.filter(recipe => recipe.category === category);
+        displayRecipesList(filtered);
+    } else {
+        displayRecipesList(allRecipes);
+    }
 }
 
 // הצגת מצרכים
 function renderIngredients(ingredients) {
     if (Array.isArray(ingredients)) {
         return `
-            <div style="margin-bottom: 25px;">
-                <h3 style="color:#6a1b9a; margin-bottom:10px;">🛒 מצרכים:</h3>
-                <ul style="line-height:1.8; color:#333;">
-                    ${ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
+            <div class="ingredients-section">
+                <h3><i class="fas fa-shopping-cart"></i> מצרכים</h3>
+                <ul class="ingredients-list">
+                    ${ingredients.map(ingredient => `<li><i class="fas fa-check"></i>${ingredient}</li>`).join('')}
                 </ul>
             </div>
         `;
     } else if (typeof ingredients === 'object') {
-        // אם המצרכים מחולקים לקטגוריות
-        let html = '<div style="margin-bottom: 25px;"><h3 style="color:#6a1b9a; margin-bottom:15px;">🛒 מצרכים:</h3>';
+        let html = '<div class="ingredients-section"><h3><i class="fas fa-shopping-cart"></i> מצרכים</h3>';
         for (const [category, items] of Object.entries(ingredients)) {
             html += `
-                <h4 style="color:#8e44ad; margin:15px 0 8px 0;">${category}:</h4>
-                <ul style="line-height:1.8; color:#333; margin-bottom:15px;">
-                    ${items.map(item => `<li>${item}</li>`).join('')}
-                </ul>
+                <div class="ingredient-category">
+                    <h4>${category}</h4>
+                    <ul class="ingredients-list">
+                        ${items.map(item => `<li><i class="fas fa-check"></i>${item}</li>`).join('')}
+                    </ul>
+                </div>
             `;
         }
         html += '</div>';
@@ -133,10 +225,15 @@ function renderInstructions(instructions) {
     if (!Array.isArray(instructions)) return '';
     
     return `
-        <div style="margin-bottom: 25px;">
-            <h3 style="color:#6a1b9a; margin-bottom:15px;">👨‍🍳 אופן הכנה:</h3>
-            <ol style="line-height:1.8; color:#333; padding-right:20px;">
-                ${instructions.map(step => `<li style="margin-bottom:10px;">${step}</li>`).join('')}
+        <div class="instructions-section">
+            <h3><i class="fas fa-list-ol"></i> אופן הכנה</h3>
+            <ol class="instructions-list">
+                ${instructions.map((step, index) => `
+                    <li>
+                        <span class="step-number">${index + 1}</span>
+                        <span class="step-text">${step}</span>
+                    </li>
+                `).join('')}
             </ol>
         </div>
     `;
@@ -155,60 +252,45 @@ function filterRecipes(category) {
     
     // סינון והצגה
     if (category === 'all') {
-        displayRecipes(allRecipes);
+        displayRecipesList(allRecipes);
     } else {
         const filtered = allRecipes.filter(recipe => 
             recipe.category === category || 
             (recipe.categories && recipe.categories.includes(category))
         );
-        displayRecipes(filtered);
+        displayRecipesList(filtered);
+    }
+    
+    // נקה תיבת חיפוש
+    const searchInput = document.querySelector('.recipe-search');
+    if (searchInput) {
+        searchInput.value = '';
+    }
+    
+    // נקה מונה תוצאות חיפוש
+    const resultsCounter = document.getElementById('search-results-count');
+    if (resultsCounter) {
+        resultsCounter.textContent = '';
     }
 }
 
 // הוספת חיפוש משופר
 function setupSearch() {
     const searchContainer = document.createElement('div');
-    searchContainer.style.cssText = `
-        max-width: 600px;
-        margin: 20px auto;
-        padding: 0 20px;
-    `;
+    searchContainer.className = 'search-container';
     
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
     searchInput.placeholder = '🔍 חפש מתכון... (לדוגמה: בורקס, שוקולד, קינמון)';
     searchInput.className = 'recipe-search';
-    searchInput.style.cssText = `
-        width: 100%;
-        padding: 15px 25px;
-        border: 2px solid #ddd;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
-        transition: all 0.3s ease;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        background: white;
-    `;
-    
-    // אפקטים על החיפוש
-    searchInput.addEventListener('focus', function() {
-        this.style.borderColor = '#6a1b9a';
-        this.style.boxShadow = '0 0 0 3px rgba(106, 27, 154, 0.1)';
-        this.style.transform = 'scale(1.02)';
-    });
-    
-    searchInput.addEventListener('blur', function() {
-        this.style.borderColor = '#ddd';
-        this.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
-        this.style.transform = 'scale(1)';
-    });
     
     // פונקציית חיפוש משופרת
     searchInput.addEventListener('input', function(e) {
         const searchTerm = e.target.value.toLowerCase().trim();
         
         if (searchTerm === '') {
-            displayRecipes(allRecipes);
+            displayRecipesList(allRecipes);
+            document.getElementById('search-results-count').textContent = '';
             return;
         }
         
@@ -240,24 +322,24 @@ function setupSearch() {
             return false;
         });
         
-        displayRecipes(filtered);
+        displayRecipesList(filtered);
         
         // הצגת מספר תוצאות
         const resultsCount = document.getElementById('search-results-count');
         if (resultsCount) {
             resultsCount.textContent = `נמצאו ${filtered.length} מתכונים`;
         }
+        
+        // נקה פילטרים פעילים
+        const buttons = document.querySelectorAll('.recipe-filters button');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector('.recipe-filters button[onclick*="all"]').classList.add('active');
     });
     
     // הוספת מונה תוצאות
     const resultsCounter = document.createElement('div');
     resultsCounter.id = 'search-results-count';
-    resultsCounter.style.cssText = `
-        text-align: center;
-        margin-top: 10px;
-        color: #666;
-        font-size: 14px;
-    `;
+    resultsCounter.className = 'search-results-count';
     
     searchContainer.appendChild(searchInput);
     searchContainer.appendChild(resultsCounter);
@@ -269,26 +351,10 @@ function setupSearch() {
     }
 }
 
-// עדכון הפילטרים להתאים למתכונים שלך
-function updateFilters() {
-    const filtersContainer = document.querySelector('.recipe-filters');
-    if (!filtersContainer) return;
-    
-    filtersContainer.innerHTML = `
-        <button onclick="filterRecipes('all')" class="active">הכל</button>
-        <button onclick="filterRecipes('בורקס')">בורקס</button>
-        <button onclick="filterRecipes('עוגות')">עוגות</button>
-        <button onclick="filterRecipes('עוגיות')">עוגיות</button>
-        <button onclick="filterRecipes('קינוחים')">קינוחים</button>
-        <button onclick="filterRecipes('מנות עיקריות')">מנות עיקריות</button>
-    `;
-}
-
 // הוספת אנימציות למתכונים
 function addRecipeAnimations() {
-    const recipeCards = document.querySelectorAll('.recipe-card');
+    const recipeCards = document.querySelectorAll('.recipe-card-preview, .full-recipe-card');
     
-    // אנימציה בכניסה
     recipeCards.forEach((card, index) => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(20px)';
@@ -305,12 +371,8 @@ function addRecipeAnimations() {
 function trackPerformance() {
     console.log(`📊 נטענו ${allRecipes.length} מתכונים בהצלחה`);
     
-    // סטטיסטיקות מעניינות
     const categories = [...new Set(allRecipes.map(r => r.category))];
     console.log(`📂 קטגוריות: ${categories.join(', ')}`);
-    
-    const withImages = allRecipes.filter(r => r.image).length;
-    console.log(`🖼️ מתכונים עם תמונות: ${withImages}/${allRecipes.length}`);
 }
 
 // אתחול כשהדף נטען
@@ -319,8 +381,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     // הצגת הודעת טעינה
     document.getElementById('recipe-list').innerHTML = `
-        <div class="recipe-card" style="text-align: center; padding: 40px;">
-            <div style="font-size: 48px; margin-bottom: 20px;">🍽️</div>
+        <div class="loading-container">
+            <div class="loading-spinner">🍽️</div>
             <h2>טוען מתכונים טעימים...</h2>
             <p>רק רגע קטן, המתכונים שלי בדרך אליכם!</p>
         </div>
@@ -329,11 +391,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     try {
         await loadRecipes();
         setupSearch();
-        updateFilters();
         trackPerformance();
-        
-        // אנימציות רק אחרי שהכל נטען
-        setTimeout(addRecipeAnimations, 100);
         
     } catch (error) {
         console.error('❌ שגיאה באתחול:', error);
@@ -348,4 +406,6 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 // הפוך פונקציות לגלובליות לשימוש בדף
 window.filterRecipes = filterRecipes;
+window.showFullRecipe = showFullRecipe;
+window.backToList = backToList;
 window.allRecipes = allRecipes;
