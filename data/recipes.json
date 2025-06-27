@@ -3,7 +3,7 @@
     "id": 1,
     "title": "עוגת גבינה דיאטטית",
     "description": "עוגת גבינה טעימה וקלילה עם הרבה חלבון",
-    "image": "https://via.placeholder.com/300x200/FFB6C1/000000?text=Recipe+Image",
+   "image": "images/recipes/cheesecakediet.jpg", 
     "category": "עוגות",
     "categories": [
       "chalavi",
