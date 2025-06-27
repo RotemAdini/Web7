@@ -29,18 +29,27 @@
   
   <!-- Main Content -->
   <main>
-    <div class="recipe-filters">
-      <button onclick="filterRecipes('all')" class="active">הכל</button>
-      <button onclick="filterRecipes('בורקס')">בורקס</button>
-      <button onclick="filterRecipes('עוגות')">עוגות</button>
-      <button onclick="filterRecipes('עוגיות')">עוגיות</button>
-      <button onclick="filterRecipes('קינוחים')">קינוחים</button>
-      <button onclick="filterRecipes('מנות עיקריות')">מנות עיקריות</button>
-      <button onclick="filterRecipes('מאפים')">מאפים</button>
-      <button onclick="filterRecipes('חגים')">חגים</button>
-      <button onclick="filterRecipes('חטיפים')">חטיפים</button>
-      <button onclick="filterRecipes('ארוחת בוקר')">ארוחת בוקר</button>
+    <!-- מסננים ראשיים -->
+    <div class="recipe-filters main-filters">
+      <button onclick="showMainCategory('all')" class="active" data-category="all">הכל</button>
+      <button onclick="showMainCategory('חגים')" data-category="חגים">חגים</button>
+      <button onclick="showMainCategory('עוגות')" data-category="עוגות">עוגות</button>
+      <button onclick="showMainCategory('עוגיות')" data-category="עוגיות">עוגיות</button>
+      <button onclick="showMainCategory('קינוחים')" data-category="קינוחים">קינוחים</button>
+      <button onclick="showMainCategory('מנות עיקריות')" data-category="מנות עיקריות">מנות עיקריות</button>
+      <button onclick="showMainCategory('מאפים')" data-category="מאפים">מאפים</button>
+      <button onclick="showMainCategory('בורקס')" data-category="בורקס">בורקס</button>
+      <button onclick="showMainCategory('חטיפים')" data-category="חטיפים">חטיפים</button>
     </div>
+
+    <!-- תת-מסננים (יופיעו רק כשנבחרת קטגוריה ראשית) -->
+    <div class="recipe-filters sub-filters" id="sub-filters" style="display: none;">
+      <button onclick="showSubCategory('all')" class="active sub-all">הכל</button>
+      <!-- תת-הקטגוריות יתווספו דינמית כאן -->
+    </div>
+
+    <!-- מספר תוצאות -->
+    <div class="search-results-count"></div>
 
     <div id="recipe-list" class="cards">
       <!-- Recipes will be loaded here dynamically -->
