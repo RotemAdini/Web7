@@ -8,7 +8,11 @@
       "main": "images/recipes/main/cheesecake_main.jpg",
       "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
-    "category": "עוגות",
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות",
+      "tags": ["חיטוב", "חלבון", "דל קלוריות"]
+    },
     "time": "105",
     "servings": "12",
     "ingredients": [
@@ -43,7 +47,171 @@
       "main": "images/recipes/main/lahuh_main.jpg",
       "hero": "images/recipes/hero/lahuh_hero.jpg"
     },
-    "category": "לחמים",
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמים",
+      "tags": ["דל קלוריות", "מסורתי", "ארוחת בוקר"]
+    },
+    "time": "90",
+    "servings": "8",
+    "ingredients": [
+      "כוס וחצי מים רותחים (300 מ״ל)",
+      "כף סולת",
+      "כפית מלח",
+      "כוס מים (200 מ״ל)",
+      "כפית סוכר",
+      "8 גרם שמרים יבשים",
+      "500 גרם קמח",
+      "2.5 כוסות מים (500 מ״ל)"
+    ],
+    "instructions": [
+      "נערבב את תערובות 1 ו2 כל אחת בנפרד וניתן להן לנוח בצד 5 דקות",
+      "בזמן הזה נכין את תערובת 3 ולאחר מכן נערבב ביחד את הכל עד שמגיעים למרקם ללא גושים",
+      "ניתן לבלילה לנוח בצד לשעה",
+      "לאחר שעה נערבב את הבלילה",
+      "ניצוק בעזרת מצקת מהבלילה למחבת קרה נטה את המחבת כדי שהבלילה תתפזר באחידות ומכין על אש גבוהה",
+      "תוך כמה שניות יופיעו בועות על הבלילה כשהבועות הופכות לחורים נכסה חלקית את המחבת וננמיך את האש"
+    ],
+    "nutritionPer100g": {
+      "calories": 142,
+      "protein": 4.5,
+      "carbs": 30,
+      "fat": 0.4
+    }
+  },
+  {
+    "id": 3,
+    "title": "קובנה",
+    "description": "קובנה טעימה מושלמת לשבת בבוקר",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/kubana_thumb.jpg",
+      "main": "images/recipes/main/kubana_main.jpg",
+      "hero": "images/recipes/hero/kubana_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמים",
+      "tags": ["שבת", "מסורתי", "ארוחת בוקר"]
+    },
+    "time": "240",
+    "servings": "8",
+    "ingredients": [
+      "500 גרם קמח לבן",
+      "50 גרם סוכר",
+      "8 גרם שמרים",
+      "15 גרם שמן",
+      "300 גרם מים",
+      "כפית מלח",
+      "50 גרם חמאה מופחתת שומן"
+    ],
+    "instructions": [
+      "בקערת מיקסר עם וו לישה נשים את המים והשמרים ונחכה 2 דקות",
+      "לאחר מכן נוסיף את הקמח סוכר והשמן ונלוש על מהירות בינונית 8 דקות",
+      "אחרי 8 דקות נוסיף כפית מלח ונלוש עוד 2 דקות",
+      "נכסה ונתפיח לשעה",
+      "אחרי שעה נחלק ל4 חלקים כל חלק נפתח עם מערוך לעלה דק ככל שאפשר ונמרח עליו 10 גרם חמאה נגלל ונחצה אותו ל2",
+      "נסדר בתבנית קוטר 24 ונתפיח ל40 דקות",
+      "לאחר התפחה נכניס לתנור שחומם מראש על 180 ל50 דקות עם מכסה",
+      "ואז עוד 10 דקות ללא מכסה כדי לקבל את הקראנציות"
+    ],
+    "nutritionPer100g": {
+      "calories": 249,
+      "protein": 6,
+      "carbs": 44.3,
+      "fat": 5.4
+    }
+  },
+  {
+    "id": 4,
+    "title": "קרמבו לימון",
+    "description": "קרמבו בטעם לימון רענן ומיוחד",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/lemon_crembo_thumb.jpg",
+      "main": "images/recipes/main/lemon_crembo_main.jpg",
+      "hero": "images/recipes/hero/lemon_crembo_hero.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "חטיפים מתוקים",
+      "tags": ["דל קלוריות", "חיטוב"]
+    },
+    "time": "45",
+    "servings": "21",
+    "ingredients": [
+      "2 חלבונים",
+      "60 גרם סוכר לבן",
+      "גרידת לימון",
+      "מיץ לימון מחצי לימון",
+      "85 גרם שוקולד לבן ללא סוכר",
+      "10 גרם שמן קנולה"
+    ],
+    "instructions": [
+      "נרתיח מים בסיר ומעליו נניח קערה עם החלבונים והסוכר לבן נערבב היטב לכמה דקות עד שכל הסוכר נמס",
+      "לאחר מכן נוריד מהאש ונקציף במשך 8-10 דקות על מהירות גבוהה עד שהקצף יהיה מבריק",
+      "נעביר לשקית זילוף ונזלף מעל עוגיות לבחירה נקפיא למשך 15 דקות",
+      "בנתיים נמיס שוקולד לבן עם כף שמן",
+      "נוציא את הקרמבואים מהמקפיא ונטבול בשוקולד הלבן נקפיא שוב ל5 דקות ומוכן"
+    ],
+    "nutritionPerServing": {
+      "calories": 52,
+      "protein": 1,
+      "carbs": 8,
+      "fat": 2
+    }
+  },
+  {
+    "id": 5,
+    "title": "עוגת בראוניז גבינה",
+    "description": "שילוב מושלם של בראוניז ועוגת גבינה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/brownie_cheesecake_thumb.jpg",
+      "main": "images/recipes/main/brownie_cheesecake_main.jpg",
+      "hero": "images/recipes/hero/brownie_cheesecake_hero.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות",
+      "tags": ["חלבון", "חיטוב"]
+    },
+    "time": "105",
+    "servings": "12",
+    "ingredients": [
+      "750 גרם גבינה 0.5%",
+      "יוגורט 3%",
+      "4 ביצים",
+      "3 כפות קורנפלור",
+      "3 כפות אינסטנט פודינג",
+      "20 גרם סוכרלוז נוזלי או תחליף סוכר"
+    ],
+    "instructions": [
+      "בקערה נערבב את כל המצרכים **חוץ מהחלבונים**",
+      "בקערה שנייה נקציף את החלבונים עד לקצף יציב",
+      "איך תדעו שהוא יציב? תהפכו את הקערה והקצף לא יזוז",
+      "מאחדים את 2 התערובות בתנועות קיפול (כל פעם להוסיף קצת ולערבב סך הכל 3 פעמים)",
+      "נכניס לתנור שחומם מראש ל180 מעלות ל15 דקות ואחר כך נוריד את המעלות ל150 לעוד שעה שלמה!",
+      "לאחר שעה ורבע אפייה להשאיר את העוגה בתנור סגור לעוד שעתיים ואז למקרר ל8 שעות לפחות"
+    ],
+    "nutritionPerServing": {
+      "calories": 97,
+      "protein": 10,
+      "carbs": 8,
+      "fat": 3
+    }
+  },
+  {
+    "id": 2,
+    "title": "לחוח תימני",
+    "description": "לחוח תימני אסלי כל כך טעים ורק ב120 קלוריות ללחוח אמיתי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/lahuh_thumb.jpg",
+      "main": "images/recipes/main/lahuh_main.jpg",
+      "hero": "images/recipes/hero/lahuh_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמים",
+      "tags": ["דל קלוריות", "מסורתי"]
+    },
     "time": "90",
     "servings": "8",
     "ingredients": [
@@ -76,7 +244,20 @@
     "title": "קובנה",
     "description": "קובנה טעימה מושלמת לשבת בבוקר",
     "image": "images/recipes/kubana.png",
-    "category": "לחמים",
+  {
+    "id": 3,
+    "title": "קובנה",
+    "description": "קובנה טעימה מושלמת לשבת בבוקר",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/kubana_thumb.jpg",
+      "main": "images/recipes/main/kubana_main.jpg",
+      "hero": "images/recipes/hero/kubana_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמים",
+      "tags": ["שבת", "מסורתי"]
+    },
     "time": "240",
     "servings": "8",
     "ingredients": [
@@ -110,7 +291,11 @@
     "title": "קרמבו לימון",
     "description": "קרמבו בטעם לימון רענן ומיוחד",
     "image": "images/recipes/lemon_crembo.png",
-    "category": "קינוחים",
+    "category": {
+      "main": "חגים",
+      "sub": "פורים",
+      "tags": ["קינוחים"]
+    },
     "time": "45",
     "servings": "21",
     "ingredients": [
@@ -173,7 +358,20 @@
     "title": "מאפה גבינות על מחבת",
     "description": "מאפה גבינות בלי התפחה ובלי אפייה",
     "image": "images/recipes/cheese_pastry.png",
-    "category": "מאפים",
+  {
+    "id": 8,
+    "title": "בורקס דפי אורז קריספי",
+    "description": "בורקס מדפי אורז שנשאר קריספי ולא גומי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/rice_paper_burekas_thumb.jpg",
+      "main": "images/recipes/main/rice_paper_burekas_main.jpg",
+      "hero": "images/recipes/hero/rice_paper_burekas_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "בורקס",
+      "tags": ["חיטוב", "חלבון", "דל קלוריות", "ארוחת בוקר"]
+    },
     "time": "30",
     "servings": "15",
     "ingredients": [
@@ -207,7 +405,20 @@
     "title": "סופלה שוקולד חלבון",
     "description": "סופלה שוקולד בלי הטעם לוואי של האבקת חלבון",
     "image": "images/recipes/chocolate_souffle.png",
-    "category": "קינוחים",
+  {
+    "id": 37,
+    "title": "סופגניות פאי לימון",
+    "description": "סופגניות במילוי לימון ומרנג מלמעלה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/lemon_pie_donuts_thumb.jpg",
+      "main": "images/recipes/main/lemon_pie_donuts_main.jpg",
+      "hero": "images/recipes/hero/lemon_pie_donuts_hero.jpg"
+    },
+    "category": {
+      "main": "חגים",
+      "sub": "חנוכה",
+      "tags": ["קינוחים", "מיוחד"]
+    },
     "time": "40",
     "servings": "8",
     "ingredients": [
@@ -237,7 +448,179 @@
     "title": "בורקס דפי אורז קריספי",
     "description": "בורקס מדפי אורז שנשאר קריספי ולא גומי",
     "image": "images/recipes/rice_paper_burekas.png",
-    "category": "מאפים",
+  {
+    "id": 6,
+    "title": "מאפה גבינות על מחבת",
+    "description": "מאפה גבינות בלי התפחה ובלי אפייה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cheese_pastry_thumb.jpg",
+      "main": "images/recipes/main/cheese_pastry_main.jpg",
+      "hero": "images/recipes/hero/cheese_pastry_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "בורקס",
+      "tags": ["חלבון", "מהיר", "ללא אפייה", "ארוחת ערב"]
+    },
+    "time": "30",
+    "servings": "15",
+    "ingredients": [
+      "500 גרם קמח",
+      "גביע יוגורט 0 אחוז שומן",
+      "ביצה",
+      "כפית אבקת אפייה",
+      "שליש כוס מים",
+      "גביע קוטג׳ 5 אחוז",
+      "150 גרם גבינה צהובה 9 אחוז",
+      "ביצה",
+      "100 גרם בולגרית 5 אחוז"
+    ],
+    "instructions": [
+      "נערבב את כל החומרים של הבצק",
+      "את המים להוסיף בהדרגה",
+      "נחלק ל15 כדורים",
+      "נערבב בקערה את כל חומרי המילוי",
+      "נרדד כל כדור בצק לעיגול נשים מהמילוי ונסגור",
+      "נטגן על מחבת כמה דקות מכל צד עד שמשחים וזהו"
+    ],
+    "nutritionPerServing": {
+      "calories": 178,
+      "protein": 13,
+      "carbs": 0,
+      "fat": 0
+    }
+  },
+  {
+    "id": 7,
+    "title": "סופלה שוקולד חלבון",
+    "description": "סופלה שוקולד בלי הטעם לוואי של האבקת חלבון",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chocolate_souffle_thumb.jpg",
+      "main": "images/recipes/main/chocolate_souffle_main.jpg",
+      "hero": "images/recipes/hero/chocolate_souffle_hero.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "מוס וסופלה",
+      "tags": ["חלבון", "חיטוב", "שוקולד"]
+    },
+    "time": "40",
+    "servings": "8",
+    "ingredients": [
+      "70 גרם שוקולד מריר",
+      "40 גרם חמאה מופחתת שומן",
+      "50 גרם תחליף סוכר",
+      "30 אבקת חלבון",
+      "30 גרם חלב 1%",
+      "2 חלמונים",
+      "2 חלבונים"
+    ],
+    "instructions": [
+      "בקערה נמיס את השוקולד המריר עם החמאה ואז נוסיף את יתר המצרכים חוץ מהחלבונים והתחליף סוכר",
+      "בקערה שנייה נקציף את החלבונים ונוסיף בהדרגה את הסוכר",
+      "נערבב בתנועות קיפול בהדרגה את תערובת החלבונים עם תערובת השוקולד",
+      "נאפה בתנור שחומם מראש על 180 מעלות"
+    ],
+    "nutritionPerTotal": {
+      "calories": 848,
+      "protein": 41,
+      "carbs": 40,
+      "fat": 58
+    }
+  },
+  {
+    "id": 8,
+    "title": "בורקס דפי אורז קריספי",
+    "description": "בורקס מדפי אורז שנשאר קריספי ולא גומי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/rice_paper_burekas_thumb.jpg",
+      "main": "images/recipes/main/rice_paper_burekas_main.jpg",
+      "hero": "images/recipes/hero/rice_paper_burekas_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "בורקס",
+      "tags": ["חיטוב", "חלבון", "דל קלוריות", "ארוחת בוקר"]
+    },
+    "time": "60",
+    "servings": "10",
+    "ingredients": [
+      "10 דפי אורז",
+      "חצי גביע קוטג׳ 3%",
+      "חצי קופסאת בולגרית 5%",
+      "2 פרוסות גבינה צהובה",
+      "ביצה",
+      "כף קמח",
+      "מלח פלפל",
+      "ביצה לבלילה",
+      "כוס מים",
+      "כף סילאן/דבש"
+    ],
+    "instructions": [
+      "נערבב את כל חומרים המילוי ונעביר לשקית זילוף",
+      "בקערה שטוחה נערבב את כל מצרכי הבלילה",
+      "נטבול את דף האורז בבלילה בערך 40 שניות עד שמתרכך",
+      "נשים את הדף אורז על צלחת שטוחה ונקפל אותו לחצי ובעזרת שקית זילוף נזלף את המילוי על הבורקס",
+      "נכניס לתנור שחומם מראש על 200 מעלות טורבו לחצי שעה"
+    ],
+    "nutritionPerServing": {
+      "calories": 85,
+      "protein": 6.4,
+      "carbs": 10.2,
+      "fat": 2.3
+    }
+  },
+  {
+    "id": 9,
+    "title": "קיש גבינות וקישואים",
+    "description": "קיש טעים על בסיס קרקרים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cheese_zucchini_quiche_thumb.jpg",
+      "main": "images/recipes/main/cheese_zucchini_quiche_main.jpg",
+      "hero": "images/recipes/hero/cheese_zucchini_quiche_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "קיש ופשטידות",
+      "tags": ["חלבון", "ירקות", "ארוחת ערב"]
+    },
+    "time": "70",
+    "servings": "16",
+    "ingredients": [
+      "200 גרם קרקרים",
+      "100 גרם חמאה מופחתת שומן",
+      "גבינה לבנה 5%",
+      "150 גרם גבינה צהובה 9%",
+      "2 קישואים",
+      "2 ביצים",
+      "100 גרם זיתי קלמטה"
+    ],
+    "instructions": [
+      "תחתית- נטחן את הקרקרים עם החמאה ונשים במקפיא ל10 דקות",
+      "מלית- נערבב את כל המצרכים יחד",
+      "נשפוך את המלית על התחתית ונכניס לתנור שחומם מראש על 180 מעלות ל50 דקות"
+    ],
+    "nutritionPerServing": {
+      "calories": 147,
+      "protein": 6,
+      "carbs": 9,
+      "fat": 9
+    }
+  },
+  {
+    "id": 10,
+    "title": "ניוקי פולנטה",
+    "description": "ניוקי פולנטה מ2 מצרכים בלבד",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/polenta_gnocchi_thumb.jpg",
+      "main": "images/recipes/main/polenta_gnocchi_main.jpg",
+      "hero": "images/recipes/hero/polenta_gnocchi_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "פסטה ואטריות",
+      "tags": ["דל קלוריות", "צמחוני", "ללא גלוטן"]
+    },
     "time": "60",
     "servings": "10",
     "ingredients": [
@@ -300,7 +683,20 @@
     "title": "ניוקי פולנטה",
     "description": "ניוקי פולנטה מ2 מצרכים בלבד",
     "image": "images/recipes/polenta_gnocchi.png",
-    "category": "עיקריות",
+  {
+    "id": 38,
+    "title": "לביבות תפוח אדמה אפויות",
+    "description": "לביבות תפוח אדמה אפויות לחנוכה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/baked_latkes_thumb.jpg",
+      "main": "images/recipes/main/baked_latkes_main.jpg",
+      "hero": "images/recipes/hero/baked_latkes_hero.jpg"
+    },
+    "category": {
+      "main": "חגים",
+      "sub": "חנוכה",
+      "tags": ["עיקריות", "דל קלוריות", "חיטוב"]
+    },
     "time": "240",
     "servings": "2",
     "ingredients": [
@@ -332,7 +728,135 @@
     "title": "פתיתים עם עגבניות וחצילים",
     "description": "פתיתים שמגישים בתוך חציל",
     "image": "images/recipes/bulgur_eggplant.png",
-    "category": "עיקריות",
+  {
+    "id": 11,
+    "title": "פתיתים עם עגבניות וחצילים",
+    "description": "פתיתים שמגישים בתוך חציל",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/bulgur_eggplant_thumb.jpg",
+      "main": "images/recipes/main/bulgur_eggplant_main.jpg",
+      "hero": "images/recipes/hero/bulgur_eggplant_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "תבשילים",
+      "tags": ["צמחוני", "ירקות", "מיוחד", "ארוחת ערב"]
+    },
+    "time": "45",
+    "servings": "4",
+    "ingredients": [
+      "2 בצלים",
+      "2 עגבניות",
+      "חציל",
+      "כוס פתיתים",
+      "כוס ורבע מים",
+      "2 כפות שמן זית",
+      "2 שיני שום",
+      "כפית פפריקה",
+      "חצי כפית מלח",
+      "רבע כפית פלפל שחור"
+    ],
+    "instructions": [
+      "נחתוך את החציל ל2 בעזרת סכין נחתוך קצת את הבפנים שלו",
+      "נפזר שמן זית ונכניס לתנור ל20 דקות על 200 מעלות",
+      "אחרי שנוציא אותו מהתנור נוציא את מלית החציל בזהירות ונשאיר את הקליפה בצד",
+      "בנתיים נטגן את הבצל לאחר שהבצל מזהיב נוסיף את השום והתבלינים",
+      "נוסיף 2 עגבניות את מלית החציל ואת הפתיתים",
+      "נוסיף כוס ורבע מים חמים ונבשל על אש נמוכה עד שהפתיתים מוכנים",
+      "נשים את הפתיתים בתוך קליפת החציל ונגיש"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "עוגיות פרמזן בציפוי זעתר",
+    "description": "עוגיות מלוחות ב30 קלוריות לעוגייה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/parmesan_zaatar_cookies_thumb.jpg",
+      "main": "images/recipes/main/parmesan_zaatar_cookies_main.jpg",
+      "hero": "images/recipes/hero/parmesan_zaatar_cookies_hero.jpg"
+    },
+    "category": {
+      "main": "חטיפים",
+      "sub": "עוגיות מלוחות",
+      "tags": ["דל קלוריות", "חיטוב", "חטיף בריא"]
+    },
+    "time": "55",
+    "servings": "40",
+    "ingredients": [
+      "200 גרם קמח",
+      "חצי כוס מים",
+      "כפית שטוחה אבקת אפייה",
+      "50 גרם חמאה מופחתת שומן",
+      "50 גרם פרמזן 23% שומן מגורד",
+      "10 גרם תערובת זעתר"
+    ],
+    "instructions": [
+      "נשים את כל המצרכים חוץ מהזעתר במעבד מזון עד שיווצר בצק",
+      "נחלק ל2 חלקים,וכל חלק של הבצק נגלל לגליל נעטוף בניילון נצמד ונשים בהקפאה לחצי שעה",
+      "לאחר חצי שעה נוציא את הגלילים נמרח במים ונפזר את הזעתר נחתוך לעיגולים",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל25 דקות/עד שמזהיב"
+    ],
+    "nutritionPerServing": {
+      "calories": 30,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 1
+    }
+  },
+  {
+    "id": 13,
+    "title": "עוגיות קינמון",
+    "description": "עוגיות קינמון ב38 קלוריות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cinnamon_cookies_thumb.jpg",
+      "main": "images/recipes/main/cinnamon_cookies_main.jpg",
+      "hero": "images/recipes/hero/cinnamon_cookies_hero.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגיות",
+      "tags": ["דל קלוריות", "חיטוב", "קינמון"]
+    },
+    "time": "60",
+    "servings": "25",
+    "ingredients": [
+      "200 גרם קמח",
+      "90 גרם חמאה מופחתת שומן מומסת",
+      "ביצה",
+      "70 גרם סוכר חום",
+      "כפית קינמון",
+      "1/4 כפית אבקת אפייה",
+      "1/4 כפית סודה לשתייה",
+      "קורט מלח"
+    ],
+    "instructions": [
+      "נקציף את הביצה עם הסוכר חום עם לקצף תפוח",
+      "נוסיף את יתר המצרכים נערבב",
+      "נשים במקרר לחצי שעה",
+      "נחלק לכדורים קטנים",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל12-15 דקות"
+    ],
+    "nutritionPerServing": {
+      "calories": 38,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    }
+  },
+  {
+    "id": 14,
+    "title": "עוף טחון בסירות חסה בסגנון אסייתי",
+    "description": "עוף טחון בחמאת בוטנים מוגש בסירות חסה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/asian_chicken_lettuce_thumb.jpg",
+      "main": "images/recipes/main/asian_chicken_lettuce_main.jpg",
+      "hero": "images/recipes/hero/asian_chicken_lettuce_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "בשר ועוף",
+      "tags": ["חלבון", "דל קלוריות", "חיטוב", "אסייתי"]
+    },
     "time": "45",
     "servings": "4",
     "ingredients": [
@@ -391,7 +915,116 @@
     "title": "עוגיות קינמון",
     "description": "עוגיות קינמון ב38 קלוריות",
     "image": "images/recipes/cinnamon_cookies.png",
-    "category": "עוגיות",
+  {
+    "id": 15,
+    "title": "מיני עוגיות שוקולד",
+    "description": "עוגיות שוקולד מתאימות לצליאקים ב12 קלוריות לעוגייה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/mini_chocolate_cookies_thumb.jpg",
+      "main": "images/recipes/main/mini_chocolate_cookies_main.jpg",
+      "hero": "images/recipes/hero/mini_chocolate_cookies_hero.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגיות",
+      "tags": ["ללא גלוטן", "דל קלוריות", "חיטוב", "שוקולד"]
+    },
+    "time": "30",
+    "servings": "84",
+    "ingredients": [
+      "150 גרם שוקולד מריר",
+      "ביצה",
+      "15 גרם חמאה מופחתת שומן",
+      "כפית אבקת אפייה"
+    ],
+    "instructions": [
+      "נמיס את השוקולד המריר והחמאה במיקרו",
+      "נוסיף את הביצה והאבקת אפייה ונערבב לאיחוד",
+      "נעביר לשקית זילוף כדי שיהיה יותר נוח לזלף את העוגיות",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל7-10 דקות תלוי בתנור"
+    ],
+    "nutritionPerServing": {
+      "calories": 12,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    }
+  },
+  {
+    "id": 16,
+    "title": "מיני פנקייק גבינה בצורת לבבות",
+    "description": "פנקייק גבינה חמוד לכבוד יום האהבה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/heart_pancakes_thumb.jpg",
+      "main": "images/recipes/main/heart_pancakes_main.jpg",
+      "hero": "images/recipes/hero/heart_pancakes_hero.jpg"
+    },
+    "category": {
+      "main": "ארוחת בוקר",
+      "sub": "פנקייק",
+      "tags": ["חלבון", "יום האהבה", "חמוד", "חיטוב"]
+    },
+    "time": "20",
+    "servings": "1",
+    "ingredients": [
+      "50 גרם קמח",
+      "כפית אבקת אפייה",
+      "4 כפות תחליף סוכר",
+      "ביצה",
+      "250 גרם גבינה 5%"
+    ],
+    "instructions": [
+      "פשוט לערבב את כל החומרים בקערה עד לאיחוד",
+      "להעביר לסקוויזר/שקית זילוף ונזלף לבבות",
+      "נמרח מעל רטבים שאוהבים ובתיאבון"
+    ],
+    "nutritionPerTotal": {
+      "calories": 512,
+      "protein": 36,
+      "carbs": 49,
+      "fat": 19
+    }
+  },
+  {
+    "id": 17,
+    "title": "סלט תורכי של סבתא רותי",
+    "description": "סלט תורכי מסורתי וטעים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/turkish_salad_thumb.jpg",
+      "main": "images/recipes/main/turkish_salad_main.jpg",
+      "hero": "images/recipes/hero/turkish_salad_hero.jpg"
+    },
+    "category": {
+      "main": "סלטים",
+      "sub": "סלטים מבושלים",
+      "tags": ["מסורתי", "משפחתי", "צמחוני", "ירקות"]
+    },
+    "time": "30",
+    "servings": "4",
+    "ingredients": [
+      "2 בצלים",
+      "ראש שום",
+      "גמבה ירוקה",
+      "גמבה אדומה",
+      "2 רסק",
+      "3 עגבניות טחונות",
+      "כפית מלח",
+      "חצי כפית פלפל",
+      "כפית כמון",
+      "2 כפיות פפריקה",
+      "2 כפיות סחוג"
+    ],
+    "instructions": [
+      "נטגן את הבצל עד להזהבה",
+      "נוסיף את התבלינים",
+      "נוסיף את השום ונערבב",
+      "נוסיף את הגמבות הקצוצות ואת העגבניות",
+      "נשפוך את הרסק עגבניות",
+      "נבשל על אש נמוכה 20 דקות ומדי פעם נערבב",
+      "נחמם לחם טוב ובתיאבון"
+    ]
+  }
+]
     "time": "60",
     "servings": "25",
     "ingredients": [
@@ -856,7 +1489,20 @@
       "main": "images/recipes/main/rafaello_balls_main.jpg",
       "hero": "images/recipes/hero/rafaello_balls_hero.jpg"
     },
-    "category": "קינוחים",
+  {
+    "id": 40,
+    "title": "סופגניות אשל",
+    "description": "סופגניות אשל של סבתא רותי ז״ל",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/eshel_donuts_thumb.jpg",
+      "main": "images/recipes/main/eshel_donuts_main.jpg",
+      "hero": "images/recipes/hero/eshel_donuts_hero.jpg"
+    },
+    "category": {
+      "main": "חגים",
+      "sub": "חנוכה",
+      "tags": ["קינוחים", "מסורתי", "משפחתי"]
+    },
     "time": "75",
     "servings": "10",
     "ingredients": [
@@ -1173,6 +1819,234 @@
       "protein": 5,
       "carbs": 3.4,
       "fat": 0.7
+    }
+  },
+  {
+    "id": 36,
+    "title": "ספגטי מוקרם בתנור",
+    "description": "ספגטי ברוטב עגבניות מוקרם בתנור בלי טיפה אחת של שמנת",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/baked_spaghetti_thumb.jpg",
+      "main": "images/recipes/main/baked_spaghetti_main.jpg",
+      "hero": "images/recipes/hero/baked_spaghetti_hero.jpg"
+    },
+    "category": "עיקריות",
+    "time": "60",
+    "servings": "6",
+    "ingredients": [
+      "חבילת ספגטי",
+      "רוטב עגבניות",
+      "גבינה צהובה מגורדת",
+      "פרמזן"
+    ],
+    "instructions": [
+      "נכין את הספגטי לפי הוראות היצרן",
+      "נערבב עם רוטב עגבניות",
+      "נעביר לתבנית ונפזר גבינה צהובה ופרמזן",
+      "נאפה בתנור עד שמזהיב מלמעלה"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "סופגניות פאי לימון",
+    "description": "סופגניות במילוי לימון ומרנג מלמעלה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/lemon_pie_donuts_thumb.jpg",
+      "main": "images/recipes/main/lemon_pie_donuts_main.jpg",
+      "hero": "images/recipes/hero/lemon_pie_donuts_hero.jpg"
+    },
+    "category": "קינוחים",
+    "time": "240",
+    "servings": "19",
+    "ingredients": [
+      "100 גרם סוכר",
+      "100 גרם חמאה",
+      "2 ביצים",
+      "100 מל לימון",
+      "גרידת לימון מלימון שלם",
+      "80 גרם חלבונים",
+      "120 סוכר למרנג"
+    ],
+    "instructions": [
+      "מילוי לימון: בסיר קטן נערבב על אש נמוכה- בינונית את כל המצרכים עד למרקם סמיך",
+      "ברגע שזה נהיה סמיך תורידו את הסיר מאש ותעטפו אותו בניילון נצמד ותשימו אותו במקרר לשעה",
+      "הכנת המרנג: בקערת מיקסר נשים את החלבונים והסוכר",
+      "נשים את הקערה על באן מארי ונערבב טוב עד שכל הסוכר נמס",
+      "אחרי שהסוכר נמס נקציף את המרנג על מהירות גבוהה למשך 8 דקות",
+      "נעשה חורים בעזרת סכין בסופגניות",
+      "נמלא כל סופגנייה במילוי לימון ומלמעלה נמרח את המרנג",
+      "בעזרת ברנר נשרוף את המרנג"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "לביבות תפוח אדמה אפויות",
+    "description": "לביבות תפוח אדמה אפויות לחנוכה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/baked_latkes_thumb.jpg",
+      "main": "images/recipes/main/baked_latkes_main.jpg",
+      "hero": "images/recipes/hero/baked_latkes_hero.jpg"
+    },
+    "category": "עיקריות",
+    "time": "50",
+    "servings": "11",
+    "ingredients": [
+      "3 תפוחי אדמה (400 גרם בערך)",
+      "בצל",
+      "ביצה",
+      "מלח",
+      "פלפל"
+    ],
+    "instructions": [
+      "נגרד בפומפייה/ נטחן במעבד מזון את התפוח אדמה והבצל",
+      "נסחט מהם טוב טוב טוב את *כל הנוזלים*",
+      "נוסיף ביצה מלח ופלפל ונערבב לאיחוד",
+      "נכדרר לכדורים ונשטח אותם",
+      "נאפה בתנור שחומם מראש על טורבו 200 מעלות ל25-35 דקות עד שמזהיבות"
+    ],
+    "nutritionPerServing": {
+      "calories": 40,
+      "protein": 1.5,
+      "carbs": 8.1,
+      "fat": 0.6
+    }
+  },
+  {
+    "id": 39,
+    "title": "חלת בשר בצורת שבלול",
+    "description": "חלת בשר מיוחדת לארוחת שישי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/meat_challah_thumb.jpg",
+      "main": "images/recipes/main/meat_challah_main.jpg",
+      "hero": "images/recipes/hero/meat_challah_hero.jpg"
+    },
+    "category": "עיקריות",
+    "time": "300",
+    "servings": "8",
+    "ingredients": [
+      "חצי קילו בשר",
+      "2 בצלים",
+      "3 עגבניות",
+      "2 כפות סילאן",
+      "כפית פפריקה",
+      "רבע כפית כמון",
+      "קופסאת רסק עגבניות",
+      "מלח פלפל לפי הטעם",
+      "בצק חלה"
+    ],
+    "instructions": [
+      "נטגן את הבצל עד הזהבה, נוסיף את כל התבלינים והרסק ונטגן עוד דקה",
+      "נוסיף את העגבניות נטגן עוד 2-3 דקות ואז נוסיף את הבשר ונטגן עד שהוא מוכן",
+      "נקח מהבצק 5 כדורים במשקל 170 גרם ונרדד למלבן צר וארוך",
+      "נמלא כל מלבן בחמישית מתערובת הבשר ונגלגל לגליל",
+      "נסדר בתבנית עגולה את הרצועות כמו שבלול, נבריש בביצה ונפזר שומשום",
+      "נתפיח את את החלה לאחר עיצוב הצורה לעוד שעה ואז נאפה בתנור שחומם מראש על 170 מעלות טורבו ל25-35 דקות"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "סופגניות אשל",
+    "description": "סופגניות אשל של סבתא רותי ז״ל",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/eshel_donuts_thumb.jpg",
+      "main": "images/recipes/main/eshel_donuts_main.jpg",
+      "hero": "images/recipes/hero/eshel_donuts_hero.jpg"
+    },
+    "category": "קינוחים",
+    "time": "45",
+    "servings": "12",
+    "ingredients": [
+      "2.5 כוסות קמח",
+      "2 גביעי אשל",
+      "2 כפות סוכר",
+      "2 ביצים",
+      "אבקת אפייה",
+      "קורט מלח",
+      "כפית תמצית וניל",
+      "כפית רום"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים ביחד עד לאיחוד ואז ניתן לבלילה לנוח עשר דקות",
+      "בזמן הזה נרתיח את השמן",
+      "תטגנו על הלהבה הבינונית על עוצמה בינונית",
+      "אמורים לטגן את הסופגניות בערך 2-3 דקות מכל צד",
+      "נבזוק מעל הסופגניות אבקת סוכר ומוכן"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "חזה עוף ופסטה בסיר אחד",
+    "description": "חזה עוף ופסטה ברוטב אדום בסיר אחד",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_pasta_one_pot_thumb.jpg",
+      "main": "images/recipes/main/chicken_pasta_one_pot_main.jpg",
+      "hero": "images/recipes/hero/chicken_pasta_one_pot_hero.jpg"
+    },
+    "category": "עיקריות",
+    "time": "30",
+    "servings": "4",
+    "ingredients": [
+      "2 בצלים",
+      "גזר",
+      "גמבה",
+      "כף שמן זית",
+      "2 רסק",
+      "3-4 שיני שום",
+      "2 כפיות פפריקה",
+      "כף מלח",
+      "חצי כפית פלפל שחור",
+      "חצי קילו חזה עוף",
+      "חצי חבילת פסטה",
+      "מים חמים"
+    ],
+    "instructions": [
+      "נטגן את הבצל עם כף שמן, נוסיף את התבלינים והרסק עגבניות ונטגן עוד דקה",
+      "נוסיף את החזה עוף נמשיך לטגן עוד 2-3 דקות ונשפוך את הגזר והגמבה ונטגן עוד 5 דקות",
+      "נוסיף את הפסטה ונמזוג מים עד לקו הפסטה",
+      "נבשל עם מכסה סגור עד שהמים מבעבעים ואז נסיר את המכסה ונבשל עד שהפסטה מוכנה",
+      "אפשר להגיש עם קצת פטרוזיליה"
+    ],
+    "nutritionPerServing": {
+      "calories": 461,
+      "protein": 35,
+      "carbs": 61.6,
+      "fat": 6.8
+    }
+  },
+  {
+    "id": 42,
+    "title": "עוגיות לימון יבשות",
+    "description": "עוגיות נדירות לאוהבי הלימון",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/dry_lemon_cookies_thumb.jpg",
+      "main": "images/recipes/main/dry_lemon_cookies_main.jpg",
+      "hero": "images/recipes/hero/dry_lemon_cookies_hero.jpg"
+    },
+    "category": "עוגיות",
+    "time": "45",
+    "servings": "42",
+    "ingredients": [
+      "140 גרם קמח = כוס קמח",
+      "50 גרם חמאה",
+      "ביצה",
+      "4 כפות תחליף סוכר",
+      "מיץ מחצי לימון",
+      "גרידת לימון",
+      "כפית אבקת אפייה",
+      "קורט מלח"
+    ],
+    "instructions": [
+      "נערבב את החמאה עד למרקם משחתי ואז נוסיף את הקמח,אבקת אפייה,מלח,סוכר והביצה ונערבב שוב",
+      "נוסיף את הגרידת לימון והמיץ לימון ונערבב שוב לאיחוד",
+      "נעביר לשקית זילוף ונזלף פסים",
+      "נאפה בתנור שחומם מראש על 170 מעלות ל12-15 דקות עד שהעוגיות קצת מזהיבות",
+      "אחרי שהוצאתם את העוגיות מהתנור תצננו אותם בחוץ לפחות חצי שעה כי בזמן הזה הן מתקשות"
+    ],
+    "nutritionPerServing": {
+      "calories": 23,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
     }
   }
 ]
