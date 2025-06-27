@@ -1,10 +1,15 @@
-// recipes-data.js - מבנה נתונים מאוחד עם קישורי אינסטגרם
+// recipes-data.js - מבנה נתונים מאוחד עם תמונות וקישורי אינסטגרם
 
 const recipesData = [
   {
     "id": 1,
     "title": "בורקס דפי אורז קריספי",
     "description": "בורקס קריספי מדפי אורז במילוי גבינות עם 2 טריקים סודיים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/rice_paper_burekas.jpg",
+      "main": "images/recipes/main/rice_paper_burekas.jpg",
+      "hero": "images/recipes/hero/rice_paper_burekas.jpg"
+    },
     "category": {
       "main": "בורקס",
       "sub": "מאפים",
@@ -47,10 +52,15 @@ const recipesData = [
     "id": 2,
     "title": "אוזני המן מבצק עוגיות ללא אפייה",
     "description": "אוזני המן מיוחדות מבצק עוגיות בסגנון בן אנד ג'ריס",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/hamantaschen_cookies.jpg",
+      "main": "images/recipes/main/hamantaschen_cookies.jpg",
+      "hero": "images/recipes/hero/hamantaschen_cookies.jpg"
+    },
     "category": {
-      "main": "עוגיות",
-      "sub": "חגים",
-      "tags": ["פורים", "ללא אפייה", "מיוחד"]
+      "main": "חגים",
+      "sub": "פורים",
+      "tags": ["ללא אפייה", "מיוחד", "עוגיות"]
     },
     "ingredients": [
       "140 גרם קמח לבן מפוסטר",
@@ -81,6 +91,11 @@ const recipesData = [
     "id": 3,
     "title": "קינוחי כוסות אלפחורס",
     "description": "קינוח כוסות מרהיב עם עוגיות אלפחורס וקרמים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/alfajores_cups.jpg",
+      "main": "images/recipes/main/alfajores_cups.jpg",
+      "hero": "images/recipes/hero/alfajores_cups.jpg"
+    },
     "category": {
       "main": "קינוחים",
       "sub": "קינוחי כוסות",
@@ -129,9 +144,14 @@ const recipesData = [
     "id": 4,
     "title": "עוגת קינמון עם קראמבל מושלם",
     "description": "עוגת קינמון רכה עם קראמבל פריך מושלם",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cinnamon_crumble_cake.jpg",
+      "main": "images/recipes/main/cinnamon_crumble_cake.jpg",
+      "hero": "images/recipes/hero/cinnamon_crumble_cake.jpg"
+    },
     "category": {
       "main": "עוגות",
-      "sub": "קינוחים",
+      "sub": "עוגות שוקולד",
       "tags": ["קינמון", "קראמבל", "עוגה רכה"]
     },
     "ingredients": {
@@ -170,6 +190,11 @@ const recipesData = [
     "id": 5,
     "title": "קציצות עוף ותירס",
     "description": "קציצות עסיסיות עם עוף, תירס וירקות - גיוון מושלם לארוחת צהריים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_corn_meatballs.jpg",
+      "main": "images/recipes/main/chicken_corn_meatballs.jpg",
+      "hero": "images/recipes/hero/chicken_corn_meatballs.jpg"
+    },
     "category": {
       "main": "מנות עיקריות",
       "sub": "בשר ועוף",
@@ -203,9 +228,14 @@ const recipesData = [
     "id": 6,
     "title": "עוגת קרמבו מוקה מושלמת",
     "description": "עוגת קרמבו בטעם מוקה עם ציפוי שוקולד לבן",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/mocha_crembo_cake.jpg",
+      "main": "images/recipes/main/mocha_crembo_cake.jpg",
+      "hero": "images/recipes/hero/mocha_crembo_cake.jpg"
+    },
     "category": {
       "main": "עוגות",
-      "sub": "קינוחים",
+      "sub": "עוגות שוקולד",
       "tags": ["קרמבו", "מוקה", "שוקולד לבן"]
     },
     "ingredients": {
@@ -251,9 +281,14 @@ const recipesData = [
     "id": 7,
     "title": "עוגת שמרים שוקולד דובאי",
     "description": "עוגת שמרים מרהיבה במילוי שוקולד, קדאיף ופיסטוק",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/dubai_chocolate_yeast_cake.jpg",
+      "main": "images/recipes/main/dubai_chocolate_yeast_cake.jpg",
+      "hero": "images/recipes/hero/dubai_chocolate_yeast_cake.jpg"
+    },
     "category": {
       "main": "עוגות",
-      "sub": "מאפים",
+      "sub": "עוגות שוקולד",
       "tags": ["שמרים", "שוקולד", "דובאי", "פיסטוק"]
     },
     "ingredients": {
@@ -303,6 +338,11 @@ const recipesData = [
     "id": 8,
     "title": "מוקפץ אנטריקוט עם ניוקי וברוקולי",
     "description": "מוקפץ עשיר עם אנטריקוט, ניוקי וברוקולי ברוטב אסייתי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/entrecote_gnocchi_stirfry.jpg",
+      "main": "images/recipes/main/entrecote_gnocchi_stirfry.jpg",
+      "hero": "images/recipes/hero/entrecote_gnocchi_stirfry.jpg"
+    },
     "category": {
       "main": "מנות עיקריות",
       "sub": "בשר ועוף",
@@ -342,268 +382,7 @@ const recipesData = [
     "id": 9,
     "title": "פסטה ברוטב זיתים ועגבניות מיובשות",
     "description": "פסטה עם רוטב מעניין - שילוב של זיתים, עגבניות מיובשות ובזיליקום",
-    "category": {
-      "main": "מנות עיקריות",
-      "sub": "פסטה",
-      "tags": ["זיתים", "עגבניות מיובשות", "בזיליקום", "איטלקי"]
-    },
-    "ingredients": [
-      "250 גרם פסטה צינורות",
-      "מיכל שמנת 9%",
-      "100 גרם זיתי קלמטה קצוצים",
-      "20 עגבניות מיובשות",
-      "בצל סגול",
-      "15 גרם חמאה",
-      "שום כתוש",
-      "בזיליקום",
-      "מלח, פלפל ואגוז מוסקט",
-      "פרמז'ן להגשה"
-    ],
-    "instructions": [
-      "מכינים פסטה לפי הוראות היצרן",
-      "מטגנים בצל סגול ושום בחמאה",
-      "מוסיפים עגבניות מיובשות, זיתים, בזיליקום ושמנת",
-      "מערבבים עד שהשמנת מקבלת צבע מהירקות",
-      "מתבלים במלח, פלפל ואגוז מוסקט",
-      "מוסיפים פסטה ומערבבים",
-      "מגישים עם פרמז'ן"
-    ],
-    "time": "20",
-    "servings": "4",
-    "tips": "יש כאן שילוב של כל כך הרבה דברים טובים!",
-    "link": "https://www.instagram.com/reel/DCmWhZxITDJ/"
-  },
-  {
-    "id": 10,
-    "title": "פולנטה מתירס טרי",
-    "description": "פולנטה קרמית מתירס טרי עם חלב ובלי שמנת - דלת קלוריות",
-    "category": {
-      "main": "מנות עיקריות",
-      "sub": "צמחוני",
-      "tags": ["תירס", "פולנטה", "דל קלוריות", "קרמי"]
-    },
-    "ingredients": [
-      "5 קלחי תירס",
-      "כוס וחצי חלב",
-      "15 גרם חמאה",
-      "מלח ופלפל",
-      "60 גרם פרמז'ן"
-    ],
-    "instructions": [
-      "חותכים גרעיני תירס מהקלח",
-      "מזגים לסיר חלב, גרעיני תירס, חמאה ותבלינים",
-      "מחממים על אש גבוהה ומורידים לאש בינונית",
-      "מבשלים 20 דקות",
-      "מוסיפים פרמז'ן וטוחנים בבלנדר למרקם אחיד",
-      "מגישים עם תוספות לבחירה"
-    ],
-    "time": "30",
-    "servings": "4",
-    "tips": "איזו מנה! לא הפסקתי לנשנש",
-    "link": "https://www.instagram.com/reel/DCRtEZDImvJ/"
-  },
-  {
-    "id": 11,
-    "title": "עוגת פאדג׳ שוקולד פרווה",
-    "description": "עוגת פאדג׳ חלומית ללא קמח - מתאימה לצליאקים",
-    "category": {
-      "main": "עוגות",
-      "sub": "קינוחים",
-      "tags": ["ללא גלוטן", "פאדג׳", "שוקולד", "פרווה"]
-    },
-    "ingredients": [
-      "300 גרם שוקולד מריר",
-      "150 גרם נטורינה",
-      "6 ביצים",
-      "כוס סוכר",
-      "3 כפות קקאו"
-    ],
-    "instructions": [
-      "מפרידים חלבונים וחלמונים",
-      "ממיסים שוקולד ונטורינה למרקם אחיד",
-      "מוסיפים חלמונים אחד אחד ומערבבים מהר",
-      "מנפים קקאו ומערבבים",
-      "מקציפים חלבונים ומוסיפים סוכר בהדרגה לקצף חזק",
-      "מוסיפים שוקולד לקצף בתנועות קיפול",
-      "יוצקים לתבנית 22 ס\"מ",
-      "אופים ב-175 מעלות טורבו 30 דקות"
-    ],
-    "time": "45",
-    "servings": "16",
-    "tips": "העוגה טעימה גם קרה וגם חמה - זה הקסם שלה",
-    "link": "https://www.instagram.com/reel/DBLNgZXIWWl/"
-  },
-  {
-    "id": 12,
-    "title": "טורטיות ממולאות פרגית וקינמון",
-    "description": "טורטיות מטוגנות עם מילוי פרגית, רימונים וקינמון - שילוב מנצח",
-    "category": {
-      "main": "מנות עיקריות",
-      "sub": "בשר ועוף",
-      "tags": ["פרגית", "טורטיות", "קינמון", "רימונים"]
-    },
-    "ingredients": {
-      "למילוי": [
-        "400 גרם פרגית טחונה",
-        "בצל",
-        "כף שמן זית",
-        "כף סוכר חום",
-        "כפית קינמון",
-        "חצי כפית כורכום",
-        "מלח ופלפל",
-        "גרגירי רימון",
-        "פטרוזיליה קצוצה"
-      ],
-      "אחר": [
-        "טורטיות קטנות",
-        "שמן לטיגון"
-      ]
-    },
-    "instructions": [
-      "מטגנים בצל עד שמזהיב",
-      "מוסיפים פרגית וכל התבלינים",
-      "מטגנים עד שהפרגית מתבשלת",
-      "מוסיפים רימון ופטרוזיליה ומערבבים",
-      "ממלאים טורטיות ומקפלים",
-      "מטגנים במחבת עד שמזהיבות משני הצדדים"
-    ],
-    "time": "30",
-    "servings": "4",
-    "tips": "השילוב של פרגית וקינמון מדהים!",
-    "link": "https://www.instagram.com/reel/rotem.adini/"
-  },
-  {
-    "id": 13,
-    "title": "מיני עוגיות שוקולד צ'יפס",
-    "description": "עוגיות מיני בגודל נשיכה עם שוקולד צ'יפס",
-    "category": {
-      "main": "עוגיות",
-      "sub": "חטיפים",
-      "tags": ["שוקולד צ'יפס", "מיני", "חטיף", "דל קלוריות"]
-    },
-    "ingredients": [
-      "200 גרם קמח",
-      "100 גרם חמאה רכה",
-      "80 גרם סוכר חום",
-      "ביצה",
-      "כפית תמצית וניל",
-      "חצי כפית אבקת אפייה",
-      "חצי כפית מלח",
-      "100 גרם שוקולד צ'יפס"
-    ],
-    "instructions": [
-      "מערבבים חמאה וסוכר חום",
-      "מוסיפים ביצה ווניל",
-      "מוסיפים קמח, אבקת אפייה ומלח",
-      "מוסיפים שוקולד צ'יפס",
-      "יוצרים כדורים קטנים",
-      "אופים ב-180 מעלות 10-12 דקות"
-    ],
-    "time": "25",
-    "servings": "30",
-    "tips": "מושלם לחטיף או לקפה",
-    "link": "https://www.instagram.com/rotem.adini/"
-  },
-  {
-    "id": 14,
-    "title": "סלט קיצי עם גבינת עיזים",
-    "description": "סלט רענן עם גבינת עיזים, אגוזים ורוטב דבש",
-    "category": {
-      "main": "מנות עיקריות",
-      "sub": "סלטים",
-      "tags": ["קיצי", "גבינת עיזים", "בריא", "טרי"]
-    },
-    "ingredients": [
-      "תערובת עלים",
-      "150 גרם גבינת עיזים",
-      "אגוזי מלך",
-      "עגבניות שרי",
-      "מלפפון",
-      "רוטב: דבש, חרדל, שמן זית, חומץ בלסמי"
-    ],
-    "instructions": [
-      "חותכים את הירקות לחתיכות",
-      "מכינים רוטב מכל הרכיבים",
-      "מסדרים עלים בקערה",
-      "מוסיפים ירקות וגבינת עיזים פרורה",
-      "מפזרים אגוזים ויוצקים רוטב"
-    ],
-    "time": "15",
-    "servings": "2",
-    "tips": "מושלם לארוחת צהריים קלה",
-    "link": "https://www.instagram.com/rotem.adini/"
-  },
-  {
-    "id": 15,
-    "title": "שניצל תירס ביתי דל קלוריות",
-    "description": "שניצל תירס ביתי עם 86 קלוריות לשניצל",
-    "category": {
-      "main": "מנות עיקריות",
-      "sub": "צמחוני",
-      "tags": ["דל קלוריות", "חיטוב", "צמחוני", "ללא גלוטן"]
-    },
-    "ingredients": [
-      "2 קופסאות של תירס לייט (500 גרם אחרי סינון)",
-      "ביצה",
-      "כף שמן זית",
-      "70 גרם קמח",
-      "60 גרם פירורי לחם",
-      "כפית שום כתוש",
-      "חצי כפית מלח",
-      "רבע כפית פלפל שחור",
-      "כפית חרדל דיזון",
-      "רבע כפית כורכום"
-    ],
-    "instructions": [
-      "נטחן בערך 3/4 מכמות התירס",
-      "נעביר לקערה נוסיף את יתר המצרכים ונערבב לאיחוד",
-      "נשים במקרר ל40 דקות- שעה",
-      "עם ידיים רטובות ובעזרת כף ניצור צורת אליפסיה",
-      "נטבול את השניצל שנוצר בפירורי לחם",
-      "נסדר את כל השניצלים בתבנית",
-      "נתיז קצת תרסיס שמן כדי שייצא קראסט",
-      "נאפה בתנור שחומם מראש על טורבו 200 לרבע שעה"
-    ],
-    "time": "90",
-    "servings": "8",
-    "nutrition": "86 קלוריות | 3.2 חלבון | 14.5 פחמימות | 2.1 שומן",
-    "tips": "מושלם עם סלט ירוק או ירקות קלויים",
-    "link": "https://www.instagram.com/rotem.adini/"
-  }
-];
-
-// פונקציות עזר לתאימות לאחור
-function getMainCategory(recipe) {
-  if (typeof recipe.category === 'string') {
-    return recipe.category;
-  }
-  return recipe.category.main || recipe.category;
-}
-
-function getAllCategories(recipe) {
-  if (typeof recipe.category === 'string') {
-    return [recipe.category];
-  }
-  
-  const categories = [recipe.category.main];
-  if (recipe.category.sub) {
-    categories.push(recipe.category.sub);
-  }
-  if (recipe.category.tags) {
-    categories.push(...recipe.category.tags);
-  }
-  
-  return categories;
-}
-
-// ייצוא הנתונים
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { recipesData, getMainCategory, getAllCategories };
-}
-
-// להשתמש ב-window אם אנחנו בדפדפן
-if (typeof window !== 'undefined') {
-  window.recipesData = recipesData;
-  window.getMainCategory = getMainCategory;
-  window.getAllCategories = getAllCategories;
-}
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/pasta_olives_tomatoes.jpg",
+      "main": "images/recipes/main/pasta_olives_tomatoes.jpg",
+      "hero": "images/recipes/hero/pasta_olives_tomatoes.jpg
