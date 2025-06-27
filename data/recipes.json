@@ -9,6 +9,7 @@
         "alt": "עוגת גבינה דיאטטית",
         "thumbnail": "/images/recipes/thumbs/cheesecake-diet-thumb.jpg"
       },
+      "instagramUrl": "https://www.instagram.com/reel/CseYh3KNdoJ/?igsh=MWs1NXN0bDBldWcx",
       "category": "קינוחים",
       "servings": 12,
       "prepTime": "20 דקות",
@@ -51,6 +52,7 @@
         "alt": "לחוח תימני אסלי",
         "thumbnail": "/images/recipes/thumbs/yemeni-lahoh-thumb.jpg"
       },
+      "instagramUrl": "https://www.instagram.com/reel/CsqQpHwsV7X/?igsh=MWp3dXc5ZXRjZGdiaw==",
       "category": "לחמים ומאפים",
       "servings": 8,
       "prepTime": "15 דקות + שעה מנוחה",
@@ -110,6 +112,7 @@
         "alt": "קובנה לשבת",
         "thumbnail": "/images/recipes/thumbs/kubana-shabbat-thumb.jpg"
       },
+      "instagramUrl": "https://www.instagram.com/reel/Cs-3ZYQxkiS/?igsh=dDRseDN0dm5zcTEw",
       "category": "לחמים ומאפים",
       "servings": 8,
       "prepTime": "30 דקות + התפחות",
@@ -150,6 +153,12 @@
       "id": 4,
       "title": "קרמבו לימון",
       "description": "קרמבו ייחודי בטעם לימון רענן",
+      "image": {
+        "url": "/images/recipes/crembo-lemon.jpg",
+        "alt": "קרמבו לימון",
+        "thumbnail": "/images/recipes/thumbs/crembo-lemon-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/CtHXu5FoZLN/?igsh=MWl2Mjd2bGl3anUweA==",
       "category": "קינוחים",
       "servings": 21,
       "prepTime": "30 דקות",
@@ -189,6 +198,12 @@
       "id": 5,
       "title": "עוגת בראוניז גבינה",
       "description": "שילוב מושלם של בראוניז ועוגת גבינה",
+      "image": {
+        "url": "/images/recipes/brownies-cheese-cake.jpg",
+        "alt": "עוגת בראוניז גבינה",
+        "thumbnail": "/images/recipes/thumbs/brownies-cheese-cake-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/CtO-3HaoEFq/?igsh=OThjMjVhZHFkMzBp",
       "category": "קינוחים",
       "servings": 16,
       "prepTime": "25 דקות",
@@ -235,6 +250,12 @@
       "id": 6,
       "title": "מאפה גבינות על מחבת",
       "description": "מאפה גבינות ללא התפחה ואפייה, נעשה על המחבת",
+      "image": {
+        "url": "/images/recipes/cheese-pastry-pan.jpg",
+        "alt": "מאפה גבינות על מחבת",
+        "thumbnail": "/images/recipes/thumbs/cheese-pastry-pan-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/Ct0-VXbI3kX/?igsh=aXlzdTR2aXJ6cGQy",
       "category": "מאפים מלוחים",
       "servings": 15,
       "prepTime": "20 דקות",
@@ -279,6 +300,12 @@
       "id": 7,
       "title": "סופלה שוקולד חלבון",
       "description": "סופלה שוקולד עשיר בחלבון ללא טעם לוואי",
+      "image": {
+        "url": "/images/recipes/chocolate-protein-souffle.jpg",
+        "alt": "סופלה שוקולד חלבון",
+        "thumbnail": "/images/recipes/thumbs/chocolate-protein-souffle-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/Ct_1uM4IWz4/?igsh=MXI0ODVkZTF3dXRnZw==",
       "category": "קינוחים",
       "servings": 8,
       "prepTime": "15 דקות",
@@ -321,6 +348,12 @@
       "id": 8,
       "title": "קיש גבינות וקישואים",
       "description": "קיש על בסיס קרקרים עם גבינות וקישואים",
+      "image": {
+        "url": "/images/recipes/cheese-zucchini-quiche.jpg",
+        "alt": "קיש גבינות וקישואים",
+        "thumbnail": "/images/recipes/thumbs/cheese-zucchini-quiche-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/CuHBg5PI10S/?igsh=MTdzZHVnaXV0dTRoNw==",
       "category": "מאפים מלוחים",
       "servings": 16,
       "prepTime": "20 דקות",
@@ -362,6 +395,12 @@
       "id": 9,
       "title": "ניוקי פולנטה",
       "description": "ניוקי פולנטה מ-2 מצרכים בלבד",
+      "image": {
+        "url": "/images/recipes/polenta-gnocchi.jpg",
+        "alt": "ניוקי פולנטה",
+        "thumbnail": "/images/recipes/thumbs/polenta-gnocchi-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/CuY82Beopd7/?igsh=dGFkNHBzdTdiZGhw",
       "category": "תוספות",
       "servings": 2,
       "prepTime": "15 דקות + 3 שעות קירור",
@@ -405,6 +444,12 @@
       "id": 10,
       "title": "פתיתים עם עגבניות וחצילים",
       "description": "פתיתים מוגשים בתוך חציל חלול",
+      "image": {
+        "url": "/images/recipes/ptitim-eggplant.jpg",
+        "alt": "פתיתים עם עגבניות וחצילים",
+        "thumbnail": "/images/recipes/thumbs/ptitim-eggplant-thumb.jpg"
+      },
+      "instagramUrl": "https://www.instagram.com/reel/CurDubUIGR5/?igsh=Y2FlMnI5c2RtNzg4",
       "category": "ארוחות עיקריות",
       "servings": 4,
       "prepTime": "20 דקות",
