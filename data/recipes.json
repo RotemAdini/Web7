@@ -4,9 +4,9 @@
     "title": "עוגת גבינה דיאטטית",
     "description": "עוגת גבינה טעימה וקלילה עם הרבה חלבון",
     "images": {
-      "thumbnail": "images/recipes/thumbnails/cheesecake_thumb.jpg",
-      "main": "images/recipes/main/cheesecake_main.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "thumbnail": "images/recipes/thumbnails/cheesecake.jpg",
+      "main": "images/recipes/main/cheesecake.jpg",
+      "hero": "images/recipes/hero/cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -39,9 +39,9 @@
     "title": "לחוח תימני",
     "description": "לחוח תימני אסלי כל כך טעים ורק ב120 קלוריות ללחוח אמיתי",
     "images": {
-      "thumbnail": "images/recipes/thumbnails/lahuh_thumb.jpg",
-      "main": "images/recipes/main/lahuh_main.jpg",
-      "hero": "images/recipes/hero/lahuh_hero.jpg"
+      "thumbnail": "images/recipes/thumbnails/lahuh.jpg",
+      "main": "images/recipes/main/lahuh.jpg",
+      "hero": "images/recipes/hero/lahuh.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -76,9 +76,9 @@
     "title": "קובנה",
     "description": "קובנה טעימה מושלמת לשבת בבוקר",
     "images": {
-      "thumbnail": "images/recipes/thumbnails/kubana_thumb.jpg",
-      "main": "images/recipes/main/kubana_main.jpg",
-      "hero": "images/recipes/hero/kubana_hero.jpg"
+      "thumbnail": "images/recipes/thumbnails/kubana.jpg",
+      "main": "images/recipes/main/kubana.jpg",
+      "hero": "images/recipes/hero/kubana.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -101,4 +101,446 @@
       "לאחר מכן נוסיף את הקמח סוכר והשמן ונלוש על מהירות בינונית 8 דקות",
       "אחרי 8 דקות נוסיף כפית מלח ונלוש עוד 2 דקות",
       "נכסה ונתפיח לשעה",
-      "אחרי שעה נחלק ל4 חלקים כל חלק נפתח עם מערוך לעלה דק ככל שאפשר ונמרח עליו 10 גרם חמאה נגלל
+      "אחרי שעה נחלק ל4 חלקים כל חלק נפתח עם מערוך לעלה דק ככל שאפשר ונמרח עליו 10 גרם חמאה נגלל ונחצה אותו ל2",
+      "נסדר בתבנית קוטר 24 ונתפיח ל40 דקות",
+      "לאחר התפחה נכניס לתנור שחומם מראש על 180 ל50 דקות עם מכסה",
+      "ואז עוד 10 דקות ללא מכסה כדי לקבל את הקראנציות"
+    ],
+    "nutrition": "249 קלוריות | 6 חלבון | 44.3 פחמימות | 5.4 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 4,
+    "title": "קרמבו לימון",
+    "description": "קרמבו בטעם לימון רענן ומיוחד",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/lemon_crembo.jpg",
+      "main": "images/recipes/main/lemon_crembo.jpg",
+      "hero": "images/recipes/hero/lemon_crembo.jpg"
+    },
+    "category": {
+      "main": "חגים",
+      "sub": "פורים",
+      "tags": ["קינוחים", "דל קלוריות", "חיטוב"]
+    },
+    "time": "45",
+    "servings": "21",
+    "ingredients": [
+      "2 חלבונים",
+      "60 גרם סוכר לבן",
+      "גרידת לימון",
+      "מיץ לימון מחצי לימון",
+      "85 גרם שוקולד לבן ללא סוכר",
+      "10 גרם שמן קנולה"
+    ],
+    "instructions": [
+      "נרתיח מים בסיר ומעליו נניח קערה עם החלבונים והסוכר לבן נערבב היטב לכמה דקות עד שכל הסוכר נמס",
+      "לאחר מכן נוריד מהאש ונקציף במשך 8-10 דקות על מהירות גבוהה עד שהקצף יהיה מבריק",
+      "נעביר לשקית זילוף ונזלף מעל עוגיות לבחירה נקפיא למשך 15 דקות",
+      "בנתיים נמיס שוקולד לבן עם כף שמן",
+      "נוציא את הקרמבואים מהמקפיא ונטבול בשוקולד הלבן נקפיא שוב ל5 דקות ומוכן"
+    ],
+    "nutrition": "52 קלוריות | 1 חלבון | 8 פחמימות | 2 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 5,
+    "title": "עוגת בראוניז גבינה",
+    "description": "שילוב מושלם של בראוניז ועוגת גבינה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/brownie_cheesecake.jpg",
+      "main": "images/recipes/main/brownie_cheesecake.jpg",
+      "hero": "images/recipes/hero/brownie_cheesecake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות",
+      "tags": ["חלבון", "חיטוב", "שוקולד"]
+    },
+    "time": "60",
+    "servings": "16",
+    "ingredients": [
+      "100 גרם שוקולד מריר",
+      "30 גרם חמאה מופחתת שומן",
+      "2 ביצים",
+      "15 גרם קקאו",
+      "60 גרם תחליף סוכר",
+      "500 גרם גבינה לבנה 5%",
+      "20 גרם קורנפלור",
+      "20 גרם אינסטנט פודינג",
+      "2 ביצים נוספות",
+      "50 גרם תחליף סוכר נוסף",
+      "תמצית וניל"
+    ],
+    "instructions": [
+      "בראוניז- נמיס את השוקולד והחמאה ואז נוסיף את שאר המצרכים ונערבב לאיחוד ונשפוך לתבנית",
+      "לשכבת הגבינה- נערבב את כל החומרים ביחד ונשפוך מעל שכבת הבראוניז",
+      "אני השארתי קצת מבלילת הבראוניז ושפכתי מעל בלילת הגבינה כדי ליצור מראה שיש"
+    ],
+    "nutrition": "110 קלוריות | 5.3 חלבון | 7 פחמימות | 6.6 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 6,
+    "title": "מאפה גבינות על מחבת",
+    "description": "מאפה גבינות בלי התפחה ובלי אפייה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cheese_pastry.jpg",
+      "main": "images/recipes/main/cheese_pastry.jpg",
+      "hero": "images/recipes/hero/cheese_pastry.jpg"
+    },
+    "category": {
+      "main": "בורקס",
+      "sub": "מאפים",
+      "tags": ["חלבון", "מהיר", "ללא אפייה", "ארוחת ערב"]
+    },
+    "time": "30",
+    "servings": "15",
+    "ingredients": [
+      "500 גרם קמח",
+      "גביע יוגורט 0 אחוז שומן",
+      "ביצה",
+      "כפית אבקת אפייה",
+      "שליש כוס מים",
+      "גביע קוטג׳ 5 אחוז",
+      "150 גרם גבינה צהובה 9 אחוז",
+      "ביצה נוספת",
+      "100 גרם בולגרית 5 אחוז"
+    ],
+    "instructions": [
+      "נערבב את כל החומרים של הבצק",
+      "את המים להוסיף בהדרגה",
+      "נחלק ל15 כדורים",
+      "נערבב בקערה את כל חומרי המילוי",
+      "נרדד כל כדור בצק לעיגול נשים מהמילוי ונסגור",
+      "נטגן על מחבת כמה דקות מכל צד עד שמשחים וזהו"
+    ],
+    "nutrition": "178 קלוריות | 13 חלבון | 20 פחמימות | 5 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 7,
+    "title": "סופלה שוקולד חלבון",
+    "description": "סופלה שוקולד בלי הטעם לוואי של האבקת חלבון",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chocolate_souffle.jpg",
+      "main": "images/recipes/main/chocolate_souffle.jpg",
+      "hero": "images/recipes/hero/chocolate_souffle.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "מוס וסופלה",
+      "tags": ["חלבון", "חיטוב", "שוקולד"]
+    },
+    "time": "40",
+    "servings": "8",
+    "ingredients": [
+      "70 גרם שוקולד מריר",
+      "40 גרם חמאה מופחתת שומן",
+      "50 גרם תחליף סוכר",
+      "30 אבקת חלבון",
+      "30 גרם חלב 1%",
+      "2 חלמונים",
+      "2 חלבונים"
+    ],
+    "instructions": [
+      "בקערה נמיס את השוקולד המריר עם החמאה ואז נוסיף את יתר המצרכים חוץ מהחלבונים והתחליף סוכר",
+      "בקערה שנייה נקציף את החלבונים ונוסיף בהדרגה את הסוכר",
+      "נערבב בתנועות קיפול בהדרגה את תערובת החלבונים עם תערובת השוקולד",
+      "נאפה בתנור שחומם מראש על 180 מעלות"
+    ],
+    "nutrition": "106 קלוריות | 5 חלבון | 5 פחמימות | 7 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 8,
+    "title": "בורקס דפי אורז קריספי",
+    "description": "בורקס מדפי אורז שנשאר קריספי ולא גומי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/rice_paper_burekas.jpg",
+      "main": "images/recipes/main/rice_paper_burekas.jpg",
+      "hero": "images/recipes/hero/rice_paper_burekas.jpg"
+    },
+    "category": {
+      "main": "בורקס",
+      "sub": "מאפים",
+      "tags": ["חיטוב", "חלבון", "דל קלוריות", "ארוחת בוקר"]
+    },
+    "time": "60",
+    "servings": "10",
+    "ingredients": [
+      "10 דפי אורז",
+      "חצי גביע קוטג׳ 3%",
+      "חצי קופסאת בולגרית 5%",
+      "2 פרוסות גבינה צהובה",
+      "ביצה",
+      "כף קמח",
+      "מלח פלפל",
+      "ביצה לבלילה",
+      "כוס מים",
+      "כף סילאן/דבש"
+    ],
+    "instructions": [
+      "נערבב את כל חומרים המילוי ונעביר לשקית זילוף",
+      "בקערה שטוחה נערבב את כל מצרכי הבלילה",
+      "נטבול את דף האורז בבלילה בערך 40 שניות עד שמתרכך",
+      "נשים את הדף אורז על צלחת שטוחה ונקפל אותו לחצי ובעזרת שקית זילוף נזלף את המילוי על הבורקס",
+      "נכניס לתנור שחומם מראש על 200 מעלות טורבו לחצי שעה"
+    ],
+    "nutrition": "85 קלוריות | 6.4 חלבון | 10.2 פחמימות | 2.3 שומן",
+    "link": "https://www.instagram.com/reel/DIGJkDJIrhD/"
+  },
+  {
+    "id": 9,
+    "title": "עוגיות פרמזן בציפוי זעתר",
+    "description": "עוגיות מלוחות ב30 קלוריות לעוגייה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/parmesan_zaatar_cookies.jpg",
+      "main": "images/recipes/main/parmesan_zaatar_cookies.jpg",
+      "hero": "images/recipes/hero/parmesan_zaatar_cookies.jpg"
+    },
+    "category": {
+      "main": "חטיפים",
+      "sub": "עוגיות מלוחות",
+      "tags": ["דל קלוריות", "חיטוב", "חטיף בריא"]
+    },
+    "time": "55",
+    "servings": "40",
+    "ingredients": [
+      "200 גרם קמח",
+      "חצי כוס מים",
+      "כפית שטוחה אבקת אפייה",
+      "50 גרם חמאה מופחתת שומן",
+      "50 גרם פרמזן 23% שומן מגורד",
+      "10 גרם תערובת זעתר"
+    ],
+    "instructions": [
+      "נשים את כל המצרכים חוץ מהזעתר במעבד מזון עד שיווצר בצק",
+      "נחלק ל2 חלקים,וכל חלק של הבצק נגלל לגליל נעטוף בניילון נצמד ונשים בהקפאה לחצי שעה",
+      "לאחר חצי שעה נוציא את הגלילים נמרח במים ונפזר את הזעתר נחתוך לעיגולים",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל25 דקות/עד שמזהיב"
+    ],
+    "nutrition": "30 קלוריות | 1 חלבון | 4 פחמימות | 1 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 10,
+    "title": "עוגיות קינמון",
+    "description": "עוגיות קינמון ב38 קלוריות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cinnamon_cookies.jpg",
+      "main": "images/recipes/main/cinnamon_cookies.jpg",
+      "hero": "images/recipes/hero/cinnamon_cookies.jpg"
+    },
+    "category": {
+      "main": "עוגיות",
+      "sub": "קינוחים",
+      "tags": ["דל קלוריות", "חיטוב", "קינמון"]
+    },
+    "time": "60",
+    "servings": "25",
+    "ingredients": [
+      "200 גרם קמח",
+      "90 גרם חמאה מופחתת שומן מומסת",
+      "ביצה",
+      "70 גרם סוכר חום",
+      "כפית קינמון",
+      "1/4 כפית אבקת אפייה",
+      "1/4 כפית סודה לשתייה",
+      "קורט מלח"
+    ],
+    "instructions": [
+      "נקציף את הביצה עם הסוכר חום עם לקצף תפוח",
+      "נוסיף את יתר המצרכים נערבב",
+      "נשים במקרר לחצי שעה",
+      "נחלק לכדורים קטנים",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל12-15 דקות"
+    ],
+    "nutrition": "38 קלוריות | 0.8 חלבון | 6.2 פחמימות | 1.2 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 11,
+    "title": "עוף טחון בסירות חסה בסגנון אסייתי",
+    "description": "עוף טחון בחמאת בוטנים מוגש בסירות חסה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/asian_chicken_lettuce.jpg",
+      "main": "images/recipes/main/asian_chicken_lettuce.jpg",
+      "hero": "images/recipes/hero/asian_chicken_lettuce.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "בשר ועוף",
+      "tags": ["חלבון", "דל קלוריות", "חיטוב", "אסייתי"]
+    },
+    "time": "30",
+    "servings": "4",
+    "ingredients": [
+      "500 גרם עוף טחון",
+      "בצל סגול",
+      "גמבה צהובה",
+      "גזר",
+      "כף שמן זית",
+      "4 כפות חמאת בוטנים",
+      "2 כפות סויה",
+      "2 כפות דבש",
+      "מלח פלפל לפי הטעם",
+      "עלי חסה שטופים"
+    ],
+    "instructions": [
+      "נטגן את הבצל סגול",
+      "ברגע שמזהיב נוסיף את הגמבה ואת הגזר ונטגן עוד כמה דקות",
+      "הזזתי את הירקות לצד אחד של המחבת ובשאר המחבת טיגנתי את העוף טחון",
+      "אחרי שראיתי שרובו בושל ערבבתי אותו יחד עם הירקות",
+      "הוספתי חמאת בוטנים דבש סויה ומלח וערבבתי",
+      "הורדתי מהגז והגשתי בתוך סירות חסה"
+    ],
+    "nutrition": "325 קלוריות | 33 חלבון | 19 פחמימות | 12 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 12,
+    "title": "מיני עוגיות שוקולד",
+    "description": "עוגיות שוקולד מתאימות לצליאקים ב12 קלוריות לעוגייה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/mini_chocolate_cookies.jpg",
+      "main": "images/recipes/main/mini_chocolate_cookies.jpg",
+      "hero": "images/recipes/hero/mini_chocolate_cookies.jpg"
+    },
+    "category": {
+      "main": "עוגיות",
+      "sub": "קינוחים",
+      "tags": ["ללא גלוטן", "דל קלוריות", "חיטוב", "שוקולד"]
+    },
+    "time": "30",
+    "servings": "84",
+    "ingredients": [
+      "150 גרם שוקולד מריר",
+      "ביצה",
+      "15 גרם חמאה מופחתת שומן",
+      "כפית אבקת אפייה"
+    ],
+    "instructions": [
+      "נמיס את השוקולד המריר והחמאה במיקרו",
+      "נוסיף את הביצה והאבקת אפייה ונערבב לאיחוד",
+      "נעביר לשקית זילוף כדי שיהיה יותר נוח לזלף את העוגיות",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל7-10 דקות תלוי בתנור"
+    ],
+    "nutrition": "12 קלוריות | 0.4 חלבון | 1.1 פחמימות | 0.8 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 13,
+    "title": "פנקייק מלוח",
+    "description": "פנקייק מלוח שיוצא פשוט מושלם",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/savory_pancakes.jpg",
+      "main": "images/recipes/main/savory_pancakes.jpg",
+      "hero": "images/recipes/hero/savory_pancakes.jpg"
+    },
+    "category": {
+      "main": "ארוחת בוקר",
+      "sub": "פנקייק",
+      "tags": ["חלבון", "ארוחת ערב", "מהיר"]
+    },
+    "time": "25",
+    "servings": "2",
+    "ingredients": [
+      "10 גרם חמאה מומסת",
+      "60 מל חלב 1%",
+      "ביצה",
+      "70 גרם קמח",
+      "20 גרם גבינה לבנה",
+      "2 פרוסות גבינה צהובה 9% מגורדת",
+      "בצל ירוק",
+      "מלח",
+      "כפית אבקת אפייה"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים בקערה אחת חוץ מהגבינה צהובה ובצל",
+      "ברגע שיש לנו תערובת חלקה נוסיף את הגבינה צהובה והבצל ונערבב",
+      "נטגן את הפנקייקים על אש נמוכה לכמה דקות מכל צד",
+      "נעשה מגדל פנקייקים ונשים ביצת עין למעלה ומושלם"
+    ],
+    "nutrition": "271 קלוריות | 17 חלבון | 28 פחמימות | 9 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 14,
+    "title": "חצפורי מבצק גבינה",
+    "description": "חצפורי ללא התפחה עם 25 גרם חלבון",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/khachapuri.jpg",
+      "main": "images/recipes/main/khachapuri.jpg",
+      "hero": "images/recipes/hero/khachapuri.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמים",
+      "tags": ["חלבון", "ללא התפחה", "ארוחת ערב"]
+    },
+    "time": "45",
+    "servings": "6",
+    "ingredients": [
+      "300 גרם קמח",
+      "250 גרם גבינה לבנה 5%",
+      "כפית מלח",
+      "150 גרם גבינה צהובה 9% מגורדת",
+      "150 גרם גבינה בולגרית 5% קוביות",
+      "100 גרם קוטג׳",
+      "לבן של ביצה"
+    ],
+    "instructions": [
+      "בצק- נלוש את כל חומרי הבצק עד שמתקבל בצק גמיש ונוח",
+      "נחלק את הבצק ל6 חתיכות ונרדד לאליפסה",
+      "מילוי- נערבב את כל חומרי המילוי ביחד",
+      "על כל חתיכת בצק נמרח מהמילוי נסגור את הבצק",
+      "נכניס לתנור שחומם מראש על 180 ל20 דקות או עד שהבצק מזהיב",
+      "2-3 דקות לפני שנוציא מהתנור נשים בכל חצפורי חלמון",
+      "ונאפה לעוד 3 דקות"
+    ],
+    "nutrition": "376 קלוריות | 25 חלבון | 42 פחמימות | 12 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  },
+  {
+    "id": 15,
+    "title": "שניצל תירס ביתי דל קלוריות",
+    "description": "שניצל תירס ביתי עם 86 קלוריות לשניצל",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/corn_schnitzel.jpg",
+      "main": "images/recipes/main/corn_schnitzel.jpg",
+      "hero": "images/recipes/hero/corn_schnitzel.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "צמחוני",
+      "tags": ["דל קלוריות", "חיטוב", "צמחוני", "ללא גלוטן"]
+    },
+    "time": "90",
+    "servings": "8",
+    "ingredients": [
+      "2 קופסאות של תירס לייט (500 גרם אחרי סינון)",
+      "ביצה",
+      "כף שמן זית",
+      "70 גרם קמח",
+      "60 גרם פירורי לחם",
+      "כפית שום כתוש",
+      "חצי כפית מלח",
+      "רבע כפית פלפל שחור",
+      "כפית חרדל דיזון",
+      "רבע כפית כורכום"
+    ],
+    "instructions": [
+      "נטחן בערך 3/4 מכמות התירס",
+      "נעביר לקערה נוסיף את יתר המצרכים ונערבב לאיחוד",
+      "נשים במקרר ל40 דקות- שעה",
+      "עם ידיים רטובות ובעזרת כף ניצור צורת אליפסיה",
+      "נטבול את השניצל שנוצר בפירורי לחם",
+      "נסדר את כל השניצלים בתבנית",
+      "נתיז קצת תרסיס שמן כדי שייצא קראסט",
+      "נאפה בתנור שחומם מראש על טורבו 200 לרבע שעה"
+    ],
+    "nutrition": "86 קלוריות | 3.2 חלבון | 14.5 פחמימות | 2.1 שומן",
+    "link": "https://www.instagram.com/rotem.adini/"
+  }
+]
