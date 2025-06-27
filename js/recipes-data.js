@@ -1,11 +1,13 @@
 const recipesData = [
   {
+    
     "id": 1,
     "title": "עוגת גבינה דיאטטית",
     "description": "עוגת גבינה טעימה וקלילה עם הרבה חלבון",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheesecake_diet.jpg",
-      "main": "images/recipes/main/cheesecake_diet.jpg"
+      "main": "images/recipes/main/cheesecake_diet.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -40,7 +42,8 @@ const recipesData = [
     "description": "לחוח תימני אסלי כל כך טעים ורק ב120 קלוריות ללחוח אמיתי",
     "images": {
       "thumbnail": "images/recipes/thumbnails/lahuh_yemeni.jpg",
-      "main": "images/recipes/main/lahuh_yemeni.jpg"
+      "main": "images/recipes/main/lahuh_yemeni.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -77,7 +80,8 @@ const recipesData = [
     "description": "קובנה טעימה מושלמת לשבת בבוקר",
     "images": {
       "thumbnail": "images/recipes/thumbnails/kubana.jpg",
-      "main": "images/recipes/main/kubana.jpg"
+      "main": "images/recipes/main/kubana.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -114,7 +118,8 @@ const recipesData = [
     "description": "קרמבו בטעם לימון רענן ומיוחד",
     "images": {
       "thumbnail": "images/recipes/thumbnails/lemon_crembo.jpg",
-      "main": "images/recipes/main/lemon_crembo.jpg"
+      "main": "images/recipes/main/lemon_crembo.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -147,7 +152,8 @@ const recipesData = [
     "description": "שילוב מושלם של בראוניז ועוגת גבינה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/brownie_cheesecake.jpg",
-      "main": "images/recipes/main/brownie_cheesecake.jpg"
+      "main": "images/recipes/main/brownie_cheesecake.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -183,7 +189,8 @@ const recipesData = [
     "description": "מאפה גבינות בלי התפחה ובלי אפייה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_pastry_pan.jpg",
-      "main": "images/recipes/main/cheese_pastry_pan.jpg"
+      "main": "images/recipes/main/cheese_pastry_pan.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -220,7 +227,8 @@ const recipesData = [
     "description": "סופלה שוקולד בלי הטעם לוואי של האבקת חלבון",
     "images": {
       "thumbnail": "images/recipes/thumbnails/chocolate_protein_souffle.jpg",
-      "main": "images/recipes/main/chocolate_protein_souffle.jpg"
+      "main": "images/recipes/main/chocolate_protein_souffle.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -253,7 +261,8 @@ const recipesData = [
     "description": "בורקס מדפי אורז שנשאר קריספי ולא גומי",
     "images": {
       "thumbnail": "images/recipes/thumbnails/rice_paper_burekas.jpg",
-      "main": "images/recipes/main/rice_paper_burekas.jpg"
+      "main": "images/recipes/main/rice_paper_burekas.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -290,7 +299,8 @@ const recipesData = [
     "description": "עוגיות מלוחות ב30 קלוריות לעוגייה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/parmesan_zaatar_cookies.jpg",
-      "main": "images/recipes/main/parmesan_zaatar_cookies.jpg"
+      "main": "images/recipes/main/parmesan_zaatar_cookies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -322,7 +332,8 @@ const recipesData = [
     "description": "עוגיות קינמון ב38 קלוריות",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cinnamon_cookies.jpg",
-      "main": "images/recipes/main/cinnamon_cookies.jpg"
+      "main": "images/recipes/main/cinnamon_cookies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -357,7 +368,8 @@ const recipesData = [
     "description": "עוף טחון מתובל בסגנון אסייתי מוגש בסירות חסה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/asian_chicken_lettuce.jpg",
-      "main": "images/recipes/main/asian_chicken_lettuce.jpg"
+      "main": "images/recipes/main/asian_chicken_lettuce.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -396,7 +408,8 @@ const recipesData = [
     "description": "עוגיות שוקולד מיני מתאימות גם לצליאקים, 12 קלוריות לעוגייה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/mini_chocolate_cookies.jpg",
-      "main": "images/recipes/main/mini_chocolate_cookies.jpg"
+      "main": "images/recipes/main/mini_chocolate_cookies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -427,7 +440,8 @@ const recipesData = [
     "description": "פנקייק גבינה מיני בצורת לבבות מושלם ליום האהבה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/mini_heart_pancakes.jpg",
-      "main": "images/recipes/main/mini_heart_pancakes.jpg"
+      "main": "images/recipes/main/mini_heart_pancakes.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "ארוחת בוקר",
@@ -458,7 +472,8 @@ const recipesData = [
     "description": "סלט תורכי מסורתי עשיר בירקות ותבלינים",
     "images": {
       "thumbnail": "images/recipes/thumbnails/turkish_salad.jpg",
-      "main": "images/recipes/main/turkish_salad.jpg"
+      "main": "images/recipes/main/turkish_salad.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "סלטים",
@@ -499,7 +514,8 @@ const recipesData = [
     "description": "עוגיות שיבולת שועל רכות ונמסות בפה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/oat_cookies.jpg",
-      "main": "images/recipes/main/oat_cookies.jpg"
+      "main": "images/recipes/main/oat_cookies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -536,7 +552,8 @@ const recipesData = [
     "description": "פשטידת כרובית עם רק 2 כפות קמח לתבנית שלמה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cauliflower_casserole.jpg",
-      "main": "images/recipes/main/cauliflower_casserole.jpg"
+      "main": "images/recipes/main/cauliflower_casserole.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -572,7 +589,8 @@ const recipesData = [
     "description": "עוגת גבינה קרמית מגבינות דלות בשומן",
     "images": {
       "thumbnail": "images/recipes/thumbnails/creamy_cheesecake.jpg",
-      "main": "images/recipes/main/creamy_cheesecake.jpg"
+      "main": "images/recipes/main/creamy_cheesecake.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -601,7 +619,8 @@ const recipesData = [
     "description": "פנקייק מלוח עם גבינות ובצל ירוק",
     "images": {
       "thumbnail": "images/recipes/thumbnails/savory_pancakes.jpg",
-      "main": "images/recipes/main/savory_pancakes.jpg"
+      "main": "images/recipes/main/savory_pancakes.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "ארוחת בוקר",
@@ -637,7 +656,8 @@ const recipesData = [
     "description": "קיש עשיר בגבינות עם קישואים על בסיס קרקרים",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_zucchini_quiche.jpg",
-      "main": "images/recipes/main/cheese_zucchini_quiche.jpg"
+      "main": "images/recipes/main/cheese_zucchini_quiche.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -665,7 +685,8 @@ const recipesData = [
     "description": "ניוקי פולנטה מ2 מצרכים בלבד עם רוטב עגבניות",
     "images": {
       "thumbnail": "images/recipes/thumbnails/polenta_gnocchi.jpg",
-      "main": "images/recipes/main/polenta_gnocchi.jpg"
+      "main": "images/recipes/main/polenta_gnocchi.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -698,7 +719,8 @@ const recipesData = [
     "description": "פתיתים מוגשים בתוך חציל עם עגבניות וחצילים",
     "images": {
       "thumbnail": "images/recipes/thumbnails/ptitim_eggplant.jpg",
-      "main": "images/recipes/main/ptitim_eggplant.jpg"
+      "main": "images/recipes/main/ptitim_eggplant.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -738,7 +760,8 @@ const recipesData = [
     "description": "חצ'פורי ללא התפחה מבצק גבינה עם 25 גרם חלבון",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_khachapuri.jpg",
-      "main": "images/recipes/main/cheese_khachapuri.jpg"
+      "main": "images/recipes/main/cheese_khachapuri.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -773,7 +796,8 @@ const recipesData = [
     "description": "שניצל תירס ביתי דל קלוריות עם 86 קלוריות לשניצל",
     "images": {
       "thumbnail": "images/recipes/thumbnails/corn_schnitzel.jpg",
-      "main": "images/recipes/main/corn_schnitzel.jpg"
+      "main": "images/recipes/main/corn_schnitzel.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -812,7 +836,8 @@ const recipesData = [
     "description": "חטיפי קראנץ׳ פיסטוק ממכרים עם 128 קלוריות לחתיכה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/pistachio_crunch.jpg",
-      "main": "images/recipes/main/pistachio_crunch.jpg"
+      "main": "images/recipes/main/pistachio_crunch.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "ממתקים",
@@ -843,7 +868,8 @@ const recipesData = [
     "description": "עוגיות אלפחורס מטורפות עם 129 קלוריות לעוגייה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/alfajores_cookies.jpg",
-      "main": "images/recipes/main/alfajores_cookies.jpg"
+      "main": "images/recipes/main/alfajores_cookies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -883,7 +909,8 @@ const recipesData = [
     "description": "קציצות ברוקולי וקוטג' עם ערכים נדירים - 29 קלוריות לקציצה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/broccoli_cottage_meatballs.jpg",
-      "main": "images/recipes/main/broccoli_cottage_meatballs.jpg"
+      "main": "images/recipes/main/broccoli_cottage_meatballs.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -919,7 +946,8 @@ const recipesData = [
     "description": "כדורי רפאלו מ3 מרכיבים עם 96 קלוריות לכדור",
     "images": {
       "thumbnail": "images/recipes/thumbnails/raffaello_balls.jpg",
-      "main": "images/recipes/main/raffaello_balls.jpg"
+      "main": "images/recipes/main/raffaello_balls.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "ממתקים",
@@ -949,7 +977,8 @@ const recipesData = [
     "description": "עוגיות מגולגלות אמסטרדם שוקולד עם מלית שוקולד לבן",
     "images": {
       "thumbnail": "images/recipes/thumbnails/amsterdam_rolls.jpg",
-      "main": "images/recipes/main/amsterdam_rolls.jpg"
+      "main": "images/recipes/main/amsterdam_rolls.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -982,7 +1011,8 @@ const recipesData = [
     "description": "לחם שום שמכינים על מחבת מבצק גבינה עם 9 גרם חלבון",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_garlic_bread.jpg",
-      "main": "images/recipes/main/cheese_garlic_bread.jpg"
+      "main": "images/recipes/main/cheese_garlic_bread.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1014,7 +1044,8 @@ const recipesData = [
     "description": "סופגניות אפויות רכות ללא ריח טיגון עם 154 קלוריות לסופגנייה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_donuts.jpg",
-      "main": "images/recipes/main/baked_donuts.jpg"
+      "main": "images/recipes/main/baked_donuts.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1055,7 +1086,8 @@ const recipesData = [
     "description": "נשנושי גבינה וזיתים מושלמים לארוחת ערב עם 16 קלוריות ליחידה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_olive_bites.jpg",
-      "main": "images/recipes/main/cheese_olive_bites.jpg"
+      "main": "images/recipes/main/cheese_olive_bites.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "נשנושים",
@@ -1091,7 +1123,8 @@ const recipesData = [
     "description": "פסטה פסטו בסיר אחד עם שמנת 9% במקום שמנת רגילה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/low_cal_pesto_pasta.jpg",
-      "main": "images/recipes/main/low_cal_pesto_pasta.jpg"
+      "main": "images/recipes/main/low_cal_pesto_pasta.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1127,7 +1160,8 @@ const recipesData = [
     "description": "בראוניז עם שילוב מנצח של שוקולד קפה ופקאנים",
     "images": {
       "thumbnail": "images/recipes/thumbnails/coffee_pecan_brownies.jpg",
-      "main": "images/recipes/main/coffee_pecan_brownies.jpg"
+      "main": "images/recipes/main/coffee_pecan_brownies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -1161,7 +1195,8 @@ const recipesData = [
     "description": "חלת שקדים מעולה להפרשת חלה עם מלית שקדים טעימה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/almond_challah.jpg",
-      "main": "images/recipes/main/almond_challah.jpg"
+      "main": "images/recipes/main/almond_challah.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1196,7 +1231,8 @@ const recipesData = [
     "description": "קציצות עוף רכות בטירוף עם 41 קלוריות לקציצה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_chicken_meatballs.jpg",
-      "main": "images/recipes/main/baked_chicken_meatballs.jpg"
+      "main": "images/recipes/main/baked_chicken_meatballs.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1234,7 +1270,8 @@ const recipesData = [
     "description": "ספגטי ברוטב עגבניות מוקרם בתנור בלי טיפה אחת של שמנת",
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_spaghetti.jpg",
-      "main": "images/recipes/main/baked_spaghetti.jpg"
+      "main": "images/recipes/main/baked_spaghetti.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1262,7 +1299,8 @@ const recipesData = [
     "description": "סופגניות מרשימות עם מילוי לימון ומרנג מושלם",
     "images": {
       "thumbnail": "images/recipes/thumbnails/lemon_pie_donuts.jpg",
-      "main": "images/recipes/main/lemon_pie_donuts.jpg"
+      "main": "images/recipes/main/lemon_pie_donuts.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1295,7 +1333,8 @@ const recipesData = [
     "description": "לביבות תפוח אדמה אפויות מושלמות לחנוכה עם 40 קלוריות ללביבה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_potato_latkes.jpg",
-      "main": "images/recipes/main/baked_potato_latkes.jpg"
+      "main": "images/recipes/main/baked_potato_latkes.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1328,7 +1367,8 @@ const recipesData = [
     "description": "חלת בשר מעוצבת בצורת שבלול מושלמת לארוחת שבת",
     "images": {
       "thumbnail": "images/recipes/thumbnails/snail_meat_challah.jpg",
-      "main": "images/recipes/main/snail_meat_challah.jpg"
+      "main": "images/recipes/main/snail_meat_challah.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1360,7 +1400,8 @@ const recipesData = [
     "description": "סופגניות אשל מסורתיות של סבתא רותי ללא מילוי",
     "images": {
       "thumbnail": "images/recipes/thumbnails/eshel_donuts.jpg",
-      "main": "images/recipes/main/eshel_donuts.jpg"
+      "main": "images/recipes/main/eshel_donuts.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1399,7 +1440,8 @@ const recipesData = [
     "description": "ארוחה שלמה של חזה עוף ופסטה ברוטב אדום בסיר אחד",
     "images": {
       "thumbnail": "images/recipes/thumbnails/one_pot_chicken_pasta.jpg",
-      "main": "images/recipes/main/one_pot_chicken_pasta.jpg"
+      "main": "images/recipes/main/one_pot_chicken_pasta.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1439,7 +1481,8 @@ const recipesData = [
     "description": "עוגיות לימון יבשות נדירות עם 23 קלוריות לעוגייה",
     "images": {
       "thumbnail": "images/recipes/thumbnails/dry_lemon_cookies.jpg",
-      "main": "images/recipes/main/dry_lemon_cookies.jpg"
+      "main": "images/recipes/main/dry_lemon_cookies.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -1475,7 +1518,8 @@ const recipesData = [
     "description": "סלט מעניין ומיוחד עם בטטה, עדשים שחורות וברוקולי",
     "images": {
       "thumbnail": "images/recipes/thumbnails/sweet_potato_lentil_salad.jpg",
-      "main": "images/recipes/main/sweet_potato_lentil_salad.jpg"
+      "main": "images/recipes/main/sweet_potato_lentil_salad.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "סלטים",
@@ -1511,7 +1555,8 @@ const recipesData = [
     "description": "פסטה אדומה עם הרבה רוטב שמכינים בסיר אחד",
     "images": {
       "thumbnail": "images/recipes/thumbnails/one_pot_red_pasta.jpg",
-      "main": "images/recipes/main/one_pot_red_pasta.jpg"
+      "main": "images/recipes/main/one_pot_red_pasta.jpg",
+      "hero": "images/recipes/hero/cheesecake_hero.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
