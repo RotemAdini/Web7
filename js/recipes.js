@@ -1,10 +1,23 @@
-// recipes.js - לוגיקת המתכונים עם סינון מעודכן
+// recipes.js - לוגיקה היררכית עם קטגוריות ותת-קטגוריות
 
 // משתנים גלובליים
 let allRecipes = [];
-let currentFilter = 'all';
+let currentMainCategory = 'all';
+let currentSubCategory = 'all';
 
-// פונקציה לחילוץ קטגוריה מהמתכון (תמיכה במבנה מעורב)
+// הגדרת תת-קטגוריות לכל קטגוריה ראשית
+const categoryHierarchy = {
+  'חגים': ['פורים', 'פסח', 'ראש השנה', 'חנוכה', 'יום העצמאות'],
+  'עוגות': ['עוגות גבינה', 'עוגות שוקולד', 'עוגות פירות', 'עוגות יום הולדת'],
+  'עוגיות': ['עוגיות חמאה', 'עוגיות שוקולד', 'עוגיות מלוחות'],
+  'קינוחים': ['מוס וסופלה', 'קינוחי כוסות', 'קרמים', 'פרפה'],
+  'מנות עיקריות': ['בשר ועוף', 'דגים', 'צמחוני', 'פסטה', 'סלטים'],
+  'מאפים': ['לחמים', 'מאפי בוקר', 'פיתות'],
+  'בורקס': ['בורקס גבינות', 'בורקס תפוחי אדמה', 'בורקס ירקות'],
+  'חטיפים': ['עוגיות מלוחות', 'חטיפי בריאות', 'נשנושים']
+};
+
+// פונקציה לחילוץ קטגוריה מהמתכון
 function getRecipeCategory(recipe) {
   if (typeof recipe.category === 'string') {
     return recipe.category;
@@ -13,6 +26,14 @@ function getRecipeCategory(recipe) {
     return recipe.category.main;
   }
   return 'כללי';
+}
+
+// פונקציה לחילוץ תת-קטגוריה
+function getRecipeSubCategory(recipe) {
+  if (typeof recipe.category === 'object' && recipe.category.sub) {
+    return recipe.category.sub;
+  }
+  return null;
 }
 
 // פונקציה לחילוץ כל הקטגוריות והתגיות
@@ -32,7 +53,6 @@ function getRecipeAllCategories(recipe) {
 // טעינת המתכונים
 async function loadRecipes() {
   try {
-    // ניסיון לטעון מ-recipes.json קודם
     try {
       const response = await fetch('data/recipes.json');
       if (response.ok) {
@@ -42,7 +62,6 @@ async function loadRecipes() {
         throw new Error('JSON not found');
       }
     } catch (jsonError) {
-      // אם JSON לא נמצא, נשתמש ב-recipes-data.js
       if (window.recipesData) {
         allRecipes = window.recipesData;
         console.log('Loaded recipes from JS data');
@@ -52,6 +71,7 @@ async function loadRecipes() {
     }
 
     displayRecipes(allRecipes);
+    updateResultsCount(allRecipes.length, allRecipes.length);
   } catch (error) {
     console.error('Error loading recipes:', error);
     document.getElementById('recipe-list').innerHTML = `
@@ -62,6 +82,99 @@ async function loadRecipes() {
   }
 }
 
+// הצגת קטגוריה ראשית
+function showMainCategory(category) {
+  currentMainCategory = category;
+  currentSubCategory = 'all';
+  
+  // עדכון כפתורים ראשיים
+  document.querySelectorAll('.main-filters button').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  document.querySelector(`[data-category="${category}"]`).classList.add('active');
+
+  // הצגת תת-מסננים
+  showSubFilters(category);
+  
+  // סינון מתכונים
+  filterRecipesByCategories();
+}
+
+// הצגת תת-מסננים
+function showSubFilters(mainCategory) {
+  const subFiltersContainer = document.getElementById('sub-filters');
+  
+  if (mainCategory === 'all') {
+    // הסתרת תת-מסננים
+    subFiltersContainer.style.display = 'none';
+    return;
+  }
+
+  // יצירת תת-מסננים
+  const subCategories = categoryHierarchy[mainCategory] || [];
+  
+  if (subCategories.length === 0) {
+    subFiltersContainer.style.display = 'none';
+    return;
+  }
+
+  // הצגת תת-מסננים
+  subFiltersContainer.style.display = 'flex';
+  
+  let buttonsHtml = '<button onclick="showSubCategory(\'all\')" class="active sub-all">הכל</button>';
+  
+  subCategories.forEach(subCat => {
+    buttonsHtml += `<button onclick="showSubCategory('${subCat}')" data-subcategory="${subCat}">${subCat}</button>`;
+  });
+  
+  subFiltersContainer.innerHTML = buttonsHtml;
+}
+
+// הצגת תת-קטגוריה
+function showSubCategory(subCategory) {
+  currentSubCategory = subCategory;
+  
+  // עדכון כפתורי תת-קטגוריות
+  document.querySelectorAll('.sub-filters button').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  
+  if (subCategory === 'all') {
+    document.querySelector('.sub-all').classList.add('active');
+  } else {
+    document.querySelector(`[data-subcategory="${subCategory}"]`).classList.add('active');
+  }
+  
+  // סינון מתכונים
+  filterRecipesByCategories();
+}
+
+// סינון מתכונים לפי שתי רמות
+function filterRecipesByCategories() {
+  let filteredRecipes = allRecipes;
+
+  // סינון לפי קטגוריה ראשית
+  if (currentMainCategory !== 'all') {
+    filteredRecipes = filteredRecipes.filter(recipe => {
+      const mainCat = getRecipeCategory(recipe);
+      const allCats = getRecipeAllCategories(recipe);
+      return mainCat === currentMainCategory || allCats.includes(currentMainCategory);
+    });
+  }
+
+  // סינון לפי תת-קטגוריה
+  if (currentSubCategory !== 'all') {
+    filteredRecipes = filteredRecipes.filter(recipe => {
+      const subCat = getRecipeSubCategory(recipe);
+      const allCats = getRecipeAllCategories(recipe);
+      return subCat === currentSubCategory || allCats.includes(currentSubCategory);
+    });
+  }
+
+  displayRecipes(filteredRecipes);
+  updateResultsCount(filteredRecipes.length, allRecipes.length);
+}
+
 // הצגת המתכונים
 function displayRecipes(recipes) {
   const container = document.getElementById('recipe-list');
@@ -70,7 +183,10 @@ function displayRecipes(recipes) {
   if (recipes.length === 0) {
     container.innerHTML = `
       <div class="recipe-card" style="text-align: center; padding: 40px;">
-        <p>לא נמצאו מתכונים</p>
+        <p>לא נמצאו מתכונים בקטגוריה זו</p>
+        <button onclick="showMainCategory('all')" class="read-more-btn" style="margin-top: 20px;">
+          חזרה להכל
+        </button>
       </div>
     `;
     return;
@@ -78,6 +194,7 @@ function displayRecipes(recipes) {
 
   container.innerHTML = recipes.map(recipe => {
     const category = getRecipeCategory(recipe);
+    const subCategory = getRecipeSubCategory(recipe);
     const nutrition = recipe.nutrition || recipe.nutritionPerServing || '';
     
     return `
@@ -87,6 +204,7 @@ function displayRecipes(recipes) {
                alt="${recipe.title}" 
                onerror="this.src='images/recipes/default.jpg'">
           <div class="recipe-category-badge">${category}</div>
+          ${subCategory ? `<div class="recipe-subcategory-badge">${subCategory}</div>` : ''}
         </div>
         <div class="recipe-preview-content">
           <h2>${recipe.title}</h2>
@@ -118,47 +236,23 @@ function displayRecipes(recipes) {
   }, 100);
 }
 
-// סינון מתכונים
-function filterRecipes(category) {
-  currentFilter = category;
-  
-  // עדכון כפתורים
-  document.querySelectorAll('.recipe-filters button').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  event.target.classList.add('active');
-
-  let filteredRecipes;
-  
-  if (category === 'all') {
-    filteredRecipes = allRecipes;
-  } else {
-    filteredRecipes = allRecipes.filter(recipe => {
-      const categories = getRecipeAllCategories(recipe);
-      return categories.includes(category);
-    });
-  }
-
-  displayRecipes(filteredRecipes);
-  
-  // עדכון מספר תוצאות
-  updateResultsCount(filteredRecipes.length, allRecipes.length);
-}
-
 // עדכון מספר תוצאות
 function updateResultsCount(current, total) {
   let countElement = document.querySelector('.search-results-count');
-  if (!countElement) {
-    countElement = document.createElement('div');
-    countElement.className = 'search-results-count';
-    document.querySelector('.recipe-filters').insertAdjacentElement('afterend', countElement);
+  if (!countElement) return;
+  
+  let text = '';
+  if (currentMainCategory === 'all') {
+    text = `מציג ${total} מתכונים`;
+  } else {
+    let categoryText = currentMainCategory;
+    if (currentSubCategory !== 'all') {
+      categoryText += ` > ${currentSubCategory}`;
+    }
+    text = `${categoryText}: ${current} מתכונים`;
   }
   
-  if (currentFilter === 'all') {
-    countElement.textContent = `מציג ${total} מתכונים`;
-  } else {
-    countElement.textContent = `מציג ${current} מתוך ${total} מתכונים`;
-  }
+  countElement.textContent = text;
 }
 
 // הצגת מתכון מלא
@@ -168,6 +262,7 @@ function showFullRecipe(recipeId) {
 
   const container = document.getElementById('recipe-list');
   const category = getRecipeCategory(recipe);
+  const subCategory = getRecipeSubCategory(recipe);
   
   container.innerHTML = `
     <div class="full-recipe-container">
@@ -182,6 +277,7 @@ function showFullRecipe(recipeId) {
                  alt="${recipe.title}"
                  onerror="this.src='images/recipes/default.jpg'">
             <div class="recipe-category-badge-full">${category}</div>
+            ${subCategory ? `<div class="recipe-subcategory-badge-full">${subCategory}</div>` : ''}
           </div>
           
           <div class="recipe-title-section">
@@ -291,11 +387,7 @@ function formatIngredients(ingredients) {
 
 // חזרה לרשימה
 function backToList() {
-  if (currentFilter === 'all') {
-    displayRecipes(allRecipes);
-  } else {
-    filterRecipes(currentFilter);
-  }
+  filterRecipesByCategories();
 }
 
 // חיפוש מתכונים
@@ -326,11 +418,7 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput.addEventListener('input', (e) => {
       const searchTerm = e.target.value.trim();
       if (searchTerm === '') {
-        if (currentFilter === 'all') {
-          displayRecipes(allRecipes);
-        } else {
-          filterRecipes(currentFilter);
-        }
+        filterRecipesByCategories();
       } else {
         searchRecipes(searchTerm);
       }
@@ -339,6 +427,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ייצוא פונקציות לשימוש גלובלי
-window.filterRecipes = filterRecipes;
+window.showMainCategory = showMainCategory;
+window.showSubCategory = showSubCategory;
 window.showFullRecipe = showFullRecipe;
 window.backToList = backToList;
