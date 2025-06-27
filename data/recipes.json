@@ -37,7 +37,7 @@
     "id": 2,
     "title": "לחוח תימני אסלי",
     "description": "לחוח תימני מסורתי ב-120 קלוריות בלבד",
-    "image": "images/recipes/yemeni-lahoh.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "בצקים",
     "categories": [
       "parve",
@@ -68,7 +68,7 @@
     "id": 3,
     "title": "קובנה לשבת",
     "description": "קובנה ביתית טעימה לארוחת שבת",
-    "image": "images/recipes/kubana-shabbat.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "בצקים",
     "categories": [
       "chalavi",
@@ -105,7 +105,7 @@
     "id": 4,
     "title": "קרמבו לימון",
     "description": "קרמבו ייחודי בטעם לימון רענן",
-    "image": "images/recipes/crembo-lemon.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "קינוחים",
     "categories": [
       "chalavi",
@@ -136,7 +136,7 @@
     "id": 5,
     "title": "עוגת בראוניז גבינה",
     "description": "שילוב מושלם של בראוניז ועוגת גבינה",
-    "image": "images/recipes/brownies-cheese-cake.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "עוגות",
     "categories": [
       "chalavi",
@@ -162,7 +162,7 @@
     "id": 6,
     "title": "מאפה גבינות על מחבת",
     "description": "מאפה גבינות ללא התפחה ואפייה, נעשה על המחבת",
-    "image": "images/recipes/cheese-pastry-pan.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "בורקס",
     "categories": [
       "chalavi",
@@ -193,7 +193,7 @@
     "id": 7,
     "title": "סופלה שוקולד חלבון",
     "description": "סופלה שוקולד עשיר בחלבון ללא טעם לוואי",
-    "image": "images/recipes/chocolate-protein-souffle.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "קינוחים",
     "categories": [
       "chalavi",
@@ -227,7 +227,7 @@
     "id": 8,
     "title": "קיש גבינות וקישואים",
     "description": "קיש על בסיס קרקרים עם גבינות וקישואים",
-    "image": "images/recipes/cheese-zucchini-quiche.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "מנות עיקריות",
     "categories": [
       "chalavi",
@@ -252,7 +252,7 @@
     "id": 9,
     "title": "ניוקי פולנטה",
     "description": "ניוקי פולנטה מ-2 מצרכים בלבד",
-    "image": "images/recipes/polenta-gnocchi.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "תוספות",
     "categories": [
       "vegan",
@@ -283,7 +283,7 @@
     "id": 10,
     "title": "פתיתים עם עגבניות וחצילים",
     "description": "פתיתים מוגשים בתוך חציל חלול",
-    "image": "images/recipes/ptitim-eggplant.jpg",
+    "image": "images/recipes/cheesecake-diet.jpg",
     "category": "מנות עיקריות",
     "categories": [
       "parve",
