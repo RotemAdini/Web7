@@ -1,4 +1,4 @@
-// recipes.js - לוגיקה היררכית עם קטגוריות ותת-קטגוריות
+// recipes.js - לוגיקה היררכית ללא תגיות על התמונות
 
 // משתנים גלובליים
 let allRecipes = [];
@@ -175,7 +175,7 @@ function filterRecipesByCategories() {
   updateResultsCount(filteredRecipes.length, allRecipes.length);
 }
 
-// הצגת המתכונים
+// הצגת המתכונים - ללא תגיות על התמונות
 function displayRecipes(recipes) {
   const container = document.getElementById('recipe-list');
   if (!container) return;
@@ -193,18 +193,12 @@ function displayRecipes(recipes) {
   }
 
   container.innerHTML = recipes.map(recipe => {
-    const category = getRecipeCategory(recipe);
-    const subCategory = getRecipeSubCategory(recipe);
-    const nutrition = recipe.nutrition || recipe.nutritionPerServing || '';
-    
     return `
       <div class="recipe-card-preview fade-in" data-id="${recipe.id}">
         <div class="recipe-image-container">
           <img src="${recipe.images?.thumbnail || 'images/recipes/default.jpg'}" 
                alt="${recipe.title}" 
                onerror="this.src='images/recipes/default.jpg'">
-          <div class="recipe-category-badge">${category}</div>
-          ${subCategory ? `<div class="recipe-subcategory-badge">${subCategory}</div>` : ''}
         </div>
         <div class="recipe-preview-content">
           <h2>${recipe.title}</h2>
@@ -216,7 +210,6 @@ function displayRecipes(recipes) {
             <span class="meta-item">
               <i class="fas fa-users"></i> ${recipe.servings} מנות
             </span>
-            ${nutrition ? `<span class="meta-item"><i class="fas fa-calculator"></i> ${nutrition.split('|')[0]}</span>` : ''}
           </div>
           <button class="read-more-btn" onclick="showFullRecipe(${recipe.id})">
             קרא עוד <i class="fas fa-arrow-left"></i>
@@ -262,7 +255,6 @@ function showFullRecipe(recipeId) {
 
   const container = document.getElementById('recipe-list');
   const category = getRecipeCategory(recipe);
-  const subCategory = getRecipeSubCategory(recipe);
   
   container.innerHTML = `
     <div class="full-recipe-container">
@@ -276,8 +268,6 @@ function showFullRecipe(recipeId) {
             <img src="${recipe.images?.main || recipe.images?.thumbnail || 'images/recipes/default.jpg'}" 
                  alt="${recipe.title}"
                  onerror="this.src='images/recipes/default.jpg'">
-            <div class="recipe-category-badge-full">${category}</div>
-            ${subCategory ? `<div class="recipe-subcategory-badge-full">${subCategory}</div>` : ''}
           </div>
           
           <div class="recipe-title-section">
@@ -295,13 +285,6 @@ function showFullRecipe(recipeId) {
                 <span>כמות מנות:</span>
                 <strong>${recipe.servings}</strong>
               </div>
-              ${recipe.nutrition ? `
-                <div class="stat-item">
-                  <i class="fas fa-calculator"></i>
-                  <span>תזונה למנה:</span>
-                  <strong>${recipe.nutrition.split('|')[0]}</strong>
-                </div>
-              ` : ''}
             </div>
           </div>
         </div>
@@ -326,7 +309,7 @@ function showFullRecipe(recipeId) {
 
           ${recipe.nutrition ? `
             <div class="nutrition-info">
-              <h3><i class="fas fa-chart-pie"></i> מידע תזונתי</h3>
+              <h3><i class="fas fa-chart-pie"></i> ערכים תזונתיים</h3>
               <p>${recipe.nutrition}</p>
             </div>
           ` : ''}
