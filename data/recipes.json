@@ -4,7 +4,11 @@
     "title": "בורקס דפי אורז קריספי",
     "description": "בורקס קריספי מדפי אורז במילוי גבינות עם 2 טריקים סודיים",
     "category": "בורקס",
-    "categories": ["chalavi", "batzikim", "up_to_30_min"],
+    "categories": [
+      "chalavi",
+      "batzikim",
+      "up_to_30_min"
+    ],
     "subcategory": "burekas",
     "ingredients": {
       "לבורקס": [
@@ -44,7 +48,12 @@
     "title": "סמבוסק פיצה עם 20 גרם חלבון",
     "description": "סמבוסק מבצק גבינה עם מילוי פיצה טעים",
     "category": "בורקס",
-    "categories": ["chalavi", "batzikim", "protein", "chitub"],
+    "categories": [
+      "chalavi",
+      "batzikim",
+      "protein",
+      "chitub"
+    ],
     "subcategory": "burekas",
     "ingredients": [
       "300 גרם קמח",
@@ -77,7 +86,12 @@
     "title": "ממרח חצילים בטעם כבד",
     "description": "ממרח חצילים טעים מ3 מרכיבים בלבד",
     "category": "סלטים",
-    "categories": ["parve", "vegan", "salads", "chitub"],
+    "categories": [
+      "parve",
+      "vegan",
+      "salads",
+      "chitub"
+    ],
     "ingredients": [
       "חציל",
       "בצל",
@@ -103,7 +117,11 @@
     "title": "עוגת גבינה פירורים בלי שמנת",
     "description": "עוגת גבינה פירורים בלי שמנת בכלל",
     "category": "עוגות",
-    "categories": ["chalavi", "kinoochim", "chitub"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chitub"
+    ],
     "subcategory": "cakes",
     "ingredients": [
       "לבצק פריך: 140 גרם קמח, 100 גרם קורנפלור, 50 גרם אבקת סוכר, ביצה, 100 גרם חמאה",
@@ -131,7 +149,11 @@
     "title": "עוגיות שקדים ב54 קלוריות",
     "description": "עוגיות שקדים טעימות ובאות בול ליד הקפה של הבוקר",
     "category": "עוגיות",
-    "categories": ["chalavi", "kinoochim", "chitub"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chitub"
+    ],
     "subcategory": "cookies",
     "ingredients": [
       "60 גרם חמאה רכה",
@@ -163,7 +185,10 @@
     "title": "עוגת קרמבו בגרסה הלבנה",
     "description": "עוגת קרמבו בגרסה הלבנה וגם בגרסה הדלת קלוריות",
     "category": "עוגות",
-    "categories": ["chalavi", "kinoochim"],
+    "categories": [
+      "chalavi",
+      "kinoochim"
+    ],
     "subcategory": "cakes",
     "ingredients": [
       "לבסיס: 3 ביצים, 100 גרם תחליף סוכר/סוכר, 120 מל חלב, 15 מל שמן, 80 גרם קמח, 20 גרם אינסטנט פודינג, כפית אבקת אפייה",
@@ -195,7 +220,12 @@
     "title": "בלינצ'ס במילוי גבינה עם 8 גרם חלבון",
     "description": "בלינצ'ס טעימים עם אופציה להכין כשר לפסח",
     "category": "קינוחים",
-    "categories": ["chalavi", "kinoochim", "chagim", "protein"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chagim",
+      "protein"
+    ],
     "subcategory": "crepes",
     "chag_subcategory": "pesach",
     "ingredients": [
@@ -228,7 +258,12 @@
     "title": "פנקייק חלבון עם 32 גרם חלבון",
     "description": "מתכון הכי קליל שיש לפנקייק עשיר בחלבון",
     "category": "קינוחים",
-    "categories": ["chalavi", "kinoochim", "protein", "chitub"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "protein",
+      "chitub"
+    ],
     "subcategory": "pancakes",
     "ingredients": [
       "מעדן חלבון (עם 21 גרם חלבון)",
@@ -254,7 +289,10 @@
     "title": "אורז אדום עם עגבניות צלויות",
     "description": "אורז אדום מושלם ליד כל דבר עם טעם של עגבניות צלויות",
     "category": "מנות עיקריות",
-    "categories": ["vegan", "parve"],
+    "categories": [
+      "vegan",
+      "parve"
+    ],
     "ingredients": [
       "2 בצלים",
       "3 שיני שום",
@@ -283,7 +321,12 @@
     "title": "חומוס ירוק עם טעם מרענן",
     "description": "חומוס בצבע ירוק עם טעם מרענן וב2 דקות הכנה",
     "category": "סלטים",
-    "categories": ["vegan", "parve", "up_to_30_min", "salads"],
+    "categories": [
+      "vegan",
+      "parve",
+      "up_to_30_min",
+      "salads"
+    ],
     "ingredients": [
       "250 גרם גרגירי חומוס מקופסת שימורים",
       "25 גרם טחינה",
@@ -309,7 +352,12 @@
     "title": "עוגת גבינה דיאטטית עם חלבון",
     "description": "עוגת גבינה דיאטטית ועוד עם מלא חלבון",
     "category": "עוגות",
-    "categories": ["chalavi", "kinoochim", "chitub", "protein"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chitub",
+      "protein"
+    ],
     "subcategory": "cakes",
     "ingredients": [
       "750 גרם גבינה 0.5%",
@@ -340,7 +388,11 @@
     "title": "עוגיות טיגריס בשוקולד לבן",
     "description": "עוגיות טיגריס מיוחדות עם שוקולד לבן וציפוי קקאו",
     "category": "עוגיות",
-    "categories": ["chalavi", "kinoochim", "chitub"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chitub"
+    ],
     "subcategory": "cookies",
     "ingredients": [
       "80 גרם שוקולד לבן",
@@ -374,7 +426,12 @@
     "title": "פלאפל אפוי ב38 קלוריות",
     "description": "פלאפל אפוי עם אותו הטעם של פלאפל מטוגן, אבל בלי השמן והכבדות",
     "category": "מנות עיקריות",
-    "categories": ["parve", "vegan", "chitub", "protein"],
+    "categories": [
+      "parve",
+      "vegan",
+      "chitub",
+      "protein"
+    ],
     "ingredients": [
       "250 גרם גרגירי חומוס",
       "צרור פטרוזיליה",
@@ -405,7 +462,12 @@
     "title": "מאפה גבינות על מחבת",
     "description": "מאפה גבינות בלי התפחה ובלי אפייה, מוכן על המחבת",
     "category": "בורקס",
-    "categories": ["chalavi", "batzikim", "protein", "up_to_30_min"],
+    "categories": [
+      "chalavi",
+      "batzikim",
+      "protein",
+      "up_to_30_min"
+    ],
     "subcategory": "burekas",
     "ingredients": [
       "לבצק: 500 גרם קמח, גביע יוגורט 0 אחוז שומן, ביצה, כפית אבקת אפייה, שליש כוס מים",
@@ -429,7 +491,11 @@
     "title": "סופלה שוקולד חלבון",
     "description": "סופלה שוקולד עשיר בחלבון בלי הטעם לוואי של אבקת חלבון",
     "category": "קינוחים",
-    "categories": ["chalavi", "kinoochim", "protein"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "protein"
+    ],
     "subcategory": "desserts",
     "ingredients": [
       "70 גרם שוקולד מריר",
@@ -460,7 +526,11 @@
     "title": "לחוח תימני אסלי",
     "description": "מתכון ללחוח תימני אסלי כל כך טעים ועוד רק ב120 קלוריות ללחוח אמיתי",
     "category": "בצקים",
-    "categories": ["parve", "batzikim", "chagim"],
+    "categories": [
+      "parve",
+      "batzikim",
+      "chagim"
+    ],
     "subcategory": "bread",
     "chag_subcategory": "shabbat",
     "ingredients": [
@@ -488,7 +558,11 @@
     "title": "קובנה לשבת בבוקר",
     "description": "יש יותר טעים מלאכול קובנה בשבת בבוקר? ועוד בערכים כאלו טובים?",
     "category": "בצקים",
-    "categories": ["chalavi", "batzikim", "chagim"],
+    "categories": [
+      "chalavi",
+      "batzikim",
+      "chagim"
+    ],
     "subcategory": "bread",
     "chag_subcategory": "shabbat",
     "ingredients": [
@@ -521,7 +595,11 @@
     "title": "קרמבו לימון",
     "description": "פעם טעמתם משהו כזה?? קרמבו לימון מיוחד",
     "category": "קינוחים",
-    "categories": ["chalavi", "kinoochim", "chitub"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chitub"
+    ],
     "subcategory": "desserts",
     "ingredients": [
       "2 חלבונים",
@@ -548,7 +626,11 @@
     "title": "חיתוכיות קוקוס ושוקולד כשרות לפסח",
     "description": "חיתוכיות קוקוס ושוקולד קטלניות לפסח",
     "category": "קינוחים",
-    "categories": ["chalavi", "kinoochim", "chagim"],
+    "categories": [
+      "chalavi",
+      "kinoochim",
+      "chagim"
+    ],
     "subcategory": "desserts",
     "chag_subcategory": "pesach",
     "ingredients": [
@@ -577,7 +659,12 @@
     "title": "קציצות תירס נדירות",
     "description": "קציצות תירס נדירות לארוחת ערב בחמש דקות עבודה",
     "category": "מנות עיקריות",
-    "categories": ["chalavi", "protein", "chitub", "up_to_30_min"],
+    "categories": [
+      "chalavi",
+      "protein",
+      "chitub",
+      "up_to_30_min"
+    ],
     "ingredients": [
       "קופסת תירס לייט גדולה",
       "קופסת קוטג׳ 3%",
@@ -602,7 +689,11 @@
     "title": "עראייס עוף עם 14 גרם חלבון",
     "description": "עראייס עוף עם 14 גרם חלבון וכל כך ממכר בזכות מרכיב שפשוט מרענן את כל המנה-נענע",
     "category": "מנות עיקריות",
-    "categories": ["basari", "protein", "chagim"],
+    "categories": [
+      "basari",
+      "protein",
+      "chagim"
+    ],
     "chag_subcategory": "yom_haatzmaut",
     "ingredients": [
       "500 גרם חזה עוף טחון",
