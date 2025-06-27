@@ -58,7 +58,7 @@ function displayRecipesList(recipes) {
     container.innerHTML = recipes.map(recipe => `
         <div class="recipe-card-preview" data-category="${recipe.category || ''}" data-id="${recipe.id || ''}">
             <div class="recipe-image-container">
-                <img src="imagesrecipes/${recipe.title.replace(/[^א-ת\u0590-\u05FFa-zA-Z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')}.jpg" 
+                <img src="${recipe.image || 'images/recipes/default-recipe.jpg'}"
                      alt="${recipe.title}" 
                      onerror="this.src='imagesrecipes/default-recipe.jpg'; this.onerror=null;"
                      loading="lazy">
@@ -110,7 +110,7 @@ function showFullRecipe(recipeId) {
             <div class="full-recipe-card">
                 <div class="recipe-header">
                     <div class="recipe-image-full">
-                        <img src="imagesrecipes/${recipe.title.replace(/[^א-ת\u0590-\u05FFa-zA-Z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')}.jpg" 
+                       <img src="${recipe.image || 'images/recipes/default-recipe.jpg'}"
                              alt="${recipe.title}" 
                              onerror="this.src='imagesrecipes/default-recipe.jpg'; this.onerror=null;">
                         <div class="recipe-category-badge-full">${recipe.category || 'מתכון'}</div>
