@@ -1,13 +1,13 @@
 const recipesData = [
   {
     
-     "id": 1,
+    "id": 1,
     "title": "עוגת גבינה דיאטטית",
     "description": "עוגת גבינה טעימה וקלילה עם הרבה חלבון",
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheesecake_diet.jpg",
       "main": "images/recipes/main/cheesecake_diet.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheesecake_diet.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -41,9 +41,9 @@ const recipesData = [
     "title": "לחוח תימני",
     "description": "לחוח תימני אסלי כל כך טעים ורק ב120 קלוריות ללחוח אמיתי",
     "images": {
-      "thumbnail": "images/recipes/thumbnails/lahuh_yemeni.jpg",
-      "main": "images/recipes/main/lahuh_yemeni.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "thumbnail": "images/recipes/thumbnails/lahuh.jpg",
+      "main": "images/recipes/main/lahuh.jpg",
+      "hero": "images/recipes/hero/lahuh.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -81,7 +81,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/kubana.jpg",
       "main": "images/recipes/main/kubana.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/kubana.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -119,7 +119,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/lemon_crembo.jpg",
       "main": "images/recipes/main/lemon_crembo.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/lemon_crembo.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -153,7 +153,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/brownie_cheesecake.jpg",
       "main": "images/recipes/main/brownie_cheesecake.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/brownie_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -190,7 +190,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_pastry_pan.jpg",
       "main": "images/recipes/main/cheese_pastry_pan.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_pastry_pan.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -262,7 +262,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/rice_paper_burekas.jpg",
       "main": "images/recipes/main/rice_paper_burekas.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/rice_paper_burekas.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -300,7 +300,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/parmesan_zaatar_cookies.jpg",
       "main": "images/recipes/main/parmesan_zaatar_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/parmesan_zaatar_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -333,7 +333,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cinnamon_cookies.jpg",
       "main": "images/recipes/main/cinnamon_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cinnamon_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -369,7 +369,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/asian_chicken_lettuce.jpg",
       "main": "images/recipes/main/asian_chicken_lettuce.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/asian_chicken_lettuce.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -409,7 +409,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/mini_chocolate_cookies.jpg",
       "main": "images/recipes/main/mini_chocolate_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/mini_chocolate_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -441,7 +441,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/mini_heart_pancakes.jpg",
       "main": "images/recipes/main/mini_heart_pancakes.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/mini_heart_pancakes.jpg"
     },
     "category": {
       "main": "ארוחת בוקר",
@@ -473,7 +473,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/turkish_salad.jpg",
       "main": "images/recipes/main/turkish_salad.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/turkish_salad.jpg"
     },
     "category": {
       "main": "סלטים",
@@ -515,7 +515,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/oat_cookies.jpg",
       "main": "images/recipes/main/oat_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/oat_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -553,7 +553,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cauliflower_casserole.jpg",
       "main": "images/recipes/main/cauliflower_casserole.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cauliflower_casserole.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -590,7 +590,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/creamy_cheesecake.jpg",
       "main": "images/recipes/main/creamy_cheesecake.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/creamy_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -620,7 +620,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/savory_pancakes.jpg",
       "main": "images/recipes/main/savory_pancakes.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/savory_pancakes.jpg"
     },
     "category": {
       "main": "ארוחת בוקר",
@@ -657,7 +657,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_zucchini_quiche.jpg",
       "main": "images/recipes/main/cheese_zucchini_quiche.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_zucchini_quiche.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -686,7 +686,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/polenta_gnocchi.jpg",
       "main": "images/recipes/main/polenta_gnocchi.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/polenta_gnocchi.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -720,7 +720,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/ptitim_eggplant.jpg",
       "main": "images/recipes/main/ptitim_eggplant.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/ptitim_eggplant.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -761,7 +761,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_khachapuri.jpg",
       "main": "images/recipes/main/cheese_khachapuri.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_khachapuri.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -797,7 +797,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/corn_schnitzel.jpg",
       "main": "images/recipes/main/corn_schnitzel.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/corn_schnitzel.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -837,7 +837,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/pistachio_crunch.jpg",
       "main": "images/recipes/main/pistachio_crunch.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/pistachio_crunch.jpg"
     },
     "category": {
       "main": "ממתקים",
@@ -869,7 +869,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/alfajores_cookies.jpg",
       "main": "images/recipes/main/alfajores_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/alfajores_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -910,7 +910,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/broccoli_cottage_meatballs.jpg",
       "main": "images/recipes/main/broccoli_cottage_meatballs.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/broccoli_cottage_meatballs.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -947,7 +947,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/raffaello_balls.jpg",
       "main": "images/recipes/main/raffaello_balls.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/raffaello_balls.jpg"
     },
     "category": {
       "main": "ממתקים",
@@ -978,7 +978,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/amsterdam_rolls.jpg",
       "main": "images/recipes/main/amsterdam_rolls.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/amsterdam_rolls.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -1012,7 +1012,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_garlic_bread.jpg",
       "main": "images/recipes/main/cheese_garlic_bread.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_garlic_bread.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1045,7 +1045,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_donuts.jpg",
       "main": "images/recipes/main/baked_donuts.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_donuts.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1087,7 +1087,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_olive_bites.jpg",
       "main": "images/recipes/main/cheese_olive_bites.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_olive_bites.jpg"
     },
     "category": {
       "main": "נשנושים",
@@ -1124,7 +1124,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/low_cal_pesto_pasta.jpg",
       "main": "images/recipes/main/low_cal_pesto_pasta.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/low_cal_pesto_pasta.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1161,7 +1161,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/coffee_pecan_brownies.jpg",
       "main": "images/recipes/main/coffee_pecan_brownies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/coffee_pecan_brownies.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -1196,7 +1196,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/almond_challah.jpg",
       "main": "images/recipes/main/almond_challah.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/almond_challah.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1232,7 +1232,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_chicken_meatballs.jpg",
       "main": "images/recipes/main/baked_chicken_meatballs.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_chicken_meatballs.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1271,7 +1271,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_spaghetti.jpg",
       "main": "images/recipes/main/baked_spaghetti.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_spaghetti.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1334,7 +1334,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_potato_latkes.jpg",
       "main": "images/recipes/main/baked_potato_latkes.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_potato_latkes.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1368,7 +1368,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/snail_meat_challah.jpg",
       "main": "images/recipes/main/snail_meat_challah.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/snail_meat_challah.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1441,7 +1441,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/one_pot_chicken_pasta.jpg",
       "main": "images/recipes/main/one_pot_chicken_pasta.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/one_pot_chicken_past.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1482,7 +1482,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/dry_lemon_cookies.jpg",
       "main": "images/recipes/main/dry_lemon_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/dry_lemon_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -1519,7 +1519,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/sweet_potato_lentil_salad.jpg",
       "main": "images/recipes/main/sweet_potato_lentil_salad.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/sweet_potato_lentil_salad.jpg"
     },
     "category": {
       "main": "סלטים",
@@ -1556,7 +1556,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/one_pot_red_pasta.jpg",
       "main": "images/recipes/main/one_pot_red_pasta.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/one_pot_red_pasta.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1592,7 +1592,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/pizza_sambusak.jpg",
       "main": "images/recipes/main/pizza_sambusak.jpg",
-      "hero": "images/recipes/hero/pizza_sambusak_hero.jpg"
+      "hero": "images/recipes/hero/pizza_sambusak.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1631,7 +1631,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/eggplant_spread.jpg",
       "main": "images/recipes/main/eggplant_spread.jpg",
-      "hero": "images/recipes/hero/eggplant_spread_hero.jpg"
+      "hero": "images/recipes/hero/eggplant_spread.jpg"
     },
     "category": {
       "main": "ממרחים",
@@ -1666,7 +1666,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/crumb_cheesecake.jpg",
       "main": "images/recipes/main/crumb_cheesecake.jpg",
-      "hero": "images/recipes/hero/crumb_cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/crumb_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -2191,7 +2191,7 @@ const recipesData = [
     "tips": "יש הבדל בין חברות הקוטג' הקיימות אם אתם מרגישים שהקוטג' שיש לכם נוזלי אז עדיף שתשימו פחות מהכמות שרשמתי",
     "link": "https://www.instagram.com/reel/C4PuoimIoLH/?igsh=anZ4cjF4Z2N0amV4"
   },
-
+  {
     "id": 61,
     "title": "עוגת מייפל ופקאן ללא שמן",
     "description": "עוגת מייפל ופקאן בלי שמן בכלל עם 117 קלוריות לחתיכה",
@@ -2477,7 +2477,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/passover_shepherds_pie.jpg",
       "main": "images/recipes/main/passover_shepherds_pie.jpg",
-      "hero": "images/recipes/hero/passover_shepherds_pie_hero.jpg"
+      "hero": "images/recipes/hero/passover_shepherds_pie.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -2513,7 +2513,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/giant_matzah_burekas.jpg",
       "main": "images/recipes/main/giant_matzah_burekas.jpg",
-      "hero": "images/recipes/hero/giant_matzah_burekas_hero.jpg"
+      "hero": "images/recipes/hero/giant_matzah_burekas.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -2551,7 +2551,7 @@ const recipesData = [
     "images": {
       "thumbnail": "images/recipes/thumbnails/passover_brownie_cookies.jpg",
       "main": "images/recipes/main/passover_brownie_cookies.jpg",
-      "hero": "images/recipes/hero/passover_brownie_cookies_hero.jpg"
+      "hero": "images/recipes/hero/passover_brownie_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -2582,10 +2582,1552 @@ const recipesData = [
     "nutrition": "48-65 קלוריות | - חלבון | - פחמימה | - שומן",
     "tips": "עוגיות בראוניז מטורפות לפסח שנשבעת שאתם הולכים להכין אותן כל השנה",
     "link": "https://www.instagram.com/reel/C57yifZI4a1/?igsh=MXU5ZWEzNWoxY3J5Ng=="
+  },
+  {
+    "id": 72,
+    "title": "אוזני המן מבצק עוגיות ללא אפייה",
+    "description": "אוזני המן מבצק עוגיות שלא דורשות אפייה עם קמח מפוסטר",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/no_bake_hamantaschen.jpg",
+      "main": "images/recipes/main/no_bake_hamantaschen.jpg",
+      "hero": "images/recipes/hero/no_bake_hamantaschen.jpg"
+    },
+    "category": {
+      "main": "עוגיות",
+      "sub": "עוגיות חג",
+      "tags": ["פורים", "ללא אפייה", "מפוסטר"]
+    },
+    "time": "45",
+    "servings": "25",
+    "ingredients": [
+      "140 גרם קמח לבן מפוסטר",
+      "200 גרם סוכר חום דמררה",
+      "120 גרם חמאה רכה",
+      "2 כפות שמנת מתוקה",
+      "כפית תמצית וניל",
+      "חצי כפית מלח דק",
+      "150 גרם שוקולד לבן טחון לאבקה",
+      "ממרח נוטלה למילוי"
+    ],
+    "instructions": [
+      "מפסטרים את הקמח. מחממים תנור ל-120 מעלות טורבו. מרדדים את הקמח על נייר אפייה ואופים 12 דקות",
+      "לאחר 6 דקות נערבב את הקמח ונאפה לעוד 6 דקות. מוציא מהתנור ונצנן לטמפ' החדר",
+      "בקערה בעזרת לקקן מערבבים את הסוכר והחמאה עד שהתערובת אחידה",
+      "מוסיפים שמנת מתוקה, תמצית וניל ומלח, וממשיכים לערבב",
+      "מוסיפים את הקמח המפוסטר ומערבבים עם הלקקן עד שנוצר בצק אחיד",
+      "בעזרת נייר אפייה מרדדים את הבצק למלבן, מפזרים עליו את השוקולד הלבן הטחון",
+      "מניחים מעליו נייר אפייה נוסף, הופכים את הבצק כך שהשוקולד הלבן יהיה בתחתית",
+      "קורצים עיגולים, מזלפים נוטלה במרכז כל עיגול וסוגרים לצורת אוזן המן"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "אם נשאר לכם שוקולד לבן, אפשר לערבב אותו עם שאריות הבצק, לרדד שוב ולהכין עוד אוזני המן",
+    "link": "https://www.instagram.com/reel/DG-9dGwosJq/?igsh=MWdtaWR3bGQxMHl4Zw=="
+  },
+  {
+    "id": 73,
+    "title": "קינוחי כוסות אלפחורס",
+    "description": "קינוחי כוסות אלפחורס מרשימים עם שכבות קרם וריבת חלב",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/alfajores_cups.jpg",
+      "main": "images/recipes/main/alfajores_cups.jpg",
+      "hero": "images/recipes/hero/alfajores_cups.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "קינוחי כוסות",
+      "tags": ["אלפחורס", "קוקוס", "שכבות"]
+    },
+    "time": "90",
+    "servings": "2",
+    "ingredients": [
+      "לבצק עוגיות אלפחורס: 200 גרם חמאה רכה, 3 חלמונים, 250 גרם קורנפלור, 200 גרם קמח, 100 גרם אבקת סוכר, כפית תמצית וניל, שקית אבקת אפייה, רבע כפית מלח",
+      "לקרם: 250 מל שמנת להקצפה, 2 כפות אינסטנט פודינג וניל, 2 כפות אבקת סוכר, 2 כפות ריבת חלב",
+      "שכבות תוספת: ריבת חלב, קוקוס טחון"
+    ],
+    "instructions": [
+      "במיקסר עם וו גיטרה נערבב את החמאה ואבקת הסוכר לקרם אחיד",
+      "נוסיף את החלמונים ומחית הווניל ונערבב היטב",
+      "נכניס את הקורנפלור, הקמח, אבקת האפייה והמלח, ונערבב עד לקבלת בצק אחיד",
+      "נקרר את הבצק במקרר כ-20 דקות",
+      "נרדד את הבצק בין 2 ניירות אפייה ונחתוך לריבועים קטנים",
+      "נאפה בתנור שחומם מראש ל-170 מעלות טורבו למשך 8-10 דקות",
+      "נקציף את השמנת, הפודינג ואבקת הסוכר לקרם יציב",
+      "נחלק את הקרם לשניים: חצי נשאיר כקרם וניל, לחצי השני נוסיף ריבת חלב",
+      "נבנה שכבות: ריבועי עוגיות, קרם וניל, ריבת חלב, קוקוס טחון, קרם ריבת חלב"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "הקינוח הכי טעים לאחר כמה שעות של התייצבות במקרר",
+    "link": "https://www.instagram.com/reel/DFe_HOkoxXR/?igsh=Y3MxY3QwOTM1eXA0"
+  },
+  {
+    "id": 74,
+    "title": "עוגת קינמון עם קראמבל",
+    "description": "עוגת קינמון רכה עם קראמבל מושלם למעלה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cinnamon_crumble_cake.jpg",
+      "main": "images/recipes/main/cinnamon_crumble_cake.jpg",
+      "hero": "images/recipes/hero/cinnamon_crumble_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות",
+      "tags": ["קינמון", "קראמבל", "רכה"]
+    },
+    "time": "75",
+    "servings": "12",
+    "ingredients": [
+      "לעוגה: 3 ביצים, 150 גרם סוכר, 240 גרם קמח, 10 גרם אבקת אפייה, 200 גרם שמנת חמוצה, 120 גרם שמן, 2 כפות קינמון",
+      "לקראמבל: 70 גרם קמח, 50 גרם סוכר חום, 50 גרם חמאה קרה חתוכה לקוביות, כף קינמון"
+    ],
+    "instructions": [
+      "נחמם תנור ל-160 מעלות במצב סטטי",
+      "הכנת הקראמבל: נערבב בקערה את כל המצרכים של הקראמבל עם הידיים עד שמתקבל מרקם חולי",
+      "הכנת הבלילה: נקציף בקערת מיקסר את החלבונים במהירות בינונית",
+      "אחרי 2 דקות נוסיף בהדרגה את הסוכר ונמשיך להקציף עד לקבלת קצף יציב ומבריק",
+      "נוסיף לקצף את החלמונים, השמן, והשמנת החמוצה ונערבב עד לאיחוד",
+      "ננפה פנימה את הקמח, אבקת האפייה והמלח, ונערבב בעדינות רק עד שהתערובת מתאחדת",
+      "נוסיף את הקינמון ונערבב 2-3 ערבובים בלבד כדי ליצור דוגמת שיש",
+      "נשפוך את הבלילה לתבנית ונפזר מעל את הקראמבל",
+      "נאפה במשך 35-45 דקות עד שקיסם יוצא יבש עם פירורים לחים"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "נניח לעוגה להצטנן לחלוטין לפני שפורסים אותה",
+    "link": "https://www.instagram.com/reel/DEovXFYolG6/?igsh=MWp4dDc2YzZxOTJ5bA=="
+  },
+  {
+    "id": 75,
+    "title": "קציצות עוף ותירס",
+    "description": "קציצות עוף ותירס גיוון מושלם לארוחת צהריים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_corn_meatballs.jpg",
+      "main": "images/recipes/main/chicken_corn_meatballs.jpg",
+      "hero": "images/recipes/hero/chicken_corn_meatballs.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "קציצות",
+      "tags": ["עוף", "תירס", "אפויות"]
+    },
+    "time": "45",
+    "servings": "20",
+    "ingredients": [
+      "500 גרם עוף טחון",
+      "פחית גדולה של תירס שימורים",
+      "קישוא אחד בינוני",
+      "בצל אחד גדול",
+      "2 שיני שום כתושות",
+      "ביצה אחת",
+      "2 כפות פירורי לחם",
+      "רבע כפית אבקת סודה לשתייה",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם",
+      "מעט אגוז מוסקט"
+    ],
+    "instructions": [
+      "טוחנים היטב את הקישוא והבצל וסוחטים מהם את הנוזלים כדי שהעיסה לא תהיה מימית",
+      "חצי מכמות התירס טוחנים במעבד מזון ואת החצי השני משאירים שלם",
+      "בקערה מערבבים את העוף הטחון, התירס (הטחון והשלם), הבצל, הקישוא, השום, הביצה, פירורי הלחם, אבקת הסודה לשתייה, המלח, הפלפל ואגוז המוסקט",
+      "לשים היטב עד לקבלת תערובת אחידה",
+      "יוצרים קציצות בגודל אחיד ומניחים על תבנית מרופדת בנייר אפייה",
+      "אופים בתנור שחומם מראש ל-180 מעלות במשך כ-20 דקות, או עד שהקציצות זהובות ויציבות"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "חשוב לסחוט היטב את הנוזלים מהירקות",
+    "link": "https://www.instagram.com/reel/DEhyrl_o5_w/?igsh=N3ViOHN6bzEzaWZs"
+  },
+  {
+    "id": 76,
+    "title": "עוגת קרמבו מוקה",
+    "description": "עוגת קרמבו מוקה מושלמת לחובבי הקפה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/mocha_krembo_cake.jpg",
+      "main": "images/recipes/main/mocha_krembo_cake.jpg",
+      "hero": "images/recipes/hero/mocha_krembo_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות מיוחדות",
+      "tags": ["מוקה", "קפה", "קרמבו"]
+    },
+    "time": "180",
+    "servings": "14",
+    "ingredients": [
+      "לבסיס: 3 ביצים, 100 גרם תחליף סוכר, 120 מל חלב, 80 גרם קמח, 20 גרם אינסטנט פודינג וניל, כפית אבקת קפה, כפית אבקת אפייה",
+      "לקרם: 2 שמנות מתוקות (38%), 120 מל חלב, 40 גרם אינסטנט פודינג וניל, 40 גרם אבקת סוכר, כפית אבקת קפה",
+      "לציפוי שוקולד לבן: 120 גרם שוקולד לבן, 50 מל שמנת לבישול (9%), כפית אבקת קפה"
+    ],
+    "instructions": [
+      "הבסיס: נקציף את הביצים למשך 2 דקות עד לקבלת קצף תפוח",
+      "נוסיף את הסוכר ונמשיך להקציף עוד 2 דקות",
+      "נוסיף את החלב, הקמח, אבקת האינסטנט פודינג וכפית אבקת קפה, ונערבב עד שהתערובת אחידה",
+      "נעביר את התערובת לתבנית מתאימה ואפייה בתנור שחומם מראש ל-180 מעלות כ-25-35 דקות",
+      "הקרם: נקציף את השמנת המתוקה יחד עם החלב, האינסטנט פודינג, אבקת הסוכר וכפית אבקת קפה עד לקבלת קרם יציב ואוורירי",
+      "נמרח את הקרם על הבסיס שהתקרר לגמרי",
+      "הציפוי: נמיס את השוקולד הלבן יחד עם השמנת וכפית אבקת קפה במיקרוגל בפולסים של 30 שניות",
+      "נצנן מעט ונשפוך בעדינות מעל הקרם בצורה אחידה",
+      "נקרר את העוגה במקרר לפחות ללילה לפני ההגשה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "העולם מתחלק לשני סוגי אנשים - הסוג שמכור למוקה והסוג שלא מסוגל לטעום",
+    "link": "https://www.instagram.com/reel/DEWyKw0IWEr/?igsh=MWludTBhY2kxbW5hcw=="
+  },
+  {
+    "id": 77,
+    "title": "עוגת שמרים סטייל שוקולד דובאי",
+    "description": "עוגת שמרים מרשימה בסטייל שוקולד דובאי עם שערות קדאיף",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/dubai_chocolate_yeast_cake.jpg",
+      "main": "images/recipes/main/dubai_chocolate_yeast_cake.jpg",
+      "hero": "images/recipes/hero/dubai_chocolate_yeast_cake.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "עוגות שמרים",
+      "tags": ["שמרים", "שוקולד דובאי", "קדאיף"]
+    },
+    "time": "240",
+    "servings": "16",
+    "ingredients": [
+      "לבצק: 500 גרם קמח לחם, 10 גרם שמרים יבשים, 100 גרם סוכר, ביצה, 100 גרם חמאה קרה חתוכה לקוביות, 200 גרם שמנת חמוצה, 50 גרם חלב, כפית מלח",
+      "למילוי: 300 גרם שוקולד חלב, 100 גרם חמאה, 200 גרם סוכר, 4 כפות קקאו מנופה, 200 גרם שערות קדאיף קצוצות, 100 גרם חמאה מומסת, 80 גרם מחית פיסטוק למרוח מעל המילוי",
+      "למי סוכר: 40 גרם סוכר, 40 גרם מים רותחים"
+    ],
+    "instructions": [
+      "בקערת מיקסר, ערבבו קמח, שמרים וסוכר",
+      "הוסיפו את הביצה, השמנת והחלב, ולושו במשך 3 דקות",
+      "הוסיפו בהדרגה את קוביות החמאה, תוך כדי ערבוב",
+      "לאחר שהחמאה נטמעה לגמרי, ועברו 8 דקות מתחילת הלישה הוסיפו את המלח ולושו עוד 5 דקות",
+      "להתפחה - העבירו למקרר להתפחה של לילה, ולהוציא שעה לפני העבודה",
+      "להכנת שערות קדאיף: במחבת גדולה ממיסים 100 גרם חמאה, מוסיפים את שערות הקדאיף ומטגנים עד שהשערות זהובות וקרנצ'יות",
+      "ממיסים את השוקולד חלב והחמאה, מוסיפים את הקקאו המנופה, הסוכר ומערבבים",
+      "מוסיפים את מחית הפיסטוק והשערות קדאיף ומערבבים עד לאיחוד",
+      "חלקו את הבצק ל-2 חלקים שווים, רדדו כל חלק למלבן ארוך",
+      "מרחו שכבת מילוי דקה, גלגלו לרולדה וחתכו לאורכה, וסובבו לצורת בורג",
+      "התפיחו במשך שעה בטמפרטורת חדר",
+      "אפו בתנור טורבו ב-170 מעלות במשך 30-40 דקות",
+      "הכנת מי הסוכר: מערבבים מים רותחים עם סוכר עד שהסוכר נמס לגמרי",
+      "מורחים את מי הסוכר הקרים על הרולדה החמה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "זאת בין העוגות הכי טובות שתטעמו",
+    "link": "https://www.instagram.com/reel/DEExz43o9tM/?igsh=bTg4bzh2Z2UzZDlo"
+  },
+  {
+    "id": 78,
+    "title": "מוקפץ אנטריקוט עם ניוקי וברוקולי",
+    "description": "מנה מוקפצת עשירה עם אנטריקוט, ניוקי וברוקולי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/entrecote_gnocchi_stir_fry.jpg",
+      "main": "images/recipes/main/entrecote_gnocchi_stir_fry.jpg",
+      "hero": "images/recipes/hero/entrecote_gnocchi_stir_fry.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "מוקפץ",
+      "tags": ["אנטריקוט", "ניוקי", "ברוקולי"]
+    },
+    "time": "25",
+    "servings": "3",
+    "ingredients": [
+      "300 גרם אנטריקוט, חתוך לרצועות",
+      "200 גרם ניוקי",
+      "ראש ברוקולי, מחולק לפרחים קטנים",
+      "בצל בינוני, פרוס",
+      "2 שיני שום, כתושות",
+      "כף שמן זית",
+      "כפית סוכר",
+      "כף רוטב סויה",
+      "2 כפות סילאן",
+      "מיץ מחצי לימון",
+      "גרידת לימון",
+      "מלח ופלפל לפי הטעם"
+    ],
+    "instructions": [
+      "חולטים את הברוקולי: מרתיחים מים בסיר, מוסיפים את הברוקולי ומבשלים 2–3 דקות עד שמתרכך מעט",
+      "מבשלים את הניוקי לפי הוראות היצרן, מסננים ושומרים בצד",
+      "מחממים מחבת רחבה עם כף שמן זית. מוסיפים את הבצל ומטגנים עד להזהבה",
+      "מוסיפים את השום הכתוש, מלח, פלפל וכפית סוכר. מערבבים היטב",
+      "מוסיפים את הברוקולי החלוט וממשיכים לטגן עוד 2 דקות. מעבירים את התערובת לכלי נפרד",
+      "באותה מחבת, מטגנים את רצועות האנטריקוט על חום גבוה במשך 2–3 דקות עד שהן משחימות",
+      "מחזירים את הבצל והברוקולי למחבת עם האנטריקוט, מערבבים בעדינות",
+      "מוסיפים את הניוקי למחבת, יוצקים רוטב סויה וסילאן ומערבבים",
+      "מוסיפים מיץ לימון וגרידת לימון, מערבבים היטב ומבשלים עוד כדקה לספיגת הטעמים"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "מגישים חם בתוספת גרידת לימון טרייה מלמעלה להדגשת הטעמים",
+    "link": "https://www.instagram.com/reel/DC37g7hIV-0/?igsh=MTY2cDZlNTgzaTgzYg=="
+  },
+  {
+    "id": 79,
+    "title": "פסטה עם רוטב עגבניות מיובשות וזיתים",
+    "description": "פסטה עם רוטב מעניין המשלב עגבניות מיובשות וזיתי קלמטה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/pasta_sundried_tomatoes_olives.jpg",
+      "main": "images/recipes/main/pasta_sundried_tomatoes_olives.jpg",
+      "hero": "images/recipes/hero/pasta_sundried_tomatoes_olives.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "פסטה",
+      "tags": ["עגבניות מיובשות", "זיתים", "רוטב"]
+    },
+    "time": "25",
+    "servings": "3",
+    "ingredients": [
+      "250 גרם פסטה צינורות (חצי שקית)",
+      "מיכל שמנת 9%",
+      "100 גרם זיתי קלמטה קצוצים",
+      "בערך 20 עגבניות מיובשות",
+      "בצל סגול",
+      "15 גרם חמאה",
+      "שום כתוש",
+      "מלח פלפל ואגוז מוסקט לפי הטעם"
+    ],
+    "instructions": [
+      "את הפסטה נכין לפי הוראות היצרן (מעדיפה להכין את הפסטה אחרי שהרוטב מוכן)",
+      "לרוטב: במחבת נטגן בצל סגול ושום עם חמאה",
+      "כשהבצל משנה את הצבע שלו נוסיף את העגבניות המיובשות זיתי קלמטה בזיליקום והשמנת",
+      "נערבב היטב עד שהשמנת מקבלת צבע מהירקות",
+      "נוסיף את התבלינים",
+      "נוסיף את הפסטה שהכנו ונערבב עד שכל הרוטב עוטף את הפסטה",
+      "נגיש עם פרמז׳ן ובתאבון"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "אפשר להוסיף עוד שמנת אם אוהבים יותר רוטב",
+    "link": "https://www.instagram.com/reel/DCmWhZxITDJ/?igsh=eDA1MTA5Z3NrcGt3"
+  },
+  {
+    "id": 80,
+    "title": "עוגת טירמיסו שוקולד",
+    "description": "עוגה טעימה ברמות סופר קלה להכנה עם שילוב טעמים מיוחד",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chocolate_tiramisu_cake.jpg",
+      "main": "images/recipes/main/chocolate_tiramisu_cake.jpg",
+      "hero": "images/recipes/hero/chocolate_tiramisu_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות מיוחדות",
+      "tags": ["טירמיסו", "שוקולד", "קל להכנה"]
+    },
+    "time": "120",
+    "servings": "12",
+    "ingredients": [
+      "ביסקוטים",
+      "קפה",
+      "קרם שוקולד",
+      "גנאש שוקולד"
+    ],
+    "instructions": [
+      "המתכון המלא בסטורי ובהייליט ״טירמיסו שוקולד״"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "יש כאן שילוב טעמים מיוחד של הביסקוטים עם הקרם שוקולד ועם הגנאש מלמעלה",
+    "link": "https://www.instagram.com/reel/DCYpVDzoRpJ/?igsh=cWNheTFmNXRveW5r"
+  },
+  {
+    "id": 81,
+    "title": "פולנטה מתירס טרי",
+    "description": "פולנטה עשירה ורכה מתירס טרי עם חלב ופרמזן",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/fresh_corn_polenta.jpg",
+      "main": "images/recipes/main/fresh_corn_polenta.jpg",
+      "hero": "images/recipes/hero/fresh_corn_polenta.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "פולנטה",
+      "tags": ["תירס טרי", "פולנטה", "דל קלוריות"]
+    },
+    "time": "35",
+    "servings": "4",
+    "ingredients": [
+      "5 קלחי תירס",
+      "כוס וחצי חלב",
+      "15 גרם חמאה",
+      "מלח פלפל",
+      "60 גרם פרמזן"
+    ],
+    "instructions": [
+      "נחתוך את גרעיני התירס מהקלח",
+      "נמזוג לסיר את החלב נוסיף את גרעיני התירס החמאה והתבלינים",
+      "נשים בהתחלה על אש גבוהה וברגע שהחלב מתחיל להתחמם נוריד לאש בינונית ל20 דקות בישול",
+      "אחרי 20 דקות נוסיף את הפרמזן ובעזרת בלנדר נטחן למרקם אחיד",
+      "נמזוג לצלחת אפשר להוסיף מלמעלה אספרגוס/פטריות מוקפצות/גרעיני תירס/פרמזן",
+      "ונגיש בתאבון"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "הכנתי אותה עם חלב ובלי שמנת אז גם המנה יחסית דלה בקלוריות",
+    "link": "https://www.instagram.com/reel/DCRtEZDImvJ/?igsh=MXNicXhlMHczb3dtbQ=="
+  },
+  {
+    "id": 82,
+    "title": "אסאדו עם חמאת בוטנים על חלה צרובה",
+    "description": "מנה ראשונה מיוחדת עם אסאדו, חמאת בוטנים ורוטב כוסברה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/asado_peanut_butter_challah.jpg",
+      "main": "images/recipes/main/asado_peanut_butter_challah.jpg",
+      "hero": "images/recipes/hero/asado_peanut_butter_challah.jpg"
+    },
+    "category": {
+      "main": "מנות ראשונות",
+      "sub": "מנות מיוחדות",
+      "tags": ["אסאדו", "חמאת בוטנים", "מסעדה"]
+    },
+    "time": "30",
+    "servings": "2",
+    "ingredients": [
+      "אסאדו",
+      "חמאת בוטנים",
+      "סויה",
+      "חלה",
+      "רוטב כוסברה"
+    ],
+    "instructions": [
+      "המתכון המלא יישלח בפרטי"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "איזה ביס טעים ומיוחד! מנה ראשונה סטייל מסעדה",
+    "link": "https://www.instagram.com/reel/DB_uem2I-aM/?igsh=dWl4cTUzdHcyczl6"
+  },
+  {
+    "id": 83,
+    "title": "עוגת פאדג' שוקולד פרווה",
+    "description": "עוגת פאדג' שוקולד פרווה חלומית ללא קמח, מתאימה לצליאקים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/parve_fudge_cake.jpg",
+      "main": "images/recipes/main/parve_fudge_cake.jpg",
+      "hero": "images/recipes/hero/parve_fudge_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות שוקולד",
+      "tags": ["פרווה", "פאדג'", "ללא קמח"]
+    },
+    "time": "60",
+    "servings": "12",
+    "ingredients": [
+      "300 גרם שוקולד מריר",
+      "150 גרם נטורינה",
+      "6 ביצים",
+      "כוס סוכר",
+      "3 כפות קקאו"
+    ],
+    "instructions": [
+      "נתחיל בהפרדת החלבונים והחלמונים",
+      "נמיס את השוקולד המריר והנטורינה ונערבב למרקם אחיד",
+      "נוסיף כל פעם חלמון אחד ונערבב מהר עד שייטמע בתערובת",
+      "ננפה את הקקאו ונערבב היטב",
+      "בקערה נפרדת נקציף את החלבונים אחרי 2-3 דקות הקצפה נוסיף בהדרגה את הסוכר ונמשיך להקציף עד לקצף חזק",
+      "נוסיף כל פעם 1/3 מתערובת השוקולד לקצף ונערבב בתנועות קיפול עד לאיחוד",
+      "נמזוג את הבלילה לתבנית עגולה קוטר 22",
+      "ונאפה בתנור שחומם מראש על טורבו 175 מעלות 30 דקות",
+      "נוציא את העוגה מהתנור ואז יש 2 אופציות: להשאיר בחוץ עד שתגיע לטמפ׳ החדר או להכניס למקרר ולאכול קרה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "העוגה טעימה גם קרה וגם חמה וזה הקסם שלה",
+    "link": "https://www.instagram.com/reel/DBLNgZXIWWl/?igsh=N2E3d2luNjg4OWV5"
+  },
+  {
+    "id": 84,
+    "title": "טורטיות ממולאות בפרגית וקינמון",
+    "description": "טורטיות ממולאות בפרגית טחונה עם רימונים וקינמון מפתיע",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_cinnamon_tortillas.jpg",
+      "main": "images/recipes/main/chicken_cinnamon_tortillas.jpg",
+      "hero": "images/recipes/hero/chicken_cinnamon_tortillas.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "טורטיות",
+      "tags": ["פרגית", "קינמון", "רימונים"]
+    },
+    "time": "30",
+    "servings": "8",
+    "ingredients": [
+      "למילוי פרגית: 400 גרם פרגית טחונה, בצל, כף שמן זית, כף סוכר חום, כף קינמון, גרעינים מחצי רימון, 2 כפות דבש, מלח ופלפל לפי הטעם",
+      "לציפוי: 2 ביצים, פירורי לחם",
+      "7-8 טורטיות"
+    ],
+    "instructions": [
+      "במחבת נטגן את הבצל עם קצת שמן זית",
+      "נוסיף את הסוכר המלח והפלפל ונערבב עד שהבצל רך",
+      "נוסיף את הפרגיות נערבב היטב וכשהן משנות את הצבע נוסיף את גרעיני הרימון, הקינמון והדבש",
+      "כשהתערובת מוכנה נקח טורטייה ונשים בתחילת כל טורטייה 2-3 כפות מהתערובת ונגלגל",
+      "בסוף כל טורטייה נמרח קצת ביצה כדי שהיא לא תפתח לנו",
+      "נטבול כל טורטייה בביצה ואז בפירורי לחם ונטגן מכל הצדדים",
+      "נגיש חם עם מטבל שאוהבים ובתאבון"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "אחרי שאכלתי את המנה הזאת לא הבנתי איך 23 שנה לא טעמתי את השילוב של פרגיות וקינמון",
+    "link": "https://www.instagram.com/reel/DBEYIhhIaO6/?igsh=cmtodjBscGdsZXRw"
+  },
+  {
+    "id": 85,
+    "title": "כדורי סינבון / לחם קופים",
+    "description": "כדורי בצק מצופים בחמאה סוכר וקינמון שיוצאים פשוט וואו",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cinnamon_monkey_bread.jpg",
+      "main": "images/recipes/main/cinnamon_monkey_bread.jpg",
+      "hero": "images/recipes/hero/cinnamon_monkey_bread.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמי שמרים",
+      "tags": ["סינבון", "קינמון", "לחם קופים"]
+    },
+    "time": "180",
+    "servings": "16",
+    "ingredients": [
+      "לבצק: 500 גרם קמח לחם, 10 גרם שמרים יבשים, 100 גרם סוכר, ביצה, 100 גרם חמאה קרה חתוכה לקוביות, 200 גרם שמנת חמוצה, 50 גרם חלב, 5 גרם מלח",
+      "לציפוי: קערה עם 150 גרם חמאה מומסת, קערה שנייה עם: 3 כפות קינמון ו240 גרם סוכר חום",
+      "לרוטב: 2 כפות אבקת סוכר, 2 כפות חלב, אפשר להוסיף כף גבינת שמנת אם רוצים קרם סמיך"
+    ],
+    "instructions": [
+      "בקערת מיקסר נשים קמח שמרים וסוכר ונערבב דקה",
+      "אחר כך נוסיף את הביצה, השמנת והחלב ונלוש 5 דקות",
+      "אחרי שנראה שהבצק מתאחד נוסיף בהדרגה את החמאה (נחתוך לקוביות קטנות וכל כמה שניות נוסיף קוביית חמאה)",
+      "אחרי שכל החמאה נטמעה בבצק (בין 4-5 דקות) נוסיף את המלח ונלוש עוד 3 דקות",
+      "3 דקות אחרי שהוספתם את המלח כדי לבדוק אם הבצק סיים את הלישה תבדקו האם יש בבצק רשת גלוטן",
+      "אחרי שהבצק סיים את הלישה שלו נניח אותו בקערה משומנת",
+      "אופציה 1: לשים את הבצק בהתפחה של לילה במקרר ואז למחרת שעה לפני שרוצים לעבוד איתו להוציא אותו לטמפרטורת החדר",
+      "אופציה 2: אם אין זמן להתפחת לילה תתפיחו בחוץ שעה- שעה וחצי עד שהבצק מכפיל את עצמו",
+      "אחרי שהבצק סיים לתפוח נחלק אותו ל2 חלקים שווים",
+      "נקח את החלק הראשון למלבן עבה ולא גדול ובעזרת גלגלת פיצה נחתוך לריבועים",
+      "כל ריבוע נגלגל לכדור ונטבול כל כדור בחמאה ואז בתערובת של הסוכר והקינמון",
+      "נסדר את הכדורים תבנית עגולה כאשר באמצע שמנו קערה קטנה",
+      "נתפיח את הכדורים בתבנית בחוץ 40-60 דקות",
+      "ואז נאפה בתנור שחומם מראש על טורבו 170 מעלות ל35-45 מעלות",
+      "כשהכדורים יוצאים מהתנור נערבב בתוך הקערית את האבקת סוכר והחלב ונטבול כל כדור ברוטב"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "זמן הלישה משתנה בין מיקסר למיקסר כי לפעמים יש מיקסרים פחות חזקים",
+    "link": "https://www.instagram.com/reel/DAQ91nZozyB/?igsh=MTBwYTI5eGdtM3dpMg=="
+  },
+  {
+    "id": 86,
+    "title": "בורקס גבינות וזיתים משערות קדאיף",
+    "description": "בורקס קרנאצ'י ומיוחד משערות קדאיף עם גבינות וזיתים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/kadaif_cheese_olive_burekas.jpg",
+      "main": "images/recipes/main/kadaif_cheese_olive_burekas.jpg",
+      "hero": "images/recipes/hero/kadaif_cheese_olive_burekas.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "בורקס",
+      "tags": ["קדאיף", "גבינות", "זיתים"]
+    },
+    "time": "45",
+    "servings": "12",
+    "ingredients": [
+      "200 גרם שערות קדאיף",
+      "75 גרם חמאה מומסת",
+      "150 גרם גבינה צהובה מגורדת",
+      "150 גרם בולגרית",
+      "2 כפות קוטג'",
+      "80 גרם זיתים (אפשר יותר/פחות תלוי כמה אוהבים)"
+    ],
+    "instructions": [
+      "נערבב את הגבינות והזיתים בקערה ונעביר לשקית זילוף",
+      "נקצוץ את שערות הקדאיף ונערבב עם החמאה המומסת",
+      "נקח תבנית אצבעות ונמלא בשכבה של שערות קדאיף",
+      "בעזרת שקית זילוף נזלף בכל תבנית אצבע מהבלילה",
+      "נשים עוד שכבה של שערות קדאיף בכל תבנית אצבע ונהדק",
+      "נכניס לתנור שחומם מראש על טורבו 180 מעלות 25-30 דקות"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "בורקס קרנאצ'י ומיוחד ברמות!",
+    "link": "https://www.instagram.com/reel/DABfnyUIoEa/?igsh=MXdsaW84MDlrNWxjaA=="
+  },
+  {
+    "id": 87,
+    "title": "מגולגלות סמורס",
+    "description": "מגולגלות עם נוטלה ומרשמלו שנמס",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/smores_rugelach.jpg",
+      "main": "images/recipes/main/smores_rugelach.jpg",
+      "hero": "images/recipes/hero/smores_rugelach.jpg"
+    },
+    "category": {
+      "main": "עוגיות",
+      "sub": "מגולגלות",
+      "tags": ["סמורס", "מרשמלו", "נוטלה"]
+    },
+    "time": "90",
+    "servings": "20",
+    "ingredients": [
+      "לבצק פריך: 140 גרם קמח, 100 גרם קורנפלור, 50 גרם אבקת סוכר, ביצה, 100 גרם חמאה רכה",
+      "למילוי: חצי צנצנת קטנה של נוטלה = 175 גרם, מרשמלו"
+    ],
+    "instructions": [
+      "הכנת הבצק פריך: במיקסר עם וו גיטרה נשים את האבקת סוכר והחמאה ונפעיל עד לאיחוד",
+      "נוסיף את הקמח והקורנפלור ונעבד עד מרקם חולי, נוסיף את הביצה עד שמתגבש לבצק",
+      "נרדד למלבן גדול נמרח נוטלה ונסדר את המרשמלו",
+      "נגלגל את הבצק לגליל ארוך ונקפיא אותו למשך 40-60 דקות",
+      "נוציא את הגליל מהמקפיא ונניח על תבנית עם נייר אפייה ונאפה 20-25 דקות עד שהבצק מזהיב בתנור שחומם מראש על 170 מעלות טורבו",
+      "נוציא מהתנור ונצנן בחוץ עד שמתקרר לגמרי",
+      "נבזוק אבקת סוכר ונפרוס פרוסות באופן שווה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "בגלל שבזמן אפייה המרשמלו מתנפח אז באמצע הגליל יווצר לכם סדק וזה בסדר",
+    "link": "https://www.instagram.com/reel/C_AVdSKIqTH/?igsh=MWxlbmc3dmhld2YwNg=="
+  },
+  {
+    "id": 88,
+    "title": "עוגיית פקאן ושוקולד מריר עם גלידת וניל",
+    "description": "עוגיית פקאן ושוקולד מריר חמה מוגשת עם גלידת וניל קרה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/pecan_chocolate_cookie_icecream.jpg",
+      "main": "images/recipes/main/pecan_chocolate_cookie_icecream.jpg",
+      "hero": "images/recipes/hero/pecan_chocolate_cookie_icecream.jpg"
+    },
+    "category": {
+      "main": "עוגיות",
+      "sub": "עוגיות חמות",
+      "tags": ["פקאן", "שוקולד מריר", "גלידה"]
+    },
+    "time": "30",
+    "servings": "12",
+    "ingredients": [
+      "100 גרם חמאה רכה",
+      "60 גרם סוכר לבן",
+      "60 גרם סוכר חום",
+      "ביצה",
+      "150 גרם קמח",
+      "כפית תמצית וניל",
+      "חצי כפית אבקת אפייה",
+      "שליש כפית סודה לשתייה",
+      "100 גרם שוקולד מריר",
+      "80 גרם פקאן",
+      "אופציונלי: מלח גס"
+    ],
+    "instructions": [
+      "נקצוץ את השוקולד המריר והפקאן",
+      "בקערה נערבב את החמאה עם הסוכרים עד למרקם משחתי",
+      "נוסיף את הביצה ונערבב לאיחוד",
+      "נוסיף את יתר המצרכים ונערבב",
+      "בעזרת כף גלידה ניצור עיגולים",
+      "נסדר כל פעם 6 עוגיות בתבנית",
+      "נאפה בתנור שחומם מראש על 180 מעלות טורבו ל10-12 דקות",
+      "נגיש מעל כל עוגייה חמה כדור גלידה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "איך אני מכורה לקינוח שיש בו שילוב של חם וקר! הכי טעים שיש",
+    "link": "https://www.instagram.com/reel/C-KN_FKIblM/?igsh=bGhkZHFyamU4ajg="
+  },
+  {
+    "id":89,
+    "title": "קנלוני במילוי בשר",
+    "description": "קנלוני במילוי בשר עם רוטב יין אדום מרשים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/meat_cannelloni.jpg",
+      "main": "images/recipes/main/meat_cannelloni.jpg",
+      "hero": "images/recipes/hero/meat_cannelloni.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "פסטה",
+      "tags": ["קנלוני", "בשר", "יין אדום"]
+    },
+    "time": "90",
+    "servings": "6",
+    "ingredients": [
+      "צינורות קנלוני",
+      "בשר טחון",
+      "יין אדום",
+      "רוטב עגבניות",
+      "ירקות"
+    ],
+    "instructions": [
+      "המתכון המלא נמצא בסטורי ובהייליט ״קנלוני בשר״"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "המנה הזאת נראית כל כך מרשימה על השולחן ובצדק! השילוב של היין עם הבשר ועם הפסטה יוצר שילוב טעמים משהו מפחיד",
+    "link": "https://www.instagram.com/reel/C9mHmFIIcRt/?igsh=eWVrbWxtMjkyaXF4"
+  },
+   {
+    "id": 90,
+    "title": "עוגת גבינה קרמית בטירוף",
+    "description": "עוגת גבינה קרמית והכי קלה שתכינו, עשויה מגבינות רזות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/crazy_creamy_cheesecake.jpg",
+      "main": "images/recipes/main/crazy_creamy_cheesecake.jpg",
+      "hero": "images/recipes/hero/crazy_creamy_cheesecake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות גבינה",
+      "tags": ["קרמית", "דל קלוריות", "קל להכנה"]
+    },
+    "time": "195",
+    "servings": "16",
+    "ingredients": [
+      "750 גרם גבינה לבנה 5%",
+      "200 שמנת חמוצה 9%",
+      "30 גרם קורנפלור",
+      "30 גרם אינסטנט פודינג",
+      "3/4 כוס תחליף סוכר/סוכר",
+      "4 ביצים"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים בקערה אחת נמזוג לתבנית 20*20",
+      "נאפה בתנור שחומם מראש על חום של 150 מעלות סטטי לשעה ורבע",
+      "בתחתית התנור נשים תבנית עם מים רותחים",
+      "נשאיר את העוגה בתנור סגור לפחות שעתיים (לא לפתוח במהלך האפייה)",
+      "ואז לעוד לילה במקרר ובתיאבון"
+    ],
+    "nutrition": "94-131 קלוריות | 6 חלבון | - פחמימה | - שומן",
+    "tips": "הכנתי את העוגה מגבינות רזות אז היא גם דלה בקלוריות",
+    "link": "https://www.instagram.com/reel/C9fSqxxIzof/?igsh=cG1kM3pwbDIzY2gy"
+  },
+  {
+    "id": 91,
+    "title": "קציצות טונה קטלניות",
+    "description": "קציצות טונה עם 30 קלוריות ו4 גרם חלבון לקציצה - הכי סוגרות פינה שיש",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/tuna_meatballs.jpg",
+      "main": "images/recipes/main/tuna_meatballs.jpg",
+      "hero": "images/recipes/hero/tuna_meatballs.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "קציצות",
+      "tags": ["טונה", "דל קלוריות", "חלבון"]
+    },
+    "time": "40",
+    "servings": "25",
+    "ingredients": [
+      "3 קופסאות טונה במים",
+      "2 ביצים",
+      "קישוא בינוני",
+      "תפוח אדמה קטן",
+      "גזר בינוני",
+      "בצל",
+      "חצי כפית מלח",
+      "חצי כפית פלפל",
+      "חצי כפית כמון"
+    ],
+    "instructions": [
+      "נטחן/נגרד את כל הירקות",
+      "נערבב את הירקות ביחד עם כל הרכיבים",
+      "נחלק ל25 קציצות",
+      "נאפה בתנור שחומם מראש על 180 מעלות טורבו ל20-25 דקות (תלוי בתנור)"
+    ],
+    "nutrition": "30 קלוריות | 4 חלבון | - פחמימה | - שומן",
+    "tips": "אין בקציצות קמח/פירורי לחם רק טונה וירקות",
+    "link": "https://www.instagram.com/reel/C9NQV93oSLR/?igsh=MTVzemZtNnpvN3JldQ=="
+  },
+  {
+    "id": 92,
+    "title": "פסטה רוזה עם עגבניות שרי ובולגרית",
+    "description": "פסטה רוזה עם עגבניות שרי ומעל הכל מלא בולגרית שמשדרגת בטירוף",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/pink_pasta_cherry_tomatoes_bulgarian.jpg",
+      "main": "images/recipes/main/pink_pasta_cherry_tomatoes_bulgarian.jpg",
+      "hero": "images/recipes/hero/pink_pasta_cherry_tomatoes_bulgarian.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "פסטה",
+      "tags": ["פסטה רוזה", "עגבניות שרי", "בולגרית"]
+    },
+    "time": "25",
+    "servings": "5",
+    "ingredients": [
+      "20 גרם חמאה",
+      "2 שיני שום",
+      "חצי קילו עגבניות שרי",
+      "כפית מלח",
+      "כפית פפריקה",
+      "חבילת רסק",
+      "חבילת פסטה",
+      "קופסת שמנת 9% (אפשר גם יותר אחוזי שומן)",
+      "מים רותחים",
+      "בולגרית"
+    ],
+    "instructions": [
+      "נתחיל בלהמיס את החמאה והשום",
+      "נחתוך את העגבניות לרבעים ונטגן 5-10 דקות עד שהעגבניות רכות",
+      "נוסיף את התבלינים הרסק והפסטה ונערבב",
+      "נמזוג את המים הרותחים עד לגובה הפסטה ואת השמנת",
+      "נחמם את הסיר על אש גבוהה עד שהמים מבעבעים ואז נוריד לאש בינונית",
+      "נבשל בערך 12 דקות",
+      "מדי פעם בזמן הבישול נערבב את הפסטה",
+      "נשים את הפסטה בצלחת ונגרד מעליה את הבולגרית (אל תוותרו על זה!!!!)",
+      "וזהו מוכן"
+    ],
+    "nutrition": "2,300 קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "זה מתאים בעייני ל4-5 מנות (לא כולל הבולגרית כי זה תלוי כמה תגרדו)",
+    "link": "https://www.instagram.com/reel/C9CEkiUIagP/?igsh=ZWFsaTc1cHdtYnF1"
+  },
+  {
+    "id": 93,
+    "title": "סלמון ברוטב דבש ושום על פירה כרובית ונענע",
+    "description": "מנה יפה של סלמון ברוטב דבש ושום על מצע של פירה כרובית ונענע",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/salmon_honey_garlic_cauliflower_mint_puree.jpg",
+      "main": "images/recipes/main/salmon_honey_garlic_cauliflower_mint_puree.jpg",
+      "hero": "images/recipes/hero/salmon_honey_garlic_cauliflower_mint_puree.jpg"
+    },
+    "category": {
+      "main": "מנות עיקריות",
+      "sub": "דגים",
+      "tags": ["סלמון", "דבש ושום", "פירה כרובית"]
+    },
+    "time": "25",
+    "servings": "2",
+    "ingredients": [
+      "לסלמון: סלמון, כפית דבש, שן שום, מלח",
+      "לפירה כרובית ונענע: כרובית, מלח, נענע, 2-4 כפות מים"
+    ],
+    "instructions": [
+      "נחלוט את הכרובית 7 דקות במים רותחים",
+      "נסנן את המים",
+      "נטחן את הכרובית במעבד מזון ביחד עם נענע מים ומלח",
+      "(תתחילו עם כף מים ואם המרקם עדיין לא חלק תוסיפו במידת הצורך)",
+      "לסלמון: נחתוך את הסלמון לקוביות נערבב אותו עם הדבש שום ומלח",
+      "נטגן מכל הצדדים",
+      "נמרח את צלחת את הפירה נפזר את קוביות הסלמון ונפזר עלי נענע לקישוט"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "לגבי כמות הנענע - יש לה טעם חזק אז תשימו קצת במידת הצורך תמיד אפשר להוסיף עוד",
+    "link": "https://www.instagram.com/reel/C87My-mIuTz/?igsh=NzUxZmE2eWNiNHJh"
+  },
+  {
+    "id": 94,
+    "title": "עוגת ביסקוויטים קלאסית",
+    "description": "עוגת ביסקוויטים הכי קלאסית והכי טעימה שיש עם מלא קרם וגנאש",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/classic_biscuit_cake.jpg",
+      "main": "images/recipes/main/classic_biscuit_cake.jpg",
+      "hero": "images/recipes/hero/classic_biscuit_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות קרות",
+      "tags": ["ביסקוויטים", "קלאסי", "קרם"]
+    },
+    "time": "240",
+    "servings": "12",
+    "ingredients": [
+      "17 ביסקוויטים",
+      "חצי כוס חלב",
+      "רבע כפית קפה (אופציונלי)",
+      "לקרם: 3 שמנת מתוקה להקצפה 24%, 80 גרם אינסטנט פודינג, 3 כפות אבקת סוכר, חצי כוס חלב",
+      "לגנאש: 70 גרם שוקולד מריר, 50 גרם שוקולד חלב, 120 שמנת 24 אחוז"
+    ],
+    "instructions": [
+      "נטבול את הביסקוויטים כמה שניות בחלב ונסדר את השכבה הראשונה בתבנית",
+      "להכנת הקרם: נקציף את השמנת למשך 2 דקות",
+      "לאחר 2 דקות נוסיף את החלב האינסטנט פודינג והאבקת סוכר ונקציף עד לקצפת יציבה",
+      "נמרח מעל שכבת הביסקוויטים שכבה של קצפת",
+      "נסדר עוד שכבת ביסקוויטים ומעליה נמרח עוד שכבת קצפת",
+      "סך הכל 2 שכבות ביסקוויטים ו2 שכבות של קצפת",
+      "ונכניס למקפיא לרבע שעה",
+      "הכנת הגנאש: נמיס את השוקולד והשמנת במיקרו בפולסים של חצי דקה ונערבב עד למרקם חלק",
+      "נוציא את העוגה מהמקפיא ונצפה אותה הגנאש שהכנו",
+      "נכניס את העוגה ללילה להתייצבות"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "הכי טעים בעוגת ביסקוויטים זה שבין השכבות יש מלא מלא קרם! ולמעלה גנאש עם מלא שוקולד",
+    "link": "https://www.instagram.com/reel/C8wHRJiIi6c/?igsh=ZGM3cWtkMDNmeThz"
+  },
+  {
+    "id": 95,
+    "title": "פיצה מבצק קוטג'",
+    "description": "פיצה מבצק קוטג' מוכנה תוך 20 דקות עם יותר חלבון מפיצה רגילה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cottage_cheese_pizza.jpg",
+      "main": "images/recipes/main/cottage_cheese_pizza.jpg",
+      "hero": "images/recipes/hero/cottage_cheese_pizza.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "פיצה",
+      "tags": ["קוטג'", "מהיר", "חלבון גבוה"]
+    },
+    "time": "20",
+    "servings": "6",
+    "ingredients": [
+      "לבצק: 200 גרם קמח, ביצה, גביע קוטג'",
+      "רוטב פיצה",
+      "גבינה צהובה (9%)",
+      "תוספות שאוהבים"
+    ],
+    "instructions": [
+      "מערבבים את הקמח הביצה והקוטג' לבצק אחיד ומעט דביק",
+      "בעזרת כף מחלקים ל6 כדורים ומשטחים בעזרת ידיים מעט רטובות",
+      "מורחים את הרוטב פיצה מפזרים גבינה צהובה ותוספות שאוהבים",
+      "אופים בתנור שחומם מראש על חום של 180 מעלות טורבו 15-20 דקות (תלוי תנור)"
+    ],
+    "nutrition": "217 קלוריות | 16 חלבון | - פחמימה | - שומן",
+    "tips": "הבצק מוכן תוך 2 דקות, עשרים דקות מרגע תחילת הדודא הפיצה כבר מוכנה",
+    "link": "https://www.instagram.com/reel/C8pO2HQIhjp/?igsh=NHgwdG05MWM5amg4"
+  },
+  {
+    "id": 96,
+    "title": "בצק פריך למגוון עוגיות",
+    "description": "בצק אחד מגוון שמאפשר להכין מגוון עוגיות שונות כולל אוזני המן",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/versatile_cookie_dough.jpg",
+      "main": "images/recipes/main/versatile_cookie_dough.jpg",
+      "hero": "images/recipes/hero/versatile_cookie_dough.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "עוגיות",
+      "tags": ["בצק פריך", "מגוון", "פורים", "אוזני המן"]
+    },
+    "time": "30",
+    "servings": "20",
+    "ingredients": [
+      "140 גרם קמח (כוס קמח)",
+      "100 גרם קורנפלור (כוס פחות 4 כפות)",
+      "50 גרם אבקת סוכר (חצי שקית)",
+      "ביצה",
+      "100 גרם חמאה (חצי חבילה)",
+      "כפית חלב (במידת הצורך)",
+      "ממרחים שונים למילוי לפי הבחירה"
+    ],
+    "instructions": [
+      "במיקסר עם וו גיטרה נשים את האבקת סוכר והחמאה ונפעיל עד לאיחוד",
+      "נוסיף את הקמח והקורנפלור ונעבד עד מרקם חולי",
+      "נוסיף את הביצה עד שמתגבש לבצק",
+      "במידה ותשתמשו בביצה קטנה מדי הבצק לא יתאחד אז במידת הצורך אפשר להוסיף כפית חלב",
+      "נרדד למלבן גדול נקרוץ לצורות לפי העוגיות שנרצה להכין ונמלא בממרחים שונים",
+      "נכניס לתנור שחומם מראש ל180 מעלות טורבו ל12 דקות או עד שמזהיב בקצוות העוגייה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "ניתן להכין ממנו מגוון עוגיות שונות ואפילו אוזני המן לפורים",
+    "link": "https://www.instagram.com/reel/C4zwUOhokzd/?igsh=MWZ5ODZxdmF5OHBrMQ=="
+  },
+  {
+    "id": 97,
+    "title": "פרחי כרובית מצופים בפירורי לחם",
+    "description": "פרחי כרובית טעימים ומממכרים מצופים בפירורי לחם זהובים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/coated_cauliflower.jpg",
+      "main": "images/recipes/main/coated_cauliflower.jpg",
+      "hero": "images/recipes/hero/coated_cauliflower.jpg"
+    },
+    "category": {
+      "main": "ירקות",
+      "sub": "כרובית",
+      "tags": ["כרובית", "פירורי לחם", "צמחוני", "ממכר"]
+    },
+    "time": "45",
+    "servings": "4",
+    "ingredients": [
+      "כרובית בינונית",
+      "2 ביצים",
+      "כפית מלח",
+      "חצי כפית פלפל שחור",
+      "כפית דבש",
+      "כפית פפריקה",
+      "צ'ילי גרוס (לא חובה)",
+      "שן שום כתוש",
+      "כף צ'ילי מתוק",
+      "פירורי לחם",
+      "שומשום",
+      "תרסיס שמן"
+    ],
+    "instructions": [
+      "נחלק את הכרובית לפרחים ונרתיח אותם למשך 15 דקות",
+      "בקערה נערבב את הביצים וכל התבלינים",
+      "בקערה שנייה נערבב את הפירורי לחם והשומשום",
+      "נקח כל פרח כרובית נטבול בקערה של הרוטב ונעטוף את הפרח טוב טוב ברוטב ואז נטבול בפירורי לחם",
+      "ממליצה ביד אחת לטבול את הפרח ברוטב וביד השנייה בפירורי לחם",
+      "נסדר את כל הפרחים בתבנית",
+      "נרסס מעל הכל קצת שמן",
+      "נאפה בתנור על טורבו 180 מעלות עד שמזהיב (בערך חצי שעה)"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "ממליצה ביד אחת לטבול את הפרח ברוטב וביד השנייה בפירורי לחם לתוצאה מושלמת",
+    "link": "https://www.instagram.com/reel/C1JgWk1Iglo/?igsh=NWFydDQ2dDU4MGpl"
+  },
+  {
+    "id": 98,
+    "title": "קרפ דל קלוריות",
+    "description": "קרפ כמו של הקניון רק ב-75 קלוריות ליחידה עם אפשרות למילוי לבחירה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/low_calorie_crepes.jpg",
+      "main": "images/recipes/main/low_calorie_crepes.jpg",
+      "hero": "images/recipes/hero/low_calorie_crepes.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "קרפים",
+      "tags": ["קרפ", "דל קלוריות", "מילוי לבחירה", "75 קלוריות"]
+    },
+    "time": "30",
+    "servings": "8",
+    "ingredients": [
+      "2 ביצים",
+      "כוס חד פעמית חלב (240 מל)",
+      "60 גרם קמח",
+      "10 גרם חמאה מומסת",
+      "תמצית וניל",
+      "2 כפות תחליף סוכר",
+      "מילוי לבחירה (נוטלה, אוראו וכו')"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים בקערה אחת",
+      "ממליצה אחרי שמסיימים לערבב להעביר את הבלילה דרך מסננת למקרה שיש גושים",
+      "מחממים מחבת לחום בינוני (במידה ואתם משתמשים במחבת שהיא לא נון סטיק תשמנו ממש מעט את המחבת לפני הקרפ הראשון)",
+      "מוזגים מעט מהבלילה אל המחבת ומטים את המחבת כך שהבלילה תגיע לכל המחבת",
+      "אחרי 2-3 דקות הופכים את הקרפ לעוד דקה/שתיים",
+      "חוזרים על הפעולה עוד 7 פעמים ומוכן!",
+      "אפשר לשים איזה מילוי שתבחרו"
+    ],
+    "nutrition": "75 קלוריות ליחידה | כל הבלילה: 600 קלוריות | 29 חלבון | 57.8 פחמימה | 27.1 שומן",
+    "tips": "כמות הקרפים תשתנה בהתאם לגודל המחבת שתשתמשו בה",
+    "link": "https://www.instagram.com/reel/C1tlux9I82s/?igsh=MWppc2F3OG1yeHhtdQ=="
+  },
+  {
+    "id": 99,
+    "title": "מוקפץ עוף ואטריות אודון",
+    "description": "מוקפץ עוף ואטריות אודון עם ירקות שיוצא פשוט מושלם בסגנון אסייתי",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_udon_stir_fry.jpg",
+      "main": "images/recipes/main/chicken_udon_stir_fry.jpg",
+      "hero": "images/recipes/hero/chicken_udon_stir_fry.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "אסייתי",
+      "tags": ["עוף", "אטריות אודון", "מוקפץ", "אסייתי", "ירקות"]
+    },
+    "time": "35",
+    "servings": "4",
+    "ingredients": [
+      "300 גרם חזה עוף חתוך לרצועות דקות",
+      "2 כפות קורנפלור",
+      "בצל בינוני",
+      "גזר חתוך",
+      "גמבה",
+      "כרוב לבן",
+      "שתי שיני שום כתושות",
+      "בצל ירוק",
+      "חבילת אטריות אודון",
+      "2 כפות סויה כהה",
+      "2 כפות טריאקי",
+      "חצי כף סילאן",
+      "2 כפות שמן קנולה לטיגון",
+      "כפית שמן שומשום",
+      "מלח פלפל שחור וצ'ילי לפי הטעם",
+      "בוטנים/קשיו גרוס לקישוט"
+    ],
+    "instructions": [
+      "מתחילים בלערבב את רצועות העוף עם קורנפלור עד שהן מצופות יפה מכל הצדדים ומניחים בצד לעשר דקות",
+      "מחממים סיר עם שמן וצורבים את העוף עד שהוא מבושל",
+      "מוציאים אותו לצלחת בצד",
+      "חותכים את כל הירקות לרצועות דקות",
+      "באותו הסיר מוסיפים טיפונת שמן אם צריך ומטגנים את השום והבצל",
+      "מוסיפים את הגזר, הגמבה והכרוב ומקפיצים כמה דקות עד שהירקות רכים אך שומרים על פריכות",
+      "מחזירים את העוף למחבת, מוסיפים סויה, טריאקי, קצת סילאן ופלפל שחור ומערבבים היטב",
+      "את האטריות אודון נכין לפי הוראות ההכנה ואז נוסיף אותן לסיר ונקפיץ את הכל ביחד עוד 2 דקות לספיגת טעמים",
+      "מכבים את האש, מוסיפים שמן שומשום ובצל ירוק קצוץ, מערבבים ומגישים חם",
+      "ממליצה לפזר מלמעלה בוטנים/קשיו גרוס"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "חשוב לשמור על פריכות הירקות ולא לבשל יתר על המידה",
+    "link": "https://www.instagram.com/reel/DLSaOlgI_Xx/?igsh=MWJ2cXZvN2l5OHZtMA=="
+  },
+  {
+    "id": 100,
+    "title": "עוגת גבינה טריקולד מנומרת",
+    "description": "עוגת גבינה מיוחדת בשלושה צבעים עם מראה מנומר מרהיב",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/tricolor_cheesecake.jpg",
+      "main": "images/recipes/main/tricolor_cheesecake.jpg",
+      "hero": "images/recipes/hero/tricolor_cheesecake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות קרות",
+      "tags": ["עוגת גבינה", "שלושה צבעים", "מנומרת", "חגיגית"]
+    },
+    "time": "480",
+    "servings": "12",
+    "ingredients": [
+      "לתחתית: 300 גרם ביסקוויטים טחונים, 200 גרם חמאה מומסת",
+      "לקרם גבינה: 2 מיכלים שמנת מתוקה 38%, 500 גרם גבינה לבנה (אפשר גם כל גבינת שמנת), 5 כפות סוכר, 5 כפות אינסטנט פודינג וניל",
+      "גנאש שוקולד מריר: 100 גרם שוקולד מריר, 80 גרם שמנת מתוקה",
+      "גנאש שוקולד חלב: 100 גרם שוקולד חלב, 60 גרם שמנת מתוקה",
+      "גנאש שוקולד לבן: 100 גרם שוקולד לבן, 50 גרם שמנת מתוקה",
+      "גנאש לציפוי: 100 גרם שוקולד מריר, 75 גרם שוקולד חלב, 180 גרם שמנת מתוקה"
+    ],
+    "instructions": [
+      "לתחתית: מערבבים את הביסקוויטים הטחונים עם החמאה המומסת, שופכים לתבנית ומהדקים לתחתית ולדפנות",
+      "גנאשים: בכל קערה ממיסים את השוקולד עם השמנת המתוקה בפולסים קצרים במיקרוגל עד שהתערובת חלקה",
+      "מערבבים כל גנאש בנפרד ומניחים בצד להתקררות לטמפרטורת חדר (חשוב לא לשלב את הגנאש עם הקרם כשהוא חם)",
+      "לקרם גבינה: בקערת מיקסר מקציפים את השמנת המתוקה עם הסוכר למשך כשתי דקות",
+      "מוסיפים את הגבינה הלבנה ואינסטנט הפודינג וממשיכים להקציף עד לקבלת קרם יציב וחלק",
+      "מחלקים את הקרם ל-3 קערות שוות ומערבבים כל חלק עם אחד מהגנאשים הקרים עד שהצבע אחיד בכל קערה",
+      "מעבירים כל קרם לשקית זילוף",
+      "להרכבה: מזלפים את הקרמים בצורה אקראית למראה מנומר",
+      "כשנסיים לזלף את כל הקרמים נייש בעדינות את החלק העליון ונעביר למקרר",
+      "לגנאש הציפוי: ממיסים את השוקולד המריר והשוקולד חלב עם השמנת המתוקה בפולסים קצרים במיקרוגל או על בן מארי",
+      "מערבבים עד שהגנאש חלק ואחיד, מצננים מעט ויוצקים בעדינות מעל העוגה הקרה",
+      "מעבירים את העוגה למקרר ללילה שלם או לפחות 6 שעות עד שהעוגה יציבה לגמרי"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "חשוב לחכות שהגנאשים יתקררו לפני הערבוב עם הקרם, ולתת לעוגה להתייצב במקרר ללילה שלם",
+    "link": "https://www.instagram.com/reel/DLHPk-noggE/?igsh=Z24xOHBnZXk3aTF5"
+  },
+  {
+    "id": 101,
+    "title": "סופלה שוקולד במילוי בלונדי",
+    "description": "סופלה שוקולד מושלם במילוי מטבע שוקולד בלונדי ומעליו כדור גלידה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chocolate_blondie_souffle.jpg",
+      "main": "images/recipes/main/chocolate_blondie_souffle.jpg",
+      "hero": "images/recipes/hero/chocolate_blondie_souffle.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "סופלה",
+      "tags": ["סופלה", "שוקולד", "בלונדי", "חם", "גלידה"]
+    },
+    "time": "25",
+    "servings": "2",
+    "ingredients": [
+      "150 גרם שוקולד מריר",
+      "75 גרם חמאה",
+      "2 ביצים",
+      "60 גרם סוכר (¼ כוס)",
+      "20 גרם קמח (2 כף שטוחה)",
+      "קורט מלח",
+      "טבלת שוקולד בלונדי למילוי",
+      "גלידה להגשה"
+    ],
+    "instructions": [
+      "ממיסים במיקרו את החמאה והשוקולד עד לתערובת חלקה",
+      "בקערה נפרדת טורפים את הביצים והסוכר",
+      "מערבבים בין שתי התערובות, מוסיפים את הקמח והקורט מלח, ומערבבים עד לאיחוד",
+      "מוזגים את הבלילה לתבנית, ומכניסים למרכז את מטבע השוקולד הלבן הקפוא",
+      "מכניסים לתנור שחומם מראש על טורבו 200 מעלות ל-10 דקות",
+      "מוציאים מהתנור, שמים כדור גלידה, ומתפנקים על כל ביס"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "אפשר להמיס טבלת שוקולד בלונדי, למזוג על נייר אפייה ולהקפיא, או פשוט להכניס קוביות שוקולד לבן. זמני האפייה משתנים בין תנור לתנור",
+    "link": "https://www.instagram.com/reel/DLARXZ4o1V6/?igsh=NnJia3FoNzFieTJn"
+  },
+  {
+    "id": 102,
+    "title": "סלמון עם ניוקי ברוטב ירוק",
+    "description": "סלמון עם ניוקי ועגבניות שרי ברוטב ירוק של עשבי תיבול בתבנית אחת - מושלם לשבועות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/salmon_gnocchi_green_sauce.jpg",
+      "main": "images/recipes/main/salmon_gnocchi_green_sauce.jpg",
+      "hero": "images/recipes/hero/salmon_gnocchi_green_sauce.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "דגים",
+      "tags": ["סלמון", "ניוקי", "רוטב ירוק", "שבועות", "תבנית אחת"]
+    },
+    "time": "35",
+    "servings": "4",
+    "ingredients": [
+      "חבילת ניוקי (500 גרם בוואקום)",
+      "800 גרם סלמון חתוך לקוביות",
+      "10 עגבניות שרי אדומות",
+      "10 עגבניות שרי צהובות",
+      "לרוטב: שליש צרור פטרוזיליה, שליש צרור בזיליקום, 100 גרם קשיו, בצל קטן, 2-3 שיני שום, חצי כוס שמן זית, חצי כוס מים, מלח, פלפל שחור"
+    ],
+    "instructions": [
+      "טוחנים בבלנדר את כל רכיבי הרוטב: פטרוזיליה, בזיליקום, קשיו, שום, בצל, שמן זית, מים, מלח ופלפל עד שמתקבל רוטב חלק וקרמי",
+      "שמים את הניוקי והסלמון בתבנית, שופכים מעל את כל הרוטב ומערבבים טוב עם הידיים עד שהכול מצופה",
+      "חותכים את עגבניות השרי לחצאים ומפזרים מעל בצורה יפה",
+      "עוטפים את התבנית בנייר כסף ומכניסים לתנור שחומם מראש על טורבו 180 מעלות ל-15 דקות",
+      "מסירים את נייר הכסף ואופים עוד כ-10 דקות לאוורור וצריבה קלה מלמעלה (הזמנים יכולים להשתנות מעט בין תנור לתנור)"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "מושלם לשבועות! הזמנים יכולים להשתנות מעט בין תנור לתנור",
+    "link": "https://www.instagram.com/reel/DKKOQ1gIW5L/?igsh=NTdvOWZ3M3Y4bjlw"
+  },
+  {
+    "id": 103,
+    "title": "עוגת תפוזים אווירית",
+    "description": "עוגת תפוזים קלילה ואווירית עם מיץ תפוזים טרי וגרידת תפוז",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/orange_sponge_cake.jpg",
+      "main": "images/recipes/main/orange_sponge_cake.jpg",
+      "hero": "images/recipes/hero/orange_sponge_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות ספוג",
+      "tags": ["תפוזים", "ספוג", "אווירית", "קלילה"]
+    },
+    "time": "120",
+    "servings": "12",
+    "ingredients": [
+      "6 ביצים",
+      "120 גרם שמן",
+      "280 גרם קמח",
+      "240 גרם סוכר",
+      "240 מ\"ל מיץ תפוזים (עדיף מתפוז טרי סחוט)",
+      "שקית אבקת אפייה",
+      "גרידת תפוז מתפוז שלם",
+      "אבקת סוכר לפיזור"
+    ],
+    "instructions": [
+      "נפריד את החלמונים והחלבונים",
+      "נשים את החלבונים בקערת מיקסר ונקציף על המהירות הכי גבוהה",
+      "כשהקצף מתחיל לגדול נוסיף בהדרגה את הסוכר ונמשיך להקציף למרקם יציב",
+      "נוסיף את החלמונים, השמן והתפוזים ונאחד בעזרת תנועות קיפול",
+      "נוסיף את יתר המרכיבים היבשים ולאחר נעבד בתנועות קיפול",
+      "נשפוך את העוגה לתבנית בגובה אחיד ומשומן",
+      "נכניס לתנור שחומם מראש ל-160 מעלות סטטי ל-45-60 דקות (תלוי בתנור)",
+      "כשהעוגה יוצאת מהתנור נהפוך את התבנית ונחכה שהיא תגיע לטמפרטורת החדר (בערך שעתיים וחצי)",
+      "נפזר אבקת סוכר מלמעלה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "חשוב להפוך את התבנית כשהעוגה יוצאת מהתנור ולחכות שתתקרר לחלוטין לפני חיתוך",
+    "link": "https://www.instagram.com/reel/DCGmwC_IaEF/?igsh=aTkwajRhYjdnMjQx"
+  },
+  {
+    "id": 104,
+    "title": "תפוחי אדמה ברוטב חרדל ושום",
+    "description": "תפוחי אדמה מטריפים ברוטב חרדל ושום שיוצאים זהובים ומושלמים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/mustard_garlic_potatoes.jpg",
+      "main": "images/recipes/main/mustard_garlic_potatoes.jpg",
+      "hero": "images/recipes/hero/mustard_garlic_potatoes.jpg"
+    },
+    "category": {
+      "main": "ירקות",
+      "sub": "תפוחי אדמה",
+      "tags": ["תפוחי אדמה", "חרדל", "שום", "זהובים", "מטריפים"]
+    },
+    "time": "45",
+    "servings": "4",
+    "ingredients": [
+      "6 תפוחי אדמה בינוניים",
+      "לרוטב: 2 כפות מיונז, 2 כפות חרדל דיז'ון, 2 כפיות שום כתוש, מלח פלפל לפי הטעם, 2-3 כפות מים, רבע כפית כורכום"
+    ],
+    "instructions": [
+      "נחתוך את תפוחי האדמה לקוביות ונרתיח בסיר עם מים רותחים עד שאפשר לתקוע בתפוחי אדמה מזלג והם מרגישים רכים",
+      "נערבב את כל מצרכי הרוטב בקערה (תתחילו עם 2 כפות מים ואם זה סמיך מדי תוסיפו עוד כף, שימו לב שהרוטב לא צריך להיות נוזלי כי אז הוא לא ייתפס על התפוח אדמה)",
+      "נמזוג את הרוטב מעל תפוחי האדמה ונערבב עד שכל תפוחי האדמה עטופים ברוטב",
+      "נסדר בתבנית ונכניס לתנור שחומם מראש על 180 מעלות טורבו עד שהן מזהיבים"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "שימו לב שהרוטב לא יהיה נוזלי מדי כדי שהוא ייצמד לתפוחי האדמה",
+    "link": "https://www.instagram.com/reel/C7PAmXdovOB/?igsh=bGh3aTdjdnc3cGJ0"
+  },
+  {
+    "id": 105,
+    "title": "חיתוכיות פיסטוק",
+    "description": "עוגיות פיסטוק מושלמות ב-99 קלוריות ליחידה, יותר שווה מחטיף אנרגיה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/pistachio_bars.jpg",
+      "main": "images/recipes/main/pistachio_bars.jpg",
+      "hero": "images/recipes/hero/pistachio_bars.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגיות",
+      "tags": ["פיסטוק", "שוקולד לבן", "99 קלוריות", "שכבות"]
+    },
+    "time": "90",
+    "servings": "30",
+    "ingredients": [
+      "לבצק פריך: 140 גרם קמח (כוס קמח), 100 גרם קורנפלור (כוס פחות 4 כפות), 50 גרם אבקת סוכר (חצי שקית), ביצה, 100 גרם חמאה (חצי חבילה)",
+      "לממרח פיסטוק: 125 גרם שוקולד לבן (ממליצה להשתמש בשוקולד לבן איכותי), 40 גרם מחית פיסטוק, 10 גרם שקדים טחונים",
+      "אופציונלי: 20 גרם פיסטוקים גרוסים לפזר בין השכבות"
+    ],
+    "instructions": [
+      "להכנת הממרח: נמיס בפולסים של חצי דקה את השוקולד הלבן במיקרו",
+      "אחרי שנמס לגמרי נוסיף את המחית פיסטוק ואת השקדים ונערבב לאיחוד",
+      "להכנת הבצק פריך: במעבד מזון נטחן את האבקת סוכר והחמאה עד לאיחוד",
+      "נוסיף את הקמח והקורנפלור ונטחן עד מרקם חולי, נוסיף את הביצה עד שמתגבש לבצק",
+      "במידה ותשתמשו בביצה קטנה מדי הבצק לא יתאחד אז במידת הצורך אפשר להוסיף כפית חלב",
+      "הבצק יוצא מעט דביק אז נשים אותו במקפיא ל-5 דקות",
+      "נקח את הבצק ונרדד אותו ל-4 מלבנים שווים",
+      "נשים את כל מלבני הבצק במקפיא ל-30 דקות",
+      "אחרי 30 דקות נפעיל תנור ל-170 מעלות טורבו ונתחיל בהרכבת העוגיות",
+      "נניח מלבן של בצק נמרח עליו מהממרח שהכנו ונפזר פיסטוקים גרוסים נחזור על הפעולה עוד פעמיים (מעל המלבן ה-4 לא נמרח מהממרח)",
+      "נכניס לתנור שחומם מראש ל-20 דקות של אפייה/עד שמזהיב",
+      "נוציא מהתנור ונצנן את העוגיות במשך שעה",
+      "לאחר שעה נבזוק אבקת סוכר ונחתוך לריבועים (יוצאים בערך 30 ריבועים)"
+    ],
+    "nutrition": "99 קלוריות ליחידה | - חלבון | - פחמימה | - שומן",
+    "tips": "עדיף להכין את הממרח לפני שמוציאים את מלבני הבצק מההקפאה",
+    "link": "https://www.instagram.com/reel/C1kGF0ZoQhI/?igsh=MWVsMW04NnB1eWNlYw=="
+  },
+  {
+    "id": 106,
+    "title": "קציצות עדשים שחורות",
+    "description": "קציצות עדשים שחורות טעימות ב-4 מרכיבים בלבד ו-36 קלוריות לקציצה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/black_lentil_meatballs.jpg",
+      "main": "images/recipes/main/black_lentil_meatballs.jpg",
+      "hero": "images/recipes/hero/black_lentil_meatballs.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "צמחוני",
+      "tags": ["עדשים שחורות", "קציצות", "צמחוני", "36 קלוריות", "4 מרכיבים"]
+    },
+    "time": "50",
+    "servings": "14",
+    "ingredients": [
+      "100 גרם עדשים שחורות (בערך חצי כוס)",
+      "בצל בינוני",
+      "קצת פטרוזיליה/כוסברה תלוי במה שאתם אוהבים",
+      "ביצה",
+      "מלח"
+    ],
+    "instructions": [
+      "נרתיח את העדשים למשך 25 דקות בסיר עם מים רותחים ואז נסנן",
+      "נטחן את העדשים לכמה שניות ככה שרוב הכמות חלקה אבל עדיין יש כמה עדשים שלא נטחנו (לא חייב אבל בעיני שחצי טחון וחצי לא זה מקפיץ את המרקם)",
+      "בקערה נשים בצל ופטרוזיליה שקצצנו דק נוסיף מלח ביצה ואת העדשים",
+      "נערבב היטב ונחלק ל-14 קציצות",
+      "נאפה בתנור שחומם מראש על 180 מעלות טורבו ל-20-25 דקות",
+      "אפשר להגיש עם לאבנה או כל תוספת שאוהבים"
+    ],
+    "nutrition": "36 קלוריות | 2.5 חלבון | 5.3 פחמימה | 0.6 שומן (לקציצה אחת מתוך 14)",
+    "tips": "לא חובה לטחון את כל העדשים - חצי טחון וחצי לא זה מקפיץ את המרקם",
+    "link": "https://www.instagram.com/reel/C17S_DtoyUr/?igsh=MTB4Z2NhY3NwZzRxZA=="
+  },
+  {
+    "id": 107,
+    "title": "עוגת שמרים דאבל שוקולד",
+    "description": "עוגת שמרים מושלמת עם שכבת ממרח קקאו ושכבת נוטלה - העוגה הכי טעימה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/double_chocolate_yeast_cake.jpg",
+      "main": "images/recipes/main/double_chocolate_yeast_cake.jpg",
+      "hero": "images/recipes/hero/double_chocolate_yeast_cake.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "עוגות שמרים",
+      "tags": ["שמרים", "שוקולד", "נוטלה", "קקאו", "רולדה"]
+    },
+    "time": "360",
+    "servings": "16",
+    "ingredients": [
+      "לבצק: 500 גרם קמח לחם, 10 גרם שמרים יבשים, 100 גרם סוכר, ביצה, 100 גרם חמאה קרה חתוכה לקוביות, 200 גרם שמנת חמוצה, 50 גרם חלב, 5 גרם (כפית) מלח",
+      "למילוי: 200 גרם סוכר, 100 גרם קקאו, 100 גרם חמאה, 200 גרם שוקולד מריר",
+      "לנוטלה: צנצנת קטנה של נוטלה 350 גרם",
+      "למי סוכר: 30 גרם סוכר, 30 גרם מים רותחים"
+    ],
+    "instructions": [
+      "הכנת הבצק: בקערת מיקסר נשים קמח שמרים וסוכר ונערבב דקה",
+      "נוסיף את הביצה, השמנת והחלב ונלוש 5 דקות",
+      "אחרי שנראה שהבצק מתאחד נוסיף בהדרגה את החמאה (נחתוך את החמאה לקוביות קטנות וכל כמה שניות נוסיף קוביית חמאה)",
+      "אחרי שכל החמאה נטמעה בבצק (בין 4-5 דקות) נוסיף את המלח ונלוש עוד 3 דקות",
+      "נבדוק אם יש בבצק רשת גלוטן, אם לא נמשיך ללוש",
+      "נניח את הבצק בקערה משומנת להתפחה של לילה במקרר או שעה-שעה וחצי בחוץ",
+      "הכנת המילוי: נמיס במיקרו את השוקולד המריר ואת החמאה בפולסים של חצי דקה",
+      "אחרי שהכל נמס נוסיף את הקקאו (עדיף לנפות אותו) ואת הסוכר ונערבב לאיחוד",
+      "אחרי שהבצק סיים לתפוח נחלק אותו ל-2 חלקים שווים",
+      "נקח את החלק הראשון ונרדד למלבן",
+      "בחצי אחד של המלבן נמרח את הממרח קקאו שהכנו ואז נקפל את הבצק",
+      "אחרי הקיפול נרדד את הבצק כמה שיותר דק כדי שנקבל כמה שיותר שכבות של שוקולד",
+      "נמרח את הנוטלה על כל המלבן ונגלגל לרולדה (עדיף לחמם את הנוטלה לפני במיקרו)",
+      "נחצה את הרולדה ל-2 ונעצב אותה לצורת בורג",
+      "נתפיח את הרולדה בחוץ 40 דקות",
+      "נאפה בתנור שחומם מראש על טורבו 170 מעלות ל-35-45 דקות",
+      "הכנת מי סוכר: נשפוך מים רותחים על הסוכר ונערבב עד שכל הסוכר נמס",
+      "אחרי שהוצאנו את העוגה מהתנור נמרח את המי סוכר הקרים",
+      "נתן לעוגה להתקרר לפחות חצי שעה לפני חיתוך"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "זמן הלישה משתנה בין מיקסר למיקסר. עדיף להתפיח בלילה במקרר. אל תחתכו את העוגה כשהיא חמה",
+    "link": "https://www.instagram.com/reel/CzdY6LiIN3y/?igsh=MXB3N2NwZHlxOGNxMw=="
+  } , 
+  {
+    "id": 108,
+    "title": "בוריקיטס דל קלוריות",
+    "description": "בוריקיטס קטנים וטעימים ב-40 קלוריות ליחידה ו-3 גרם חלבון - מושלם לארוחת ערב",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/low_calorie_boureka_bites.jpg",
+      "main": "images/recipes/main/low_calorie_boureka_bites.jpg",
+      "hero": "images/recipes/hero/low_calorie_boureka_bites.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "בורקסים",
+      "tags": ["בוריקיטס", "דל קלוריות", "40 קלוריות", "ארוחת ערב", "מיני"]
+    },
+    "time": "45",
+    "servings": "47",
+    "ingredients": [
+      "לבצק: 250 גרם גבינה לבנה, 300 גרם קמח, כפית מלח, כפית אבקת אפייה",
+      "למילוי: 2 חלבוני ביצים, 140 גרם גבינה צהובה 9%, 250 גרם בולגרית 5%",
+      "לציפוי: חלמון להברשה, שומשום (אופציונלי)"
+    ],
+    "instructions": [
+      "נערבב את כל חומרי הבצק ונלוש עד שנקבל בצק נוח לעבודה",
+      "אפשר ללוש ביד 10 דקות או במיקסר 5 דקות",
+      "למילוי: נערבב את כל חומרי המילוי בקערה",
+      "נרדד את הבצק לעובי דק ונקרוץ עיגולים",
+      "נקח כל עיגול ונשים בו בערך כפית מהמילוי ונסגור כמו בסרטון",
+      "נבריש את כל הבוריקיטסים בביצה ונפזר קצת שומשום (לא חובה שומשום)",
+      "נאפה בתנור שחומם מראש על 180 מעלות עד שהם מזהיבים (בערך 15 דקות תלוי בתנור)"
+    ],
+    "nutrition": "41 קלוריות | 3 חלבון | 1 שומן | 5.3 פחמימה (ליחידה מתוך 47)",
+    "tips": "מושלם לארוחת ערב קלה וטעימה, יוצאים 47 יחידות מהמתכון",
+    "link": "https://www.instagram.com/reel/CxxMHYyIQa0/?igsh=aTJxNm91amY0eTBq"
+  },
+  {
+    "id": 109,
+    "title": "עראייס עוף עם נענע",
+    "description": "עראייס עוף ממכר עם 14 גרם חלבון ונענע שמרענן את כל המנה - מושלם ליום העצמאות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_arayes_mint.jpg",
+      "main": "images/recipes/main/chicken_arayes_mint.jpg",
+      "hero": "images/recipes/hero/chicken_arayes_mint.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "עוף",
+      "tags": ["עראייס", "עוף", "נענע", "14 גרם חלבון", "יום העצמאות"]
+    },
+    "time": "25",
+    "servings": "10",
+    "ingredients": [
+      "500 גרם חזה עוף טחון",
+      "בצל סגול",
+      "פטרוזיליה",
+      "נענע מלא!",
+      "שום",
+      "מלח",
+      "פלפל",
+      "5 פיתות כוסמין",
+      "טחינה להגשה"
+    ],
+    "instructions": [
+      "הכי פשוט בעולם נערבב את כל החומרים בקערה",
+      "נחתוך את הפיתות לחצי ונמלא במלית",
+      "נטגן כמה דקות על כל צד",
+      "נגיש עם טחינה ומושלם"
+    ],
+    "nutrition": "124 קלוריות | 14.1 גרם חלבון | 2 גרם שומן | 11.6 גרם פחמימה (ליחידה מתוך 10)",
+    "tips": "הנענע הוא המרכיב שמרענן את כל המנה ועושה את ההבדל! מספיק ל-5-6 פיתות (10-12 חתיכות)",
+    "link": "https://www.instagram.com/reel/C6x0JkiISVu/?igsh=aG53cmxhZTl0eHRy"
+  },
+  
+  {
+    "id": 110,
+    "title": "מאפינס שקדים בציפוי דבש ללא שמן",
+    "description": "מאפינס שקדים קליל ומושלם בלי טיפה אחת של שמן, ב-78 קלוריות ליחידה - מושלם לארוחת החג",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/oil_free_almond_honey_muffins.jpg",
+      "main": "images/recipes/main/oil_free_almond_honey_muffins.jpg",
+      "hero": "images/recipes/hero/oil_free_almond_honey_muffins.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "מאפינס",
+      "tags": ["מאפינס", "שקדים", "דבש", "ללא שמן", "78 קלוריות", "חג"]
+    },
+    "time": "40",
+    "servings": "6",
+    "ingredients": [
+      "ביצה",
+      "40 גרם רסק תפוחים",
+      "50 גרם תחליף סוכר",
+      "50 גרם קמח לבן",
+      "25 גרם קמח שקדים",
+      "40 מ\"ל מיץ תפוזים/מים",
+      "כפית אבקת אפייה",
+      "שקדים לקישוט (אופציונלי)",
+      "דבש/מייפל לציפוי (אופציונלי)"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים בקערה אחת",
+      "נמזוג לתבניות מאפינס",
+      "אפשר להוסיף לפני אפייה קצת שקדים מלמעלה",
+      "נאפה בתנור שחומם מראש על 180 מעלות לחצי שעה",
+      "נכניס קיסם למאפינס ונראה שהוא יוצא עם פירורים וככה נדע שזה מוכן",
+      "אחרי אפייה אפשר לזלף דבש או מייפל באווירת החג"
+    ],
+    "nutrition": "78 קלוריות ליחידה (לא כולל התוספות למעלה) | - חלבון | - פחמימה | - שומן",
+    "tips": "קינוח קליל ומושלם לארוחת החג! אפשר להחליף דבש במייפל. בלי טיפה אחת של שמן!",
+    "link": "https://www.instagram.com/reel/CxDl1tHIMDH/?igsh=MWlkejN4c3dmbHVzYg=="
+  },
+  {
+    "id": 111,
+    "title": "בראוניז דבש",
+    "description": "בראוניז דבש מושלם לערב ראש השנה עם קינמון ו-112 קלוריות לחתיכה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/honey_brownies.jpg",
+      "main": "images/recipes/main/honey_brownies.jpg",
+      "hero": "images/recipes/hero/honey_brownies.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "בראוניז",
+      "tags": ["בראוניז", "דבש", "ראש השנה", "קינמון", "112 קלוריות"]
+    },
+    "time": "45",
+    "servings": "16",
+    "ingredients": [
+      "150 גרם שוקולד מריר",
+      "40 גרם חמאה/מרגרינה",
+      "כפית קינמון",
+      "3 ביצים",
+      "25 גרם קמח",
+      "120 גרם דבש",
+      "חצי כוס תחליף סוכר",
+      "קצת מלח"
+    ],
+    "instructions": [
+      "סתם הכי קל בעולם מערבבים את כל המצרכים בקערה אחת וזהו",
+      "נכניס לתנור שחומם מראש על 180 מעלות ל-25-35 דקות (תלוי בתנור)",
+      "ובתיאבון"
+    ],
+    "nutrition": "112 קלוריות לחתיכה (מתוך 16) | - חלבון | - פחמימה | - שומן",
+    "tips": "מושלם לערב ראש השנה! שמרו את המתכון כדי שתוכלו לחזור אליו לפני ערב החג",
+    "link": "https://www.instagram.com/reel/Cw0Mib9I8oP/?igsh=MXB1ODB4bmRvZTRlMA=="
+  },
+  {
+    "id": 112,
+    "title": "ארנציני פתיתים אפויים",
+    "description": "ארנציני פתיתים אפויים דל קלוריות - מושלם למי שבחיטוב אבל מת על מנות ראשונות במסעדות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/baked_pasta_arancini.jpg",
+      "main": "images/recipes/main/baked_pasta_arancini.jpg",
+      "hero": "images/recipes/hero/baked_pasta_arancini.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "מנות ראשונות",
+      "tags": ["ארנציני", "פתיתים", "אפוי", "דל קלוריות", "107 קלוריות", "חיטוב"]
+    },
+    "time": "90",
+    "servings": "16",
+    "ingredients": [
+      "נמיס את החמאה על המחבת",
+      "נוסיף את השום",
+      "נשפוך את הפתיתים ונערבב עד שכל הפתיתים עטופים בחמאה",
+      "נוסיף בהדרגה כל פעם קצת מים ונערבב",
+      "כל פעם שהמים מצטמצמים נוסיף עוד מים",
+      "לאחר שהוספנו את כל המים נוסיף את השמנת והגבינה הצהובה ונערבב עד שכל הגבינה נמסה",
+      "נשים במקרר לשעה",
+      "נוציא נכדרר כדורים, נטבול בביצה ואז בפירורי לחם ונסדר הכל על תבנית",
+      "נשפריץ תרסיס שמן כדי שיצא יותר קראנצי",
+      "נאפה על 180 מעלות 20 דקות ובאמצע האפייה נהפוך"
+    ],
+    "nutrition": "107 קלוריות ליחידה (מתוך 16) | - חלבון | - פחמימה | - שומן",
+    "tips": "מושלם למי שבחיטוב אבל מת על מנות ראשונות במסעדות! זמני האפייה יכולים להשתנות בין תנור לתנור",
+    "link": "https://www.instagram.com/reel/Cw7MYUToEex/?igsh=N3Bic3U2bGk5Z2Vl"
   }
-]
 
-// יצוא המידע
+
+]
+  
+  
+
+
+	 
+	 // יצוא המידע
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = recipesData;
 }
