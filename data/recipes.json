@@ -7,7 +7,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheesecake_diet.jpg",
       "main": "images/recipes/main/cheesecake_diet.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheesecake_diet.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -41,9 +41,9 @@
     "title": "לחוח תימני",
     "description": "לחוח תימני אסלי כל כך טעים ורק ב120 קלוריות ללחוח אמיתי",
     "images": {
-      "thumbnail": "images/recipes/thumbnails/lahuh_yemeni.jpg",
-      "main": "images/recipes/main/lahuh_yemeni.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "thumbnail": "images/recipes/thumbnails/lahuh.jpg",
+      "main": "images/recipes/main/lahuh.jpg",
+      "hero": "images/recipes/hero/lahuh.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -81,7 +81,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/kubana.jpg",
       "main": "images/recipes/main/kubana.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/kubana.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -119,7 +119,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/lemon_crembo.jpg",
       "main": "images/recipes/main/lemon_crembo.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/lemon_crembo.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -153,7 +153,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/brownie_cheesecake.jpg",
       "main": "images/recipes/main/brownie_cheesecake.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/brownie_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -190,7 +190,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_pastry_pan.jpg",
       "main": "images/recipes/main/cheese_pastry_pan.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_pastry_pan.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -262,7 +262,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/rice_paper_burekas.jpg",
       "main": "images/recipes/main/rice_paper_burekas.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/rice_paper_burekas.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -300,7 +300,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/parmesan_zaatar_cookies.jpg",
       "main": "images/recipes/main/parmesan_zaatar_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/parmesan_zaatar_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -333,7 +333,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cinnamon_cookies.jpg",
       "main": "images/recipes/main/cinnamon_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cinnamon_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -369,7 +369,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/asian_chicken_lettuce.jpg",
       "main": "images/recipes/main/asian_chicken_lettuce.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/asian_chicken_lettuce.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -409,7 +409,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/mini_chocolate_cookies.jpg",
       "main": "images/recipes/main/mini_chocolate_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/mini_chocolate_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -441,7 +441,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/mini_heart_pancakes.jpg",
       "main": "images/recipes/main/mini_heart_pancakes.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/mini_heart_pancakes.jpg"
     },
     "category": {
       "main": "ארוחת בוקר",
@@ -473,7 +473,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/turkish_salad.jpg",
       "main": "images/recipes/main/turkish_salad.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/turkish_salad.jpg"
     },
     "category": {
       "main": "סלטים",
@@ -515,7 +515,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/oat_cookies.jpg",
       "main": "images/recipes/main/oat_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/oat_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -553,7 +553,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cauliflower_casserole.jpg",
       "main": "images/recipes/main/cauliflower_casserole.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cauliflower_casserole.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -590,7 +590,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/creamy_cheesecake.jpg",
       "main": "images/recipes/main/creamy_cheesecake.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/creamy_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -620,7 +620,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/savory_pancakes.jpg",
       "main": "images/recipes/main/savory_pancakes.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/savory_pancakes.jpg"
     },
     "category": {
       "main": "ארוחת בוקר",
@@ -657,7 +657,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_zucchini_quiche.jpg",
       "main": "images/recipes/main/cheese_zucchini_quiche.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_zucchini_quiche.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -686,7 +686,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/polenta_gnocchi.jpg",
       "main": "images/recipes/main/polenta_gnocchi.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/polenta_gnocchi.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -720,7 +720,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/ptitim_eggplant.jpg",
       "main": "images/recipes/main/ptitim_eggplant.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/ptitim_eggplant.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -761,7 +761,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_khachapuri.jpg",
       "main": "images/recipes/main/cheese_khachapuri.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_khachapuri.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -797,7 +797,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/corn_schnitzel.jpg",
       "main": "images/recipes/main/corn_schnitzel.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/corn_schnitzel.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -837,7 +837,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/pistachio_crunch.jpg",
       "main": "images/recipes/main/pistachio_crunch.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/pistachio_crunch.jpg"
     },
     "category": {
       "main": "ממתקים",
@@ -869,7 +869,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/alfajores_cookies.jpg",
       "main": "images/recipes/main/alfajores_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/alfajores_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -910,7 +910,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/broccoli_cottage_meatballs.jpg",
       "main": "images/recipes/main/broccoli_cottage_meatballs.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/broccoli_cottage_meatballs.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -947,7 +947,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/raffaello_balls.jpg",
       "main": "images/recipes/main/raffaello_balls.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/raffaello_balls.jpg"
     },
     "category": {
       "main": "ממתקים",
@@ -978,7 +978,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/amsterdam_rolls.jpg",
       "main": "images/recipes/main/amsterdam_rolls.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/amsterdam_rolls.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -1012,7 +1012,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_garlic_bread.jpg",
       "main": "images/recipes/main/cheese_garlic_bread.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_garlic_bread.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1045,7 +1045,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_donuts.jpg",
       "main": "images/recipes/main/baked_donuts.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_donuts.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1087,7 +1087,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cheese_olive_bites.jpg",
       "main": "images/recipes/main/cheese_olive_bites.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/cheese_olive_bites.jpg"
     },
     "category": {
       "main": "נשנושים",
@@ -1124,7 +1124,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/low_cal_pesto_pasta.jpg",
       "main": "images/recipes/main/low_cal_pesto_pasta.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/low_cal_pesto_pasta.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1161,7 +1161,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/coffee_pecan_brownies.jpg",
       "main": "images/recipes/main/coffee_pecan_brownies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/coffee_pecan_brownies.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -1196,7 +1196,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/almond_challah.jpg",
       "main": "images/recipes/main/almond_challah.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/almond_challah.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1232,7 +1232,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_chicken_meatballs.jpg",
       "main": "images/recipes/main/baked_chicken_meatballs.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_chicken_meatballs.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1271,7 +1271,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_spaghetti.jpg",
       "main": "images/recipes/main/baked_spaghetti.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_spaghetti.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1334,7 +1334,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/baked_potato_latkes.jpg",
       "main": "images/recipes/main/baked_potato_latkes.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/baked_potato_latkes.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1368,7 +1368,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/snail_meat_challah.jpg",
       "main": "images/recipes/main/snail_meat_challah.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/snail_meat_challah.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1441,7 +1441,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/one_pot_chicken_pasta.jpg",
       "main": "images/recipes/main/one_pot_chicken_pasta.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/one_pot_chicken_past.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1482,7 +1482,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/dry_lemon_cookies.jpg",
       "main": "images/recipes/main/dry_lemon_cookies.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/dry_lemon_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -2477,7 +2477,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/passover_shepherds_pie.jpg",
       "main": "images/recipes/main/passover_shepherds_pie.jpg",
-      "hero": "images/recipes/hero/passover_shepherds_pie_hero.jpg"
+      "hero": "images/recipes/hero/passover_shepherds_pie.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -2513,7 +2513,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/giant_matzah_burekas.jpg",
       "main": "images/recipes/main/giant_matzah_burekas.jpg",
-      "hero": "images/recipes/hero/giant_matzah_burekas_hero.jpg"
+      "hero": "images/recipes/hero/giant_matzah_burekas.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -2551,7 +2551,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/passover_brownie_cookies.jpg",
       "main": "images/recipes/main/passover_brownie_cookies.jpg",
-      "hero": "images/recipes/hero/passover_brownie_cookies_hero.jpg"
+      "hero": "images/recipes/hero/passover_brownie_cookies.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -2590,7 +2590,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/no_bake_hamantaschen.jpg",
       "main": "images/recipes/main/no_bake_hamantaschen.jpg",
-      "hero": "images/recipes/hero/no_bake_hamantaschen_hero.jpg"
+      "hero": "images/recipes/hero/no_bake_hamantaschen.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -2630,7 +2630,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/alfajores_cups.jpg",
       "main": "images/recipes/main/alfajores_cups.jpg",
-      "hero": "images/recipes/hero/alfajores_cups_hero.jpg"
+      "hero": "images/recipes/hero/alfajores_cups.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -2666,7 +2666,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cinnamon_crumble_cake.jpg",
       "main": "images/recipes/main/cinnamon_crumble_cake.jpg",
-      "hero": "images/recipes/hero/cinnamon_crumble_cake_hero.jpg"
+      "hero": "images/recipes/hero/cinnamon_crumble_cake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -2701,7 +2701,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/chicken_corn_meatballs.jpg",
       "main": "images/recipes/main/chicken_corn_meatballs.jpg",
-      "hero": "images/recipes/hero/chicken_corn_meatballs_hero.jpg"
+      "hero": "images/recipes/hero/chicken_corn_meatballs.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -2742,7 +2742,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/mocha_krembo_cake.jpg",
       "main": "images/recipes/main/mocha_krembo_cake.jpg",
-      "hero": "images/recipes/hero/mocha_krembo_cake_hero.jpg"
+      "hero": "images/recipes/hero/mocha_krembo_cake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -2778,7 +2778,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/dubai_chocolate_yeast_cake.jpg",
       "main": "images/recipes/main/dubai_chocolate_yeast_cake.jpg",
-      "hero": "images/recipes/hero/dubai_chocolate_yeast_cake_hero.jpg"
+      "hero": "images/recipes/hero/dubai_chocolate_yeast_cake.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -2819,7 +2819,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/entrecote_gnocchi_stir_fry.jpg",
       "main": "images/recipes/main/entrecote_gnocchi_stir_fry.jpg",
-      "hero": "images/recipes/hero/entrecote_gnocchi_stir_fry_hero.jpg"
+      "hero": "images/recipes/hero/entrecote_gnocchi_stir_fry.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -2864,7 +2864,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/pasta_sundried_tomatoes_olives.jpg",
       "main": "images/recipes/main/pasta_sundried_tomatoes_olives.jpg",
-      "hero": "images/recipes/hero/pasta_sundried_tomatoes_olives_hero.jpg"
+      "hero": "images/recipes/hero/pasta_sundried_tomatoes_olives.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -2903,7 +2903,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/chocolate_tiramisu_cake.jpg",
       "main": "images/recipes/main/chocolate_tiramisu_cake.jpg",
-      "hero": "images/recipes/hero/chocolate_tiramisu_cake_hero.jpg"
+      "hero": "images/recipes/hero/chocolate_tiramisu_cake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -2932,7 +2932,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/fresh_corn_polenta.jpg",
       "main": "images/recipes/main/fresh_corn_polenta.jpg",
-      "hero": "images/recipes/hero/fresh_corn_polenta_hero.jpg"
+      "hero": "images/recipes/hero/fresh_corn_polenta.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -2967,7 +2967,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/asado_peanut_butter_challah.jpg",
       "main": "images/recipes/main/asado_peanut_butter_challah.jpg",
-      "hero": "images/recipes/hero/asado_peanut_butter_challah_hero.jpg"
+      "hero": "images/recipes/hero/asado_peanut_butter_challah.jpg"
     },
     "category": {
       "main": "מנות ראשונות",
@@ -2997,7 +2997,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/parve_fudge_cake.jpg",
       "main": "images/recipes/main/parve_fudge_cake.jpg",
-      "hero": "images/recipes/hero/parve_fudge_cake_hero.jpg"
+      "hero": "images/recipes/hero/parve_fudge_cake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -3035,7 +3035,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/chicken_cinnamon_tortillas.jpg",
       "main": "images/recipes/main/chicken_cinnamon_tortillas.jpg",
-      "hero": "images/recipes/hero/chicken_cinnamon_tortillas_hero.jpg"
+      "hero": "images/recipes/hero/chicken_cinnamon_tortillas.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -3069,7 +3069,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cinnamon_monkey_bread.jpg",
       "main": "images/recipes/main/cinnamon_monkey_bread.jpg",
-      "hero": "images/recipes/hero/cinnamon_monkey_bread_hero.jpg"
+      "hero": "images/recipes/hero/cinnamon_monkey_bread.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -3111,7 +3111,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/kadaif_cheese_olive_burekas.jpg",
       "main": "images/recipes/main/kadaif_cheese_olive_burekas.jpg",
-      "hero": "images/recipes/hero/kadaif_cheese_olive_burekas_hero.jpg"
+      "hero": "images/recipes/hero/kadaif_cheese_olive_burekas.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -3147,7 +3147,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/smores_rugelach.jpg",
       "main": "images/recipes/main/smores_rugelach.jpg",
-      "hero": "images/recipes/hero/smores_rugelach_hero.jpg"
+      "hero": "images/recipes/hero/smores_rugelach.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -3180,7 +3180,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/pecan_chocolate_cookie_icecream.jpg",
       "main": "images/recipes/main/pecan_chocolate_cookie_icecream.jpg",
-      "hero": "images/recipes/hero/pecan_chocolate_cookie_icecream_hero.jpg"
+      "hero": "images/recipes/hero/pecan_chocolate_cookie_icecream.jpg"
     },
     "category": {
       "main": "עוגיות",
@@ -3223,7 +3223,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/meat_cannelloni.jpg",
       "main": "images/recipes/main/meat_cannelloni.jpg",
-      "hero": "images/recipes/hero/meat_cannelloni_hero.jpg"
+      "hero": "images/recipes/hero/meat_cannelloni.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -3253,7 +3253,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/crazy_creamy_cheesecake.jpg",
       "main": "images/recipes/main/crazy_creamy_cheesecake.jpg",
-      "hero": "images/recipes/hero/crazy_creamy_cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/crazy_creamy_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -3286,9 +3286,9 @@
     "title": "קציצות טונה קטלניות",
     "description": "קציצות טונה עם 30 קלוריות ו4 גרם חלבון לקציצה - הכי סוגרות פינה שיש",
     "images": {
-      "thumbnail": "images/recipes/thumbnails/killer_tuna_meatballs.jpg",
-      "main": "images/recipes/main/killer_tuna_meatballs.jpg",
-      "hero": "images/recipes/hero/killer_tuna_meatballs_hero.jpg"
+      "thumbnail": "images/recipes/thumbnails/tuna_meatballs.jpg",
+      "main": "images/recipes/main/tuna_meatballs.jpg",
+      "hero": "images/recipes/hero/tuna_meatballs.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -3325,7 +3325,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/pink_pasta_cherry_tomatoes_bulgarian.jpg",
       "main": "images/recipes/main/pink_pasta_cherry_tomatoes_bulgarian.jpg",
-      "hero": "images/recipes/hero/pink_pasta_cherry_tomatoes_bulgarian_hero.jpg"
+      "hero": "images/recipes/hero/pink_pasta_cherry_tomatoes_bulgarian.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -3368,7 +3368,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/salmon_honey_garlic_cauliflower_mint_puree.jpg",
       "main": "images/recipes/main/salmon_honey_garlic_cauliflower_mint_puree.jpg",
-      "hero": "images/recipes/hero/salmon_honey_garlic_cauliflower_mint_puree_hero.jpg"
+      "hero": "images/recipes/hero/salmon_honey_garlic_cauliflower_mint_puree.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -3401,7 +3401,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/classic_biscuit_cake.jpg",
       "main": "images/recipes/main/classic_biscuit_cake.jpg",
-      "hero": "images/recipes/hero/classic_biscuit_cake_hero.jpg"
+      "hero": "images/recipes/hero/classic_biscuit_cake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -3440,7 +3440,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/cottage_cheese_pizza.jpg",
       "main": "images/recipes/main/cottage_cheese_pizza.jpg",
-      "hero": "images/recipes/hero/cottage_cheese_pizza_hero.jpg"
+      "hero": "images/recipes/hero/cottage_cheese_pizza.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -3472,7 +3472,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/versatile_cookie_dough.jpg",
       "main": "images/recipes/main/versatile_cookie_dough.jpg",
-      "hero": "images/recipes/hero/versatile_cookie_dough_hero.jpg"
+      "hero": "images/recipes/hero/versatile_cookie_dough.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -3509,7 +3509,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/coated_cauliflower.jpg",
       "main": "images/recipes/main/coated_cauliflower.jpg",
-      "hero": "images/recipes/hero/coated_cauliflower_hero.jpg"
+      "hero": "images/recipes/hero/coated_cauliflower.jpg"
     },
     "category": {
       "main": "ירקות",
@@ -3553,7 +3553,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/low_calorie_crepes.jpg",
       "main": "images/recipes/main/low_calorie_crepes.jpg",
-      "hero": "images/recipes/hero/low_calorie_crepes_hero.jpg"
+      "hero": "images/recipes/hero/low_calorie_crepes.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -3591,7 +3591,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/chicken_udon_stir_fry.jpg",
       "main": "images/recipes/main/chicken_udon_stir_fry.jpg",
-      "hero": "images/recipes/hero/chicken_udon_stir_fry_hero.jpg"
+      "hero": "images/recipes/hero/chicken_udon_stir_fry.jpg"
     },
     "category": {
       "main": "עיקריות",
@@ -3641,7 +3641,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/tricolor_cheesecake.jpg",
       "main": "images/recipes/main/tricolor_cheesecake.jpg",
-      "hero": "images/recipes/hero/tricolor_cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/tricolor_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -3683,7 +3683,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/chocolate_blondie_souffle.jpg",
       "main": "images/recipes/main/chocolate_blondie_souffle.jpg",
-      "hero": "images/recipes/hero/chocolate_blondie_souffle_hero.jpg"
+      "hero": "images/recipes/hero/chocolate_blondie_souffle.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -3721,7 +3721,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/salmon_gnocchi_green_sauce.jpg",
       "main": "images/recipes/main/salmon_gnocchi_green_sauce.jpg",
-      "hero": "images/recipes/hero/salmon_gnocchi_green_sauce_hero.jpg"
+      "hero": "images/recipes/hero/salmon_gnocchi_green_sauce.jpg"
     },
     "category": {
       "main": "עיקריות",
@@ -3747,7 +3747,367 @@
     "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
     "tips": "מושלם לשבועות! הזמנים יכולים להשתנות מעט בין תנור לתנור",
     "link": "https://www.instagram.com/reel/DKKOQ1gIW5L/?igsh=NTdvOWZ3M3Y4bjlw"
-  }
+  },
+  {
+    "id": 103,
+    "title": "עוגת תפוזים אווירית",
+    "description": "עוגת תפוזים קלילה ואווירית עם מיץ תפוזים טרי וגרידת תפוז",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/orange_sponge_cake.jpg",
+      "main": "images/recipes/main/orange_sponge_cake.jpg",
+      "hero": "images/recipes/hero/orange_sponge_cake.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגות ספוג",
+      "tags": ["תפוזים", "ספוג", "אווירית", "קלילה"]
+    },
+    "time": "120",
+    "servings": "12",
+    "ingredients": [
+      "6 ביצים",
+      "120 גרם שמן",
+      "280 גרם קמח",
+      "240 גרם סוכר",
+      "240 מ\"ל מיץ תפוזים (עדיף מתפוז טרי סחוט)",
+      "שקית אבקת אפייה",
+      "גרידת תפוז מתפוז שלם",
+      "אבקת סוכר לפיזור"
+    ],
+    "instructions": [
+      "נפריד את החלמונים והחלבונים",
+      "נשים את החלבונים בקערת מיקסר ונקציף על המהירות הכי גבוהה",
+      "כשהקצף מתחיל לגדול נוסיף בהדרגה את הסוכר ונמשיך להקציף למרקם יציב",
+      "נוסיף את החלמונים, השמן והתפוזים ונאחד בעזרת תנועות קיפול",
+      "נוסיף את יתר המרכיבים היבשים ולאחר נעבד בתנועות קיפול",
+      "נשפוך את העוגה לתבנית בגובה אחיד ומשומן",
+      "נכניס לתנור שחומם מראש ל-160 מעלות סטטי ל-45-60 דקות (תלוי בתנור)",
+      "כשהעוגה יוצאת מהתנור נהפוך את התבנית ונחכה שהיא תגיע לטמפרטורת החדר (בערך שעתיים וחצי)",
+      "נפזר אבקת סוכר מלמעלה"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "חשוב להפוך את התבנית כשהעוגה יוצאת מהתנור ולחכות שתתקרר לחלוטין לפני חיתוך",
+    "link": "https://www.instagram.com/reel/DCGmwC_IaEF/?igsh=aTkwajRhYjdnMjQx"
+  },
+  {
+    "id": 104,
+    "title": "תפוחי אדמה ברוטב חרדל ושום",
+    "description": "תפוחי אדמה מטריפים ברוטב חרדל ושום שיוצאים זהובים ומושלמים",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/mustard_garlic_potatoes.jpg",
+      "main": "images/recipes/main/mustard_garlic_potatoes.jpg",
+      "hero": "images/recipes/hero/mustard_garlic_potatoes.jpg"
+    },
+    "category": {
+      "main": "ירקות",
+      "sub": "תפוחי אדמה",
+      "tags": ["תפוחי אדמה", "חרדל", "שום", "זהובים", "מטריפים"]
+    },
+    "time": "45",
+    "servings": "4",
+    "ingredients": [
+      "6 תפוחי אדמה בינוניים",
+      "לרוטב: 2 כפות מיונז, 2 כפות חרדל דיז'ון, 2 כפיות שום כתוש, מלח פלפל לפי הטעם, 2-3 כפות מים, רבע כפית כורכום"
+    ],
+    "instructions": [
+      "נחתוך את תפוחי האדמה לקוביות ונרתיח בסיר עם מים רותחים עד שאפשר לתקוע בתפוחי אדמה מזלג והם מרגישים רכים",
+      "נערבב את כל מצרכי הרוטב בקערה (תתחילו עם 2 כפות מים ואם זה סמיך מדי תוסיפו עוד כף, שימו לב שהרוטב לא צריך להיות נוזלי כי אז הוא לא ייתפס על התפוח אדמה)",
+      "נמזוג את הרוטב מעל תפוחי האדמה ונערבב עד שכל תפוחי האדמה עטופים ברוטב",
+      "נסדר בתבנית ונכניס לתנור שחומם מראש על 180 מעלות טורבו עד שהן מזהיבים"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "שימו לב שהרוטב לא יהיה נוזלי מדי כדי שהוא ייצמד לתפוחי האדמה",
+    "link": "https://www.instagram.com/reel/C7PAmXdovOB/?igsh=bGh3aTdjdnc3cGJ0"
+  },
+  {
+    "id": 105,
+    "title": "חיתוכיות פיסטוק",
+    "description": "עוגיות פיסטוק מושלמות ב-99 קלוריות ליחידה, יותר שווה מחטיף אנרגיה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/pistachio_bars.jpg",
+      "main": "images/recipes/main/pistachio_bars.jpg",
+      "hero": "images/recipes/hero/pistachio_bars.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "עוגיות",
+      "tags": ["פיסטוק", "שוקולד לבן", "99 קלוריות", "שכבות"]
+    },
+    "time": "90",
+    "servings": "30",
+    "ingredients": [
+      "לבצק פריך: 140 גרם קמח (כוס קמח), 100 גרם קורנפלור (כוס פחות 4 כפות), 50 גרם אבקת סוכר (חצי שקית), ביצה, 100 גרם חמאה (חצי חבילה)",
+      "לממרח פיסטוק: 125 גרם שוקולד לבן (ממליצה להשתמש בשוקולד לבן איכותי), 40 גרם מחית פיסטוק, 10 גרם שקדים טחונים",
+      "אופציונלי: 20 גרם פיסטוקים גרוסים לפזר בין השכבות"
+    ],
+    "instructions": [
+      "להכנת הממרח: נמיס בפולסים של חצי דקה את השוקולד הלבן במיקרו",
+      "אחרי שנמס לגמרי נוסיף את המחית פיסטוק ואת השקדים ונערבב לאיחוד",
+      "להכנת הבצק פריך: במעבד מזון נטחן את האבקת סוכר והחמאה עד לאיחוד",
+      "נוסיף את הקמח והקורנפלור ונטחן עד מרקם חולי, נוסיף את הביצה עד שמתגבש לבצק",
+      "במידה ותשתמשו בביצה קטנה מדי הבצק לא יתאחד אז במידת הצורך אפשר להוסיף כפית חלב",
+      "הבצק יוצא מעט דביק אז נשים אותו במקפיא ל-5 דקות",
+      "נקח את הבצק ונרדד אותו ל-4 מלבנים שווים",
+      "נשים את כל מלבני הבצק במקפיא ל-30 דקות",
+      "אחרי 30 דקות נפעיל תנור ל-170 מעלות טורבו ונתחיל בהרכבת העוגיות",
+      "נניח מלבן של בצק נמרח עליו מהממרח שהכנו ונפזר פיסטוקים גרוסים נחזור על הפעולה עוד פעמיים (מעל המלבן ה-4 לא נמרח מהממרח)",
+      "נכניס לתנור שחומם מראש ל-20 דקות של אפייה/עד שמזהיב",
+      "נוציא מהתנור ונצנן את העוגיות במשך שעה",
+      "לאחר שעה נבזוק אבקת סוכר ונחתוך לריבועים (יוצאים בערך 30 ריבועים)"
+    ],
+    "nutrition": "99 קלוריות ליחידה | - חלבון | - פחמימה | - שומן",
+    "tips": "עדיף להכין את הממרח לפני שמוציאים את מלבני הבצק מההקפאה",
+    "link": "https://www.instagram.com/reel/C1kGF0ZoQhI/?igsh=MWVsMW04NnB1eWNlYw=="
+  },
+  {
+    "id": 106,
+    "title": "קציצות עדשים שחורות",
+    "description": "קציצות עדשים שחורות טעימות ב-4 מרכיבים בלבד ו-36 קלוריות לקציצה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/black_lentil_meatballs.jpg",
+      "main": "images/recipes/main/black_lentil_meatballs.jpg",
+      "hero": "images/recipes/hero/black_lentil_meatballs.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "צמחוני",
+      "tags": ["עדשים שחורות", "קציצות", "צמחוני", "36 קלוריות", "4 מרכיבים"]
+    },
+    "time": "50",
+    "servings": "14",
+    "ingredients": [
+      "100 גרם עדשים שחורות (בערך חצי כוס)",
+      "בצל בינוני",
+      "קצת פטרוזיליה/כוסברה תלוי במה שאתם אוהבים",
+      "ביצה",
+      "מלח"
+    ],
+    "instructions": [
+      "נרתיח את העדשים למשך 25 דקות בסיר עם מים רותחים ואז נסנן",
+      "נטחן את העדשים לכמה שניות ככה שרוב הכמות חלקה אבל עדיין יש כמה עדשים שלא נטחנו (לא חייב אבל בעיני שחצי טחון וחצי לא זה מקפיץ את המרקם)",
+      "בקערה נשים בצל ופטרוזיליה שקצצנו דק נוסיף מלח ביצה ואת העדשים",
+      "נערבב היטב ונחלק ל-14 קציצות",
+      "נאפה בתנור שחומם מראש על 180 מעלות טורבו ל-20-25 דקות",
+      "אפשר להגיש עם לאבנה או כל תוספת שאוהבים"
+    ],
+    "nutrition": "36 קלוריות | 2.5 חלבון | 5.3 פחמימה | 0.6 שומן (לקציצה אחת מתוך 14)",
+    "tips": "לא חובה לטחון את כל העדשים - חצי טחון וחצי לא זה מקפיץ את המרקם",
+    "link": "https://www.instagram.com/reel/C17S_DtoyUr/?igsh=MTB4Z2NhY3NwZzRxZA=="
+  },
+  {
+    "id": 107,
+    "title": "עוגת שמרים דאבל שוקולד",
+    "description": "עוגת שמרים מושלמת עם שכבת ממרח קקאו ושכבת נוטלה - העוגה הכי טעימה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/double_chocolate_yeast_cake.jpg",
+      "main": "images/recipes/main/double_chocolate_yeast_cake.jpg",
+      "hero": "images/recipes/hero/double_chocolate_yeast_cake.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "עוגות שמרים",
+      "tags": ["שמרים", "שוקולד", "נוטלה", "קקאו", "רולדה"]
+    },
+    "time": "360",
+    "servings": "16",
+    "ingredients": [
+      "לבצק: 500 גרם קמח לחם, 10 גרם שמרים יבשים, 100 גרם סוכר, ביצה, 100 גרם חמאה קרה חתוכה לקוביות, 200 גרם שמנת חמוצה, 50 גרם חלב, 5 גרם (כפית) מלח",
+      "למילוי: 200 גרם סוכר, 100 גרם קקאו, 100 גרם חמאה, 200 גרם שוקולד מריר",
+      "לנוטלה: צנצנת קטנה של נוטלה 350 גרם",
+      "למי סוכר: 30 גרם סוכר, 30 גרם מים רותחים"
+    ],
+    "instructions": [
+      "הכנת הבצק: בקערת מיקסר נשים קמח שמרים וסוכר ונערבב דקה",
+      "נוסיף את הביצה, השמנת והחלב ונלוש 5 דקות",
+      "אחרי שנראה שהבצק מתאחד נוסיף בהדרגה את החמאה (נחתוך את החמאה לקוביות קטנות וכל כמה שניות נוסיף קוביית חמאה)",
+      "אחרי שכל החמאה נטמעה בבצק (בין 4-5 דקות) נוסיף את המלח ונלוש עוד 3 דקות",
+      "נבדוק אם יש בבצק רשת גלוטן, אם לא נמשיך ללוש",
+      "נניח את הבצק בקערה משומנת להתפחה של לילה במקרר או שעה-שעה וחצי בחוץ",
+      "הכנת המילוי: נמיס במיקרו את השוקולד המריר ואת החמאה בפולסים של חצי דקה",
+      "אחרי שהכל נמס נוסיף את הקקאו (עדיף לנפות אותו) ואת הסוכר ונערבב לאיחוד",
+      "אחרי שהבצק סיים לתפוח נחלק אותו ל-2 חלקים שווים",
+      "נקח את החלק הראשון ונרדד למלבן",
+      "בחצי אחד של המלבן נמרח את הממרח קקאו שהכנו ואז נקפל את הבצק",
+      "אחרי הקיפול נרדד את הבצק כמה שיותר דק כדי שנקבל כמה שיותר שכבות של שוקולד",
+      "נמרח את הנוטלה על כל המלבן ונגלגל לרולדה (עדיף לחמם את הנוטלה לפני במיקרו)",
+      "נחצה את הרולדה ל-2 ונעצב אותה לצורת בורג",
+      "נתפיח את הרולדה בחוץ 40 דקות",
+      "נאפה בתנור שחומם מראש על טורבו 170 מעלות ל-35-45 דקות",
+      "הכנת מי סוכר: נשפוך מים רותחים על הסוכר ונערבב עד שכל הסוכר נמס",
+      "אחרי שהוצאנו את העוגה מהתנור נמרח את המי סוכר הקרים",
+      "נתן לעוגה להתקרר לפחות חצי שעה לפני חיתוך"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "זמן הלישה משתנה בין מיקסר למיקסר. עדיף להתפיח בלילה במקרר. אל תחתכו את העוגה כשהיא חמה",
+    "link": "https://www.instagram.com/reel/CzdY6LiIN3y/?igsh=MXB3N2NwZHlxOGNxMw=="
+  } , 
+  {
+    "id": 108,
+    "title": "בוריקיטס דל קלוריות",
+    "description": "בוריקיטס קטנים וטעימים ב-40 קלוריות ליחידה ו-3 גרם חלבון - מושלם לארוחת ערב",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/low_calorie_boureka_bites.jpg",
+      "main": "images/recipes/main/low_calorie_boureka_bites.jpg",
+      "hero": "images/recipes/hero/low_calorie_boureka_bites.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "בורקסים",
+      "tags": ["בוריקיטס", "דל קלוריות", "40 קלוריות", "ארוחת ערב", "מיני"]
+    },
+    "time": "45",
+    "servings": "47",
+    "ingredients": [
+      "לבצק: 250 גרם גבינה לבנה, 300 גרם קמח, כפית מלח, כפית אבקת אפייה",
+      "למילוי: 2 חלבוני ביצים, 140 גרם גבינה צהובה 9%, 250 גרם בולגרית 5%",
+      "לציפוי: חלמון להברשה, שומשום (אופציונלי)"
+    ],
+    "instructions": [
+      "נערבב את כל חומרי הבצק ונלוש עד שנקבל בצק נוח לעבודה",
+      "אפשר ללוש ביד 10 דקות או במיקסר 5 דקות",
+      "למילוי: נערבב את כל חומרי המילוי בקערה",
+      "נרדד את הבצק לעובי דק ונקרוץ עיגולים",
+      "נקח כל עיגול ונשים בו בערך כפית מהמילוי ונסגור כמו בסרטון",
+      "נבריש את כל הבוריקיטסים בביצה ונפזר קצת שומשום (לא חובה שומשום)",
+      "נאפה בתנור שחומם מראש על 180 מעלות עד שהם מזהיבים (בערך 15 דקות תלוי בתנור)"
+    ],
+    "nutrition": "41 קלוריות | 3 חלבון | 1 שומן | 5.3 פחמימה (ליחידה מתוך 47)",
+    "tips": "מושלם לארוחת ערב קלה וטעימה, יוצאים 47 יחידות מהמתכון",
+    "link": "https://www.instagram.com/reel/CxxMHYyIQa0/?igsh=aTJxNm91amY0eTBq"
+  },
+  {
+    "id": 109,
+    "title": "עראייס עוף עם נענע",
+    "description": "עראייס עוף ממכר עם 14 גרם חלבון ונענע שמרענן את כל המנה - מושלם ליום העצמאות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/chicken_arayes_mint.jpg",
+      "main": "images/recipes/main/chicken_arayes_mint.jpg",
+      "hero": "images/recipes/hero/chicken_arayes_mint.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "עוף",
+      "tags": ["עראייס", "עוף", "נענע", "14 גרם חלבון", "יום העצמאות"]
+    },
+    "time": "25",
+    "servings": "10",
+    "ingredients": [
+      "500 גרם חזה עוף טחון",
+      "בצל סגול",
+      "פטרוזיליה",
+      "נענע מלא!",
+      "שום",
+      "מלח",
+      "פלפל",
+      "5 פיתות כוסמין",
+      "טחינה להגשה"
+    ],
+    "instructions": [
+      "הכי פשוט בעולם נערבב את כל החומרים בקערה",
+      "נחתוך את הפיתות לחצי ונמלא במלית",
+      "נטגן כמה דקות על כל צד",
+      "נגיש עם טחינה ומושלם"
+    ],
+    "nutrition": "124 קלוריות | 14.1 גרם חלבון | 2 גרם שומן | 11.6 גרם פחמימה (ליחידה מתוך 10)",
+    "tips": "הנענע הוא המרכיב שמרענן את כל המנה ועושה את ההבדל! מספיק ל-5-6 פיתות (10-12 חתיכות)",
+    "link": "https://www.instagram.com/reel/C6x0JkiISVu/?igsh=aG53cmxhZTl0eHRy"
+  },
+  
+  {
+    "id": 110,
+    "title": "מאפינס שקדים בציפוי דבש ללא שמן",
+    "description": "מאפינס שקדים קליל ומושלם בלי טיפה אחת של שמן, ב-78 קלוריות ליחידה - מושלם לארוחת החג",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/oil_free_almond_honey_muffins.jpg",
+      "main": "images/recipes/main/oil_free_almond_honey_muffins.jpg",
+      "hero": "images/recipes/hero/oil_free_almond_honey_muffins.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "מאפינס",
+      "tags": ["מאפינס", "שקדים", "דבש", "ללא שמן", "78 קלוריות", "חג"]
+    },
+    "time": "40",
+    "servings": "6",
+    "ingredients": [
+      "ביצה",
+      "40 גרם רסק תפוחים",
+      "50 גרם תחליף סוכר",
+      "50 גרם קמח לבן",
+      "25 גרם קמח שקדים",
+      "40 מ\"ל מיץ תפוזים/מים",
+      "כפית אבקת אפייה",
+      "שקדים לקישוט (אופציונלי)",
+      "דבש/מייפל לציפוי (אופציונלי)"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים בקערה אחת",
+      "נמזוג לתבניות מאפינס",
+      "אפשר להוסיף לפני אפייה קצת שקדים מלמעלה",
+      "נאפה בתנור שחומם מראש על 180 מעלות לחצי שעה",
+      "נכניס קיסם למאפינס ונראה שהוא יוצא עם פירורים וככה נדע שזה מוכן",
+      "אחרי אפייה אפשר לזלף דבש או מייפל באווירת החג"
+    ],
+    "nutrition": "78 קלוריות ליחידה (לא כולל התוספות למעלה) | - חלבון | - פחמימה | - שומן",
+    "tips": "קינוח קליל ומושלם לארוחת החג! אפשר להחליף דבש במייפל. בלי טיפה אחת של שמן!",
+    "link": "https://www.instagram.com/reel/CxDl1tHIMDH/?igsh=MWlkejN4c3dmbHVzYg=="
+  },
+  {
+    "id": 111,
+    "title": "בראוניז דבש",
+    "description": "בראוניז דבש מושלם לערב ראש השנה עם קינמון ו-112 קלוריות לחתיכה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/honey_brownies.jpg",
+      "main": "images/recipes/main/honey_brownies.jpg",
+      "hero": "images/recipes/hero/honey_brownies.jpg"
+    },
+    "category": {
+      "main": "קינוחים",
+      "sub": "בראוניז",
+      "tags": ["בראוניז", "דבש", "ראש השנה", "קינמון", "112 קלוריות"]
+    },
+    "time": "45",
+    "servings": "16",
+    "ingredients": [
+      "150 גרם שוקולד מריר",
+      "40 גרם חמאה/מרגרינה",
+      "כפית קינמון",
+      "3 ביצים",
+      "25 גרם קמח",
+      "120 גרם דבש",
+      "חצי כוס תחליף סוכר",
+      "קצת מלח"
+    ],
+    "instructions": [
+      "סתם הכי קל בעולם מערבבים את כל המצרכים בקערה אחת וזהו",
+      "נכניס לתנור שחומם מראש על 180 מעלות ל-25-35 דקות (תלוי בתנור)",
+      "ובתיאבון"
+    ],
+    "nutrition": "112 קלוריות לחתיכה (מתוך 16) | - חלבון | - פחמימה | - שומן",
+    "tips": "מושלם לערב ראש השנה! שמרו את המתכון כדי שתוכלו לחזור אליו לפני ערב החג",
+    "link": "https://www.instagram.com/reel/Cw0Mib9I8oP/?igsh=MXB1ODB4bmRvZTRlMA=="
+  },
+  {
+    "id": 112,
+    "title": "ארנציני פתיתים אפויים",
+    "description": "ארנציני פתיתים אפויים דל קלוריות - מושלם למי שבחיטוב אבל מת על מנות ראשונות במסעדות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/baked_pasta_arancini.jpg",
+      "main": "images/recipes/main/baked_pasta_arancini.jpg",
+      "hero": "images/recipes/hero/baked_pasta_arancini.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "מנות ראשונות",
+      "tags": ["ארנציני", "פתיתים", "אפוי", "דל קלוריות", "107 קלוריות", "חיטוב"]
+    },
+    "time": "90",
+    "servings": "16",
+    "ingredients": [
+      "250 גרם פתיתים",
+      "ליטר מים
+
+
 ]
   
   
