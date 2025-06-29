@@ -1519,7 +1519,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/sweet_potato_lentil_salad.jpg",
       "main": "images/recipes/main/sweet_potato_lentil_salad.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/sweet_potato_lentil_salad.jpg"
     },
     "category": {
       "main": "סלטים",
@@ -1556,7 +1556,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/one_pot_red_pasta.jpg",
       "main": "images/recipes/main/one_pot_red_pasta.jpg",
-      "hero": "images/recipes/hero/cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/one_pot_red_pasta.jpg"
     },
     "category": {
       "main": "מנות עיקריות",
@@ -1592,7 +1592,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/pizza_sambusak.jpg",
       "main": "images/recipes/main/pizza_sambusak.jpg",
-      "hero": "images/recipes/hero/pizza_sambusak_hero.jpg"
+      "hero": "images/recipes/hero/pizza_sambusak.jpg"
     },
     "category": {
       "main": "מאפים",
@@ -1631,7 +1631,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/eggplant_spread.jpg",
       "main": "images/recipes/main/eggplant_spread.jpg",
-      "hero": "images/recipes/hero/eggplant_spread_hero.jpg"
+      "hero": "images/recipes/hero/eggplant_spread.jpg"
     },
     "category": {
       "main": "ממרחים",
@@ -1666,7 +1666,7 @@
     "images": {
       "thumbnail": "images/recipes/thumbnails/crumb_cheesecake.jpg",
       "main": "images/recipes/main/crumb_cheesecake.jpg",
-      "hero": "images/recipes/hero/crumb_cheesecake_hero.jpg"
+      "hero": "images/recipes/hero/crumb_cheesecake.jpg"
     },
     "category": {
       "main": "קינוחים",
@@ -4118,6 +4118,292 @@
     "nutrition": "107 קלוריות ליחידה (מתוך 16) | - חלבון | - פחמימה | - שומן",
     "tips": "מושלם למי שבחיטוב אבל מת על מנות ראשונות במסעדות! זמני האפייה יכולים להשתנות בין תנור לתנור",
     "link": "https://www.instagram.com/reel/Cw7MYUToEex/?igsh=N3Bic3U2bGk5Z2Vl"
+  },
+  {
+    "id": 113,
+    "title": "כדורי שום ממכרים",
+    "description": "כדורי שום ממכרים שלא תצליחו להפסיק לאכול - מושלם לחג שבועות ב-49 קלוריות ליחידה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/addictive_garlic_balls.jpg",
+      "main": "images/recipes/main/addictive_garlic_balls.jpg",
+      "hero": "images/recipes/hero/addictive_garlic_balls_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "לחמניות",
+      "tags": ["כדורי שום", "שמרים", "שבועות", "49 קלוריות", "ממכר"]
+    },
+    "time": "150",
+    "servings": "41",
+    "ingredients": [
+      "500 גרם קמח לחם (אפשר גם קמח לבן)",
+      "10 גרם סוכר",
+      "8 גרם שמרים יבשים",
+      "280 גרם מים",
+      "10 גרם שמן זית",
+      "כפית מלח",
+      "3 שיני שום",
+      "לציפוי: 5 שיני שום, 15 גרם חמאה מופחתת שומן, קצת פטרוזיליה",
+      "ביצה להברשה"
+    ],
+    "instructions": [
+      "במיקסר עם וו לישה נשים את כל המצרכים של הבצק חוץ מהמלח נלוש על מהירות בינונית ל-8 דקות",
+      "לאחר מכן נוסיף את המלח ונלוש עוד 2 דקות",
+      "נכסה את הבצק במגבת וניתן לו התפחה של שעה",
+      "אחרי שעה נחלק את הבצק לכדורים ונתפיח שוב ל-40 דקות",
+      "נבריש בביצה ונכניס לתנור שחומם מראש על 180 מעלות",
+      "אחרי 20 דקות נערבב את החמאה השום והפטרוזיליה ונמרח על הכדורים",
+      "ניתן אפייה של עוד 10 דקות"
+    ],
+    "nutrition": "49 קלוריות | 1.3 חלבון | 9.4 פחמימה | 0.5 שומן (ליחידה מתוך 41)",
+    "tips": "ממכר ומושלם לחג שבועות! תוכלו להכין מראש ולהקפיא",
+    "link": "https://www.instagram.com/reel/CsEVOhkrQfc/?igsh=ZjR3bGlsYnFlZndt"
+  },
+  {
+    "id": 114,
+    "title": "אורז אדום עם עגבניות צלויות",
+    "description": "אורז אדום עם עגבניות צלויות שמושלם ליד כל דבר - הטעם של העגבניות משדרג את האורז",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/red_rice_roasted_tomatoes.jpg",
+      "main": "images/recipes/main/red_rice_roasted_tomatoes.jpg",
+      "hero": "images/recipes/hero/red_rice_roasted_tomatoes_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "אורז",
+      "tags": ["אורז אדום", "עגבניות צלויות", "תוספת", "בריא"]
+    },
+    "time": "35",
+    "servings": "4",
+    "ingredients": [
+      "2 בצלים",
+      "3 שיני שום",
+      "2 עגבניות",
+      "כוס אורז",
+      "2 כוסות מים",
+      "מלח",
+      "פלפל",
+      "פפריקה",
+      "כפית שמן זית"
+    ],
+    "instructions": [
+      "נתחיל בלקצוץ את העגבניות לערבב עם כפית שמן זית ונשים בתנור ל-10-15 דקות על מצב גריל",
+      "בנתיים נטגן את הבצל נוסיף את השום והתבלינים",
+      "נשפוך את האורז והעגבניות ונערבב היטב",
+      "נמזוג אל הסיר 2 כוסות מים ונבשל עם מכסה סגור על אש נמוכה ל-20 דקות",
+      "וזהו סיימנו!"
+    ],
+    "nutrition": "- קלוריות | - חלבון | - פחמימה | - שומן",
+    "tips": "הטעם של העגבניות הצלויות משדרג את האורז כל כך!",
+    "link": "https://www.instagram.com/reel/CsJJOYbMdkI/?igsh=MXVvaTYwcHZueW1zMg=="
+  },
+  {
+    "id": 115,
+    "title": "חומוס ירוק מרענן",
+    "description": "חומוס בצבע ירוק עם טעם מרענן ב-2 דקות הכנה! עם פטרוזיליה ונענע",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/green_refreshing_hummus.jpg",
+      "main": "images/recipes/main/green_refreshing_hummus.jpg",
+      "hero": "images/recipes/hero/green_refreshing_hummus_hero.jpg"
+    },
+    "category": {
+      "main": "ממרחים",
+      "sub": "חומוס",
+      "tags": ["חומוס ירוק", "מרענן", "2 דקות", "פטרוזיליה", "נענע"]
+    },
+    "time": "5",
+    "servings": "3",
+    "ingredients": [
+      "250 גרם גרגירי חומוס מקופסת שימורים",
+      "25 גרם טחינה",
+      "1-3 שיני שום",
+      "פטרוזיליה",
+      "נענע",
+      "מיץ מחצי לימון",
+      "כפית מלח",
+      "חצי כפית כמון",
+      "3 כפות מי החומוס מהקופסא"
+    ],
+    "instructions": [
+      "הכי פשוט בעולם פשוט נטחן את כל המרכיבים במעבד מזון עד לתערובת חלקה",
+      "נצלחת יפה ובתאבון"
+    ],
+    "nutrition": "173 קלוריות | 8 חלבון | 18 פחמימה | 7 שומן (למנה אחת מתוך 3)",
+    "tips": "ערכים מטורפים לחומוס! הצבע הירוק והטעם המרענן יפתיעו אתכם",
+    "link": "https://www.instagram.com/reel/CsMTYPANMnt/?igsh=MWd5MmhpOWFhdGI2dg=="
+  },
+  {
+    "id": 116,
+    "title": "פשטידת אטריות מהירה",
+    "description": "פשטידת אטריות ב-10 דקות הכנה! טעימה ומלאת חלבון",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/quick_pasta_pie.jpg",
+      "main": "images/recipes/main/quick_pasta_pie.jpg",
+      "hero": "images/recipes/hero/quick_pasta_pie_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "פסטה",
+      "tags": ["פשטידת אטריות", "10 דקות", "חלבון גבוה", "מהיר"]
+    },
+    "time": "20",
+    "servings": "8",
+    "ingredients": [
+      "160 גרם אטריות לפני בישול",
+      "2 ביצים",
+      "כפית שמן",
+      "150 גרם קוטג' 5%",
+      "100 גרם גבינה צהובה 9%",
+      "100 גרם בולגרית 5%",
+      "מלח ופלפל לפי הטעם"
+    ],
+    "instructions": [
+      "נכין את האטריות לפי הוראות היצרן",
+      "נסנן את האטריות ונערבב אותן יחד עם 2 ביצים כפית שמן ומלח פלפל",
+      "נשטח על מחבת חמה חצי מהכמות נוסיף את הקוטג' הגבינה הצהובה והבולגרית ונכסה בשאר האטריות",
+      "לאחר כמה דקות נהפוך בעזרת צלחת את הפשטידה ונטגן גם מהצד השני",
+      "נוציא מהמחבת ובתיאבון"
+    ],
+    "nutrition": "153 קלוריות | 11 חלבון | 16 פחמימה | 5 שומן (לפרוסה אחת מתוך 8)",
+    "tips": "מלא חלבון ומוכן תוך 10 דקות הכנה!",
+    "link": "https://www.instagram.com/reel/CsTyuEaM9x6/?igsh=bjZoYXZxNWRxYXlm"
+  },
+  {
+    "id": 117,
+    "title": "פלאפל אפוי דל קלוריות",
+    "description": "פלאפל אפוי עם אותו הטעם בלי הכבדות - רק 38 קלוריות ליחידה!",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/baked_low_cal_falafel.jpg",
+      "main": "images/recipes/main/baked_low_cal_falafel.jpg",
+      "hero": "images/recipes/hero/baked_low_cal_falafel_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "צמחוני",
+      "tags": ["פלאפל אפוי", "38 קלוריות", "דל קלוריות", "בלי שמן"]
+    },
+    "time": "1470",
+    "servings": "27",
+    "ingredients": [
+      "250 גרם גרגירי חומוס",
+      "צרור פטרוזיליה",
+      "צרור כוסברה",
+      "בצל",
+      "3-6 שיני שום (תלוי כמה אתם אוהבים)",
+      "כפית מלח",
+      "כפית כמון",
+      "10 גרם שמן זית",
+      "1/2 כפית סודה לשתייה"
+    ],
+    "instructions": [
+      "נשרה את הגרגירי חומוס ל-12-24 שעות במים",
+      "לאחר מכן נסנן ונטחן אותם למרקם גרגירי",
+      "נטחן ביחד את שאר המצרכים ונערבב עם הגרגירי חומוס",
+      "נכדרר לכדורים (יוצאים 27)",
+      "ונאפה אותם בתנור שחומם מראש על 200 מעלות טורבו ל-15-20 דקות",
+      "נגיש עם טחינה סלט וציפס ובתיאבון"
+    ],
+    "nutrition": "38 קלוריות | 2 חלבון | 7 פחמימה | 1 שומן (לכדור אחד מתוך 27)",
+    "tips": "אותו הטעם של פלאפל רגיל רק בלי הכבדות של אחר כך! חשוב לשרות את החומוס מראש",
+    "link": "https://www.instagram.com/reel/CtZUrNRodw1/?igsh=N3oxbXh1ODI2d2hk"
+  },
+  {
+    "id": 118,
+    "title": "קיש גבינות וקישואים על בסיס קרקרים",
+    "description": "קיש גבינות וקישואים על בסיס קרקרים עם זיתי קלמטה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/cheese_zucchini_quiche_crackers.jpg",
+      "main": "images/recipes/main/cheese_zucchini_quiche_crackers.jpg",
+      "hero": "images/recipes/hero/cheese_zucchini_quiche_crackers_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "קיש",
+      "tags": ["קיש", "גבינות", "קישואים", "קרקרים", "זיתים"]
+    },
+    "time": "70",
+    "servings": "16",
+    "ingredients": [
+      "לתחתית: 200 גרם קרקרים, 100 גרם חמאה מופחתת שומן",
+      "למלית: גבינה לבנה 5%, 150 גרם גבינה צהובה 9%, 2 קישואים, 2 ביצים, 100 גרם זיתי קלמטה"
+    ],
+    "instructions": [
+      "תחתית: נטחן את הקרקרים עם החמאה ונשים במקפיא ל-10 דקות",
+      "מלית: נערבב את כל המצרכים יחד",
+      "נשפוך את המלית על התחתית ונכניס לתנור שחומם מראש על 180 מעלות ל-50 דקות"
+    ],
+    "nutrition": "147 קלוריות | 6 חלבון | 9 פחמימה | 9 שומן (לחתיכה אחת מתוך 16)",
+    "tips": "בסיס הקרקרים נותן מרקם מיוחד וטעים לקיש",
+    "link": "https://www.instagram.com/reel/CuHBg5PI10S/?igsh=MTdzZHVnaXV0dTRoNw=="
+  },
+  {
+    "id": 119,
+    "title": "סביח מדפי אורז",
+    "description": "סביח מדפי אורז - רעיון קליל לארוחת ערב/צהריים/בוקר בכ-300 קלוריות",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/sabich_rice_paper.jpg",
+      "main": "images/recipes/main/sabich_rice_paper.jpg",
+      "hero": "images/recipes/hero/sabich_rice_paper_hero.jpg"
+    },
+    "category": {
+      "main": "עיקריות",
+      "sub": "עטיפות",
+      "tags": ["סביח", "דפי אורז", "קליל", "300 קלוריות"]
+    },
+    "time": "20",
+    "servings": "1",
+    "ingredients": [
+      "דפי אורז",
+      "חצילים צלויים",
+      "ביצה קשה",
+      "טחינה",
+      "סלט ירקות",
+      "חמוצים"
+    ],
+    "instructions": [
+      "מכינים את כל הרכיבים מראש",
+      "מרטיבים דף אורז במים חמים",
+      "מניחים את הרכיבים בדף האורז",
+      "מגלגלים בזהירות",
+      "מגישים מיד"
+    ],
+    "nutrition": "בסביבות 300 קלוריות למנה (תלוי כמה תשימו מכל דבר)",
+    "tips": "רעיון קליל ומושלם לכל ארוחה! תייגו חבר שמכור לסביח",
+    "link": "https://www.instagram.com/reel/Cx8IGr7o82o/?igsh=N25xcG1tOGRiM215"
+  },
+  {
+    "id": 120,
+    "title": "מאפינס תירס נדיר",
+    "description": "מאפינס תירס נדיר ב-5 דקות עבודה ו-72 קלוריות ליחידה",
+    "images": {
+      "thumbnail": "images/recipes/thumbnails/rare_corn_muffins.jpg",
+      "main": "images/recipes/main/rare_corn_muffins.jpg",
+      "hero": "images/recipes/hero/rare_corn_muffins_hero.jpg"
+    },
+    "category": {
+      "main": "מאפים",
+      "sub": "מאפינס",
+      "tags": ["מאפינס תירס", "5 דקות", "72 קלוריות", "נדיר"]
+    },
+    "time": "40",
+    "servings": "10",
+    "ingredients": [
+      "פחית שימורים תירס לייט 350 גרם",
+      "40 גרם קמח (4 כפות)",
+      "3 ביצים",
+      "קופסת גבינה לבנה",
+      "2 פרוסות גבינה צהובה מגורדת 9%",
+      "50 גרם בולגרית",
+      "כפית אבקת אפייה",
+      "תבלינים לפי הטעם: מלח פלפל אבקת שום ואורגנו"
+    ],
+    "instructions": [
+      "נערבב את כל המצרכים בקערה אחת",
+      "נאפה בתנור שחומם מראש על 180 מעלות ל-25-35 דקות תלוי בתנור"
+    ],
+    "nutrition": "72 קלוריות | 5 חלבון | 6 פחמימה | 3 שומן (למאפינס אחד מתוך 10)",
+    "tips": "5 דקות עבודה ויוצאים 10 מאפינסים טעימים!",
+    "link": "https://www.instagram.com/reel/CyDOmY-IPit/?igsh=d2xmazU2ZTl2c21j"
   }
 
 
